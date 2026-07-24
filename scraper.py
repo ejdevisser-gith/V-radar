@@ -1,30 +1,45 @@
 #!/usr/bin/env python3
 """
-Vacature-monitor scraper.
+Vacature-monitor scraper (async, met begrensde concurrency).
 
 Bezoekt elke organisatie-URL uit organizations.json met een headless browser
 (zodat JavaScript-gerenderde vacaturesites ook worden gelezen), zoekt naar
 links/teksten die op senior-management of directieniveau wijzen, en schrijft
-het resultaat naar data/vacatures.json.
+het resultaat naar docs/data/vacatures.json.
 
-Vergelijkt met de vorige run (data/vacatures.json, voordat het wordt overschreven)
-om nieuwe/verdwenen vacatures te markeren.
+Belangrijke robuustheidskeuzes:
+- Meerdere sites tegelijk (begrensde concurrency) i.p.v. na elkaar -> veel sneller,
+  en één trage site blokkeert de rest niet.
+- Harde tijdslimiet (MAX_RUNTIME_SECONDS): het script rondt altijd af binnen die tijd,
+  ook als er nog organisaties niet gescand zijn -> nooit een oneindige/hangende run.
+- Tussentijds committen + pushen naar git, niet pas aan het eind -> als de workflow
+  toch een keer stopt (timeout, gecrashte runner), is de tot dan toe verzamelde data
+  al opgeslagen in de repository, niet verloren.
 """
 
+import asyncio
 import json
 import re
+import subprocess
 import time
 import hashlib
 import datetime
 from pathlib import Path
 from urllib.parse import urljoin
 
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 
 ROOT = Path(__file__).parent
 ORG_FILE = ROOT / "organizations.json"
 DATA_FILE = ROOT / "docs" / "data" / "vacatures.json"
 LOG_FILE = ROOT / "docs" / "data" / "scan-log.json"
+
+MAX_CONCURRENCY = 6          # aantal sites tegelijk
+NAV_TIMEOUT_MS = 20000       # max wachttijd om een pagina te laden
+NETWORKIDLE_TIMEOUT_MS = 5000
+EXTRA_WAIT_MS = 1200
+MAX_RUNTIME_SECONDS = 45 * 60   # harde bovengrens voor de hele scan: altijd afronden
+COMMIT_EVERY = 15               # tussentijds committen na elke N afgeronde organisaties
 
 # Trefwoorden die duiden op senior management / directieniveau (NL + EN)
 SENIOR_KEYWORDS = [
@@ -40,24 +55,88 @@ SENIOR_KEYWORDS = [
 ]
 SENIOR_RE = re.compile("|".join(SENIOR_KEYWORDS), re.IGNORECASE)
 
-# Ruis die we NIET als senior-management willen meetellen ondanks een treffer
 EXCLUDE_KEYWORDS = [
     r"assistent", r"stagiair", r"intern\b", r"trainee", r"junior",
     r"medewerker klantenservice", r"secretaresse van de directeur",
 ]
 EXCLUDE_RE = re.compile("|".join(EXCLUDE_KEYWORDS), re.IGNORECASE)
 
+# --- Locatiefilter: alleen Nederlandse vacatures tonen -----------------------
+# Vooral relevant bij internationale organisaties (Shell, Vopak, Boskalis,
+# Trafigura, TotalEnergies, etc.) die wereldwijde vacatureoverzichten hebben.
 
-def extract_candidates(page, base_url):
-    """Haal alle links + omliggende teksten op die op een vacature lijken."""
+NL_LOCATION_KEYWORDS = [
+    r"nederland", r"netherlands", r"the netherlands", r"dutch\b", r"\bnl\b",
+    r"holland", r"randstad",
+    r"rotterdam", r"amsterdam", r"den haag", r"the hague", r"'s-gravenhage",
+    r"utrecht", r"groningen", r"moerdijk", r"terneuzen", r"vlissingen",
+    r"ijmuiden", r"schiphol", r"eindhoven", r"breda", r"tilburg", r"nijmegen",
+    r"arnhem", r"zwolle", r"leeuwarden", r"assen", r"maastricht", r"zoetermeer",
+    r"rijswijk", r"zaandam", r"alkmaar", r"haarlem", r"dordrecht", r"gouda",
+    r"delft", r"leiden", r"apeldoorn", r"almere", r"hoorn", r"den helder",
+    r"vlaardingen", r"schiedam", r"spijkenisse", r"capelle aan den ijssel",
+    r"barendrecht", r"westland", r"noord-holland", r"zuid-holland",
+    r"noord-brabant", r"gelderland", r"overijssel", r"flevoland", r"drenthe",
+    r"friesland", r"limburg\b", r"zeeland",
+]
+NL_LOCATION_RE = re.compile("|".join(NL_LOCATION_KEYWORDS), re.IGNORECASE)
+
+FOREIGN_LOCATION_KEYWORDS = [
+    r"united states", r"\busa\b", r"u\.s\.a?\.?\b",
+    r"united kingdom", r"\buk\b(?!raine)", r"england", r"scotland", r"london",
+    r"germany", r"deutschland", r"hamburg", r"berlin", r"munich", r"frankfurt",
+    r"france", r"paris", r"belgium", r"brussels", r"antwerp\b",
+    r"spain", r"madrid", r"barcelona", r"italy", r"milan", r"rome",
+    r"poland", r"warsaw", r"norway", r"oslo", r"sweden", r"stockholm",
+    r"denmark", r"copenhagen", r"finland", r"helsinki",
+    r"switzerland", r"geneva", r"zurich", r"austria", r"vienna",
+    r"portugal", r"lisbon", r"ireland", r"dublin",
+    r"singapore", r"hong kong", r"china\b", r"shanghai", r"beijing",
+    r"india\b", r"mumbai", r"delhi", r"bangalore",
+    r"japan", r"tokyo", r"south korea", r"seoul",
+    r"brazil", r"sao paulo", r"canada", r"toronto", r"mexico",
+    r"australia", r"sydney", r"melbourne",
+    r"dubai", r"abu dhabi", r"\buae\b", r"saudi arabia", r"qatar", r"kuwait",
+    r"nigeria", r"angola", r"egypt", r"south africa",
+    r"russia", r"turkey", r"istanbul",
+    r"czech republic", r"romania", r"hungary", r"greece",
+]
+FOREIGN_LOCATION_RE = re.compile("|".join(FOREIGN_LOCATION_KEYWORDS), re.IGNORECASE)
+
+
+def is_dutch_location(title, context, url):
+    """Heuristiek: sluit alleen uit als er een duidelijk buitenlandse locatie
+    wordt genoemd EN geen Nederlandse locatie erbij staat. Bij twijfel (geen
+    enkele locatie-aanwijzing) wordt de vacature gewoon getoond -- uitsluiten
+    zonder bewijs zou meer missen dan het waard is."""
+    combined = f"{title} {context} {url}"
+    has_nl = bool(NL_LOCATION_RE.search(combined))
+    has_foreign = bool(FOREIGN_LOCATION_RE.search(combined))
+    if has_foreign and not has_nl:
+        return False
+    return True
+
+
+def log(msg):
+    print(msg, flush=True)
+
+
+async def extract_candidates(page, base_url):
     candidates = []
     try:
-        anchors = page.eval_on_selector_all(
+        anchors = await page.eval_on_selector_all(
             "a",
-            """(els) => els.map(e => ({
-                text: (e.innerText || e.textContent || '').trim(),
-                href: e.href
-            }))"""
+            """(els) => els.map(e => {
+                const text = (e.innerText || e.textContent || '').trim();
+                let el = e, context = text;
+                for (let i = 0; i < 3 && el.parentElement; i++) {
+                    el = el.parentElement;
+                    const t = (el.innerText || el.textContent || '').trim();
+                    if (t.length > context.length) context = t;
+                    if (context.length > 400) break;
+                }
+                return { text, href: e.href, context: context.slice(0, 400) };
+            })"""
         )
     except Exception:
         anchors = []
@@ -66,23 +145,21 @@ def extract_candidates(page, base_url):
     for a in anchors:
         text = (a.get("text") or "").strip()
         href = a.get("href") or ""
-        if not text or len(text) < 4 or len(text) > 140:
-            continue
-        if not href:
+        context = a.get("context") or ""
+        if not text or len(text) < 4 or len(text) > 140 or not href:
             continue
         if SENIOR_RE.search(text) and not EXCLUDE_RE.search(text):
+            if not is_dutch_location(text, context, href):
+                continue
             key = (text.lower(), href)
             if key in seen:
                 continue
             seen.add(key)
-            candidates.append({
-                "title": text,
-                "url": urljoin(base_url, href),
-            })
+            candidates.append({"title": text, "url": urljoin(base_url, href)})
     return candidates
 
 
-def scan_org(browser, org, attempt=1, max_attempts=2):
+async def scan_org(browser, org):
     result = {
         "name": org["name"],
         "sector": org.get("sector", ""),
@@ -92,63 +169,50 @@ def scan_org(browser, org, attempt=1, max_attempts=2):
         "vacancies": [],
         "page_hash": None,
     }
-    context = browser.new_context(
+    context = await browser.new_context(
         user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
         ),
         locale="nl-NL",
         viewport={"width": 1366, "height": 900},
-        ignore_https_errors=True,  # sommige (overheids)sites hebben verouderde certificaten
+        ignore_https_errors=True,
     )
-    context.set_default_navigation_timeout(45000)
-    context.set_default_timeout(15000)
 
-    # Zware/afleidende resources blokkeren: sneller, minder kans op vastlopen door
-    # trackers, chat-widgets, video's etc.
-    def block_heavy(route):
+    async def block_heavy(route):
         if route.request.resource_type in ("image", "media", "font"):
-            route.abort()
+            await route.abort()
         else:
-            route.continue_()
-    context.route("**/*", block_heavy)
+            await route.continue_()
+    await context.route("**/*", block_heavy)
 
-    page = context.new_page()
+    page = await context.new_page()
     try:
-        # Eerst alleen de DOM laden (snel en betrouwbaar); "networkidle" wachten
-        # is best effort, want sommige sites houden permanente verbindingen open
-        # (chat-widgets, analytics) waardoor networkidle nooit zou intreden.
         try:
-            page.goto(org["url"], wait_until="domcontentloaded")
+            await page.goto(org["url"], wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
         except Exception as goto_err:
             raise RuntimeError(f"kon pagina niet laden ({goto_err.__class__.__name__})")
 
         try:
-            page.wait_for_load_state("networkidle", timeout=8000)
+            await page.wait_for_load_state("networkidle", timeout=NETWORKIDLE_TIMEOUT_MS)
         except Exception:
-            pass  # niet fataal, we werken met wat er al geladen is
+            pass  # best effort
 
-        page.wait_for_timeout(2000)  # extra marge voor lazy-loaded content/JS-frameworks
+        await page.wait_for_timeout(EXTRA_WAIT_MS)
 
-        content = page.content()
+        content = await page.content()
         result["page_hash"] = hashlib.sha256(content.encode("utf-8", "ignore")).hexdigest()
-        result["vacancies"] = extract_candidates(page, org["url"])
+        result["vacancies"] = await extract_candidates(page, org["url"])
 
         if not result["vacancies"] and len(content) < 500:
-            # Verdacht lege pagina (mogelijk blokkade/bot-detectie) -> markeren, niet
-            # stilzwijgend als "geen vacatures" tonen.
             result["status"] = "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)"
 
     except Exception as e:
-        if attempt < max_attempts:
-            page.close()
-            context.close()
-            return scan_org(browser, org, attempt=attempt + 1, max_attempts=max_attempts)
         result["status"] = f"error: {e}"
     finally:
         try:
-            page.close()
-            context.close()
+            await page.close()
+            await context.close()
         except Exception:
             pass
     return result
@@ -163,45 +227,84 @@ def load_previous():
     return {}
 
 
-def build_output(results):
-    return {
+def save_output(results, partial=False):
+    output = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "partial_run": partial,
         "organizations": results,
     }
-
-
-def save_output(results):
-    output = build_output(results)
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     tmp = DATA_FILE.with_suffix(".tmp")
     tmp.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    tmp.replace(DATA_FILE)  # atomische schrijfactie: nooit een half-geschreven bestand
+    tmp.replace(DATA_FILE)
     return output
 
 
-def main():
+def write_log(results):
+    log_entry = {
+        "run_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "total_orgs": len(results),
+        "orgs_with_hits": sum(1 for r in results if r["vacancies"]),
+        "total_vacancies": sum(len(r["vacancies"]) for r in results),
+        "errors": [r["name"] for r in results if r["status"] != "ok"],
+    }
+    history = []
+    if LOG_FILE.exists():
+        try:
+            history = json.loads(LOG_FILE.read_text())
+        except Exception:
+            history = []
+    history.append(log_entry)
+    LOG_FILE.write_text(json.dumps(history[-90:], indent=2, ensure_ascii=False))
+    return log_entry
+
+
+def git_commit_push(message):
+    """Best-effort tussentijdse commit. Faalt stil (met waarschuwing) als er geen
+    git-repo/credentials beschikbaar zijn, bv. bij lokaal handmatig draaien."""
+    try:
+        subprocess.run(["git", "add", "docs/data/vacatures.json", "docs/data/scan-log.json"],
+                        cwd=ROOT, check=True, capture_output=True)
+        staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
+        if staged.returncode != 0:  # er staan wijzigingen klaar
+            subprocess.run(["git", "commit", "-m", message], cwd=ROOT, check=True, capture_output=True)
+            subprocess.run(["git", "push"], cwd=ROOT, check=True, capture_output=True)
+            log(f"  -> tussentijds gecommit en gepusht ({message})")
+    except Exception as e:
+        log(f"  Waarschuwing: tussentijds committen mislukt ({e})")
+
+
+async def run_scan():
     orgs = json.loads(ORG_FILE.read_text())
     previous = load_previous()
     prev_by_org = {o["name"]: o for o in previous.get("organizations", [])}
 
-    results = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--disable-dev-shm-usage"])
+    results_by_name = {}
+    start = time.monotonic()
+    sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
-        for i, org in enumerate(orgs, start=1):
-            print(f"[{i}/{len(orgs)}] Scannen: {org['name']} ...")
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(args=["--disable-dev-shm-usage"])
+
+        async def bounded_scan(org):
+            async with sem:
+                return await scan_org(browser, org)
+
+        tasks = {asyncio.ensure_future(bounded_scan(org)): org for org in orgs}
+        completed = 0
+        timed_out = False
+
+        for fut in asyncio.as_completed(list(tasks.keys())):
+            elapsed = time.monotonic() - start
+            if elapsed > MAX_RUNTIME_SECONDS:
+                timed_out = True
+                break
             try:
-                res = scan_org(browser, org)
+                res = await fut
             except Exception as e:
-                # Laatste redmiddel: ook onverwachte fouten (bv. gecrashte browser)
-                # mogen de hele run niet laten stoppen. Probeer de browser opnieuw
-                # te starten voor de resterende organisaties.
-                print(f"  Onverwachte fout bij {org['name']}: {e} -> browser herstarten")
-                try:
-                    browser.close()
-                except Exception:
-                    pass
-                browser = p.chromium.launch(args=["--disable-dev-shm-usage"])
+                # zou niet moeten gebeuren (scan_org vangt eigen fouten af), maar
+                # voor de zekerheid: nooit de hele run laten crashen
+                org = tasks[fut]
                 res = {
                     "name": org["name"], "sector": org.get("sector", ""),
                     "source_url": org["url"],
@@ -209,44 +312,62 @@ def main():
                     "status": f"error: {e}", "vacancies": [], "page_hash": None,
                 }
 
-            prev = prev_by_org.get(org["name"])
+            prev = prev_by_org.get(res["name"])
             prev_urls = {v["url"] for v in prev["vacancies"]} if prev else set()
             for v in res["vacancies"]:
                 v["is_new"] = v["url"] not in prev_urls
             res["new_count"] = sum(1 for v in res["vacancies"] if v["is_new"])
 
-            results.append(res)
+            results_by_name[res["name"]] = res
+            completed += 1
+            log(f"[{completed}/{len(orgs)}] {res['name']}: "
+                f"{len(res['vacancies'])} treffer(s), status={res['status']}")
 
-            # Elke 15 organisaties tussentijds opslaan, zodat een eventuele
-            # time-out van de job niet alle voortgang verloren laat gaan.
-            if i % 15 == 0:
-                save_output(results)
+            if completed % COMMIT_EVERY == 0:
+                ordered = [results_by_name.get(o["name"]) for o in orgs if o["name"] in results_by_name]
+                save_output(ordered, partial=True)
+                write_log(ordered)
+                git_commit_push(f"Tussentijdse scan-update ({completed}/{len(orgs)})")
 
-            time.sleep(1.5)  # beleefde pauze tussen sites
+        if timed_out:
+            for f in tasks:
+                if not f.done():
+                    f.cancel()
+            await asyncio.gather(*tasks.keys(), return_exceptions=True)
 
-        browser.close()
+        await browser.close()
 
-    output = save_output(results)
+        if timed_out:
+            log(f"Tijdslimiet ({MAX_RUNTIME_SECONDS/60:.0f} min) bereikt — "
+                f"run wordt afgerond met {completed}/{len(orgs)} organisaties.")
 
-    log_entry = {
-        "run_at": output["generated_at"],
-        "total_orgs": len(results),
-        "orgs_with_hits": sum(1 for r in results if r["vacancies"]),
-        "total_vacancies": sum(len(r["vacancies"]) for r in results),
-        "errors": [r["name"] for r in results if r["status"] != "ok"],
-    }
-    log = []
-    if LOG_FILE.exists():
-        try:
-            log = json.loads(LOG_FILE.read_text())
-        except Exception:
-            log = []
-    log.append(log_entry)
-    LOG_FILE.write_text(json.dumps(log[-90:], indent=2, ensure_ascii=False))
+    # Onbereikte organisaties (bij timeout) toch als 'niet gecontroleerd' opnemen,
+    # zodat het dashboard nooit stilzwijgend data van eerdere runs blijft tonen.
+    ordered = []
+    for o in orgs:
+        if o["name"] in results_by_name:
+            ordered.append(results_by_name[o["name"]])
+        else:
+            ordered.append({
+                "name": o["name"], "sector": o.get("sector", ""),
+                "source_url": o["url"],
+                "checked_at": datetime.datetime.utcnow().isoformat() + "Z",
+                "status": "warning: niet gescand binnen tijdslimiet van deze run",
+                "vacancies": [], "page_hash": None, "new_count": 0,
+            })
 
-    print(f"Klaar. {log_entry['total_vacancies']} kandidaat-vacatures gevonden "
-          f"bij {log_entry['orgs_with_hits']} organisaties. "
-          f"{len(log_entry['errors'])} fouten/waarschuwingen.")
+    return ordered
+
+
+def main():
+    results = asyncio.run(run_scan())
+    save_output(results, partial=False)
+    log_entry = write_log(results)
+    git_commit_push(f"Automatische scan afgerond: {log_entry['run_at']}")
+
+    log(f"Klaar. {log_entry['total_vacancies']} kandidaat-vacatures gevonden "
+        f"bij {log_entry['orgs_with_hits']} organisaties. "
+        f"{len(log_entry['errors'])} fouten/waarschuwingen.")
 
 
 if __name__ == "__main__":
