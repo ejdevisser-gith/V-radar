@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vacature Radar</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0E1F2B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1F2B;
+    --navy-2:#152C3D;
+    --brass:#B8863B;
+    --brass-soft:#8f6b30;
+    --parchment:#EDE7D9;
+    --slate:#8CA0AF;
+    --teal:#3E7C74;
+    --danger:#B4553F;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--navy);color:var(--parchment);font-family:'Inter',sans-serif;}
+  body{padding-bottom:60px;}
+  header{
+    position:sticky; top:0; z-index:10;
+    background:linear-gradient(180deg,var(--navy) 70%, transparent);
+    backdrop-filter: blur(6px);
+    padding:env(safe-area-inset-top,20px) 18px 10px;
+  }
+  h1{
+    font-family:'Fraunces',serif; font-weight:600; font-size:1.7rem; letter-spacing:-0.01em;
+    margin:6px 0 2px; display:flex; align-items:center; gap:10px;
+  }
+  .compass{width:22px;height:22px;flex:none;}
+  .subtitle{font-size:0.82rem; color:var(--slate); margin:0 0 12px;}
+  .stats{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;}
+  .stat{
+    background:var(--navy-2); border:1px solid rgba(184,134,59,0.25);
+    border-radius:10px; padding:8px 12px; font-family:'JetBrains Mono',monospace; font-size:0.72rem;
+    color:var(--slate); line-height:1.3;
+  }
+  .stat b{display:block; color:var(--parchment); font-size:1.05rem; font-family:'Fraunces',serif; font-weight:600;}
+  .stat.new b{color:var(--teal);}
+  input[type="search"]{
+    width:100%; background:var(--navy-2); border:1px solid rgba(140,160,175,0.25);
+    color:var(--parchment); border-radius:10px; padding:11px 14px; font-size:0.95rem;
+    font-family:'Inter',sans-serif; outline:none; margin-bottom:10px;
+  }
+  input[type="search"]::placeholder{color:var(--slate);}
+  .chips{display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; -webkit-overflow-scrolling:touch;}
+  .chip{
+    flex:none; padding:6px 12px; border-radius:999px; font-size:0.75rem;
+    border:1px solid rgba(140,160,175,0.3); color:var(--slate); background:transparent;
+    cursor:pointer; white-space:nowrap;
+  }
+  .chip.active{background:var(--brass); border-color:var(--brass); color:var(--navy); font-weight:600;}
+  main{padding:6px 18px 40px;}
+  .org{
+    background:var(--navy-2); border-radius:var(--radius); padding:14px 16px; margin:10px 0;
+    border:1px solid rgba(255,255,255,0.04);
+  }
+  .org.has-hits{border-color:rgba(184,134,59,0.35);}
+  .org-top{display:flex; justify-content:space-between; align-items:flex-start; gap:10px;}
+  .org-name{font-family:'Fraunces',serif; font-weight:600; font-size:1.02rem; margin:0;}
+  .org-meta{font-size:0.7rem; color:var(--slate); margin-top:3px; font-family:'JetBrains Mono',monospace;}
+  .sector-tag{
+    font-size:0.65rem; text-transform:uppercase; letter-spacing:0.04em; color:var(--brass);
+    border:1px solid rgba(184,134,59,0.4); padding:2px 7px; border-radius:6px; white-space:nowrap;
+  }
+  .count-badge{
+    font-family:'JetBrains Mono',monospace; font-size:0.75rem; background:rgba(184,134,59,0.15);
+    color:var(--brass); padding:3px 8px; border-radius:8px; flex:none;
+  }
+  ul.vac-list{list-style:none; margin:10px 0 0; padding:0;}
+  ul.vac-list li{margin:0 0 7px;}
+  a.vac-link{
+    display:flex; gap:8px; align-items:flex-start; text-decoration:none; color:var(--parchment);
+    font-size:0.88rem; line-height:1.35; padding:8px 10px; background:rgba(0,0,0,0.15);
+    border-radius:9px; border:1px solid transparent;
+  }
+  a.vac-link:active{border-color:var(--brass);}
+  .new-badge{
+    flex:none; background:var(--teal); color:var(--parchment); font-size:0.6rem; font-weight:700;
+    letter-spacing:0.03em; padding:2px 6px; border-radius:5px; text-transform:uppercase; margin-top:1px;
+  }
+  .empty-note{font-size:0.78rem; color:var(--slate); margin-top:8px; font-style:italic;}
+  .error-note{font-size:0.75rem; color:var(--danger); margin-top:8px;}
+  .error-note a{color:var(--danger);}
+  #global-empty{
+    text-align:center; padding:60px 24px; color:var(--slate); font-size:0.9rem; line-height:1.6;
+  }
+  #global-empty b{color:var(--parchment); display:block; font-family:'Fraunces',serif; font-size:1.2rem; margin-bottom:8px;}
+  footer{
+    text-align:center; font-size:0.68rem; color:var(--slate); padding:20px; font-family:'JetBrains Mono',monospace;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>
+    <svg class="compass" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9.5" stroke="#B8863B" stroke-width="1.4"/>
+      <path d="M12 4 L14 12 L12 20 L10 12 Z" fill="#B8863B"/>
+      <circle cx="12" cy="12" r="1.6" fill="#EDE7D9"/>
+    </svg>
+    Vacature Radar
+  </h1>
+  <p class="subtitle" id="last-scan">Laatste scan wordt geladen…</p>
+  <div class="stats" id="stats"></div>
+  <input type="search" id="search" placeholder="Zoek op organisatie, sector of functietitel…">
+  <div class="chips" id="chips"></div>
+</header>
+<main id="main">
+</main>
+<footer>Vacature Radar — automatische dagelijkse scan · alleen titels met senior/directie-trefwoorden</footer>
+
+<script>
+const DATA_URL = "./data/vacatures.json";
+let allData = null;
+let activeSector = null;
+
+function timeAgo(iso){
+  if(!iso) return "onbekend";
+  const d = new Date(iso);
+  const diffMs = Date.now() - d.getTime();
+  const hrs = Math.floor(diffMs/3600000);
+  if(hrs < 1) return "minder dan een uur geleden";
+  if(hrs < 24) return `${hrs} uur geleden`;
+  const days = Math.floor(hrs/24);
+  return `${days} dag${days===1?"":"en"} geleden`;
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const main = document.getElementById('main');
+  main.innerHTML = "";
+
+  if(!allData){ return; }
+
+  let orgs = (allData.organizations || []).map(o => ({
+    ...o,
+    vacancies: Array.isArray(o.vacancies) ? o.vacancies : [],
+    sector: o.sector || "",
+    new_count: o.new_count || 0,
+  }));
+
+  if(activeSector){
+    orgs = orgs.filter(o => o.sector === activeSector);
+  }
+  if(q){
+    orgs = orgs.filter(o =>
+      o.name.toLowerCase().includes(q) ||
+      (o.sector||"").toLowerCase().includes(q) ||
+      o.vacancies.some(v => v.title.toLowerCase().includes(q))
+    );
+  }
+
+  // sorteer: nieuwe vacatures eerst, dan aantal treffers, dan naam
+  orgs.sort((a,b)=>{
+    const aNew = a.new_count||0, bNew = b.new_count||0;
+    if(bNew !== aNew) return bNew - aNew;
+    const aHit = a.vacancies.length, bHit = b.vacancies.length;
+    if(bHit !== aHit) return bHit - aHit;
+    return a.name.localeCompare(b.name);
+  });
+
+  if(orgs.length === 0){
+    main.innerHTML = `<div id="global-empty"><b>Niets gevonden</b>Pas je zoekopdracht of sectorfilter aan.</div>`;
+    return;
+  }
+
+  for(const org of orgs){
+    const div = document.createElement('div');
+    div.className = 'org' + (org.vacancies.length ? ' has-hits' : '');
+
+    let vacHtml = '';
+    if(org.vacancies.length){
+      vacHtml = '<ul class="vac-list">' + org.vacancies.map(v => `
+        <li><a class="vac-link" href="${v.url}" target="_blank" rel="noopener">
+          <span>${escapeHtml(v.title)}</span>
+          ${v.is_new ? '<span class="new-badge">nieuw</span>' : ''}
+        </a></li>
+      `).join('') + '</ul>';
+    } else if(org.status === 'ok') {
+      vacHtml = `<p class="empty-note">Geen senior/directie-vacatures gevonden bij laatste check.</p>`;
+    }
+
+    let errHtml = '';
+    if(org.status && org.status.startsWith('warning')){
+      errHtml = `<p class="error-note">⚠ Pagina leek leeg of geblokkeerd bij laatste check — <a href="${org.source_url}" target="_blank">bekijk handmatig</a></p>`;
+    } else if(org.status && org.status !== 'ok'){
+      errHtml = `<p class="error-note">Kon niet automatisch gecontroleerd worden — <a href="${org.source_url}" target="_blank">bekijk handmatig</a></p>`;
+    }
+
+    div.innerHTML = `
+      <div class="org-top">
+        <div>
+          <p class="org-name">${escapeHtml(org.name)}</p>
+          <p class="org-meta">${escapeHtml(org.sector||'')} · gecheckt ${timeAgo(org.checked_at)}</p>
+        </div>
+        ${org.vacancies.length ? `<span class="count-badge">${org.vacancies.length}</span>` : ''}
+      </div>
+      ${vacHtml}
+      ${errHtml}
+    `;
+    main.appendChild(div);
+  }
+}
+
+function escapeHtml(s){
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderStats(){
+  const orgs = allData.organizations;
+  const totalNew = orgs.reduce((s,o)=>s+(o.new_count||0),0);
+  const totalHits = orgs.reduce((s,o)=>s+o.vacancies.length,0);
+  const orgsWithHits = orgs.filter(o=>o.vacancies.length).length;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat new"><b>${totalNew}</b>nieuw sinds vorige scan</div>
+    <div class="stat"><b>${totalHits}</b>totaal kandidaat-vacatures</div>
+    <div class="stat"><b>${orgsWithHits}/${orgs.length}</b>organisaties met treffers</div>
+  `;
+  document.getElementById('last-scan').textContent =
+    `Laatste scan: ${new Date(allData.generated_at).toLocaleString('nl-NL', {dateStyle:'medium', timeStyle:'short'})}`;
+}
+
+function renderChips(){
+  const sectors = [...new Set(allData.organizations.map(o=>o.sector).filter(Boolean))].sort();
+  const chips = document.getElementById('chips');
+  chips.innerHTML = '<button class="chip active" data-sector="">Alle sectoren</button>' +
+    sectors.map(s => `<button class="chip" data-sector="${s}">${s}</button>`).join('');
+  chips.querySelectorAll('.chip').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      chips.querySelectorAll('.chip').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      activeSector = btn.dataset.sector || null;
+      render();
+    });
+  });
+}
+
+document.getElementById('search').addEventListener('input', render);
+
+fetch(DATA_URL, {cache:"no-store"})
+  .then(r => { if(!r.ok) throw new Error("no data"); return r.json(); })
+  .then(data => {
+    allData = data;
+    renderStats();
+    renderChips();
+    render();
+  })
+  .catch(() => {
+    document.getElementById('last-scan').textContent = "Nog geen scan-data gevonden.";
+    document.getElementById('main').innerHTML = `
+      <div id="global-empty">
+        <b>Nog geen data</b>
+        De achtergrond-scan heeft nog niet gedraaid, of data/vacatures.json ontbreekt.
+        Draai de GitHub Action (handmatig via de "Actions"-tab, "Run workflow"), of wacht op de eerste dagelijkse run.
+      </div>`;
+  });
+</script>
+</body>
+</html>
