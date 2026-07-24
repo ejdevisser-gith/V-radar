@@ -1,0 +1,46 @@
+name: Dagelijkse vacature-scan
+
+on:
+  schedule:
+    # 06:00 Europe/Amsterdam (zomertijd = UTC+2) -> 04:00 UTC
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}   # handmatig starten kan ook, via de Actions-tab
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"   # logs verschijnen direct live, niet pas na afloop
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75   # ruim boven de interne 45-min cap van scraper.py, als vangnet
+    steps:
+      - name: Repo uitchecken
+        uses: actions/checkout@v4
+
+      - name: Git-identiteit instellen (nodig voor tussentijdse commits)
+        run: |
+          git config user.name "vacature-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependencies installeren
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Scraper draaien (committ en pusht tussentijds vanuit het script zelf)
+        run: python scraper.py
+
+      - name: Eindcontrole — eventuele restwijzigingen alsnog committen
+        if: always()
+        run: |
+          git add docs/data/vacatures.json docs/data/scan-log.json
+          git diff --quiet --cached || git commit -m "Automatische scan (eindcommit): $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push || echo "Niets nieuws te pushen of push mislukt (mogelijk al up-to-date)."
