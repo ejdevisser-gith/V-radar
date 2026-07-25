@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:09:28.038450Z",
+  "generated_at": "2026-07-25T10:09:51.850782Z",
   "partial_run": true,
   "organizations": [
     {
@@ -809,6 +809,16 @@
       "new_count": 0
     },
     {
+      "name": "Schiphol Group",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijschiphol.nl/",
+      "checked_at": "2026-07-25T10:09:21.527940Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ced6491a7ca92a3a28abb17f00b6afd34c87ce430f5672c0c243fae728d1b828",
+      "new_count": 0
+    },
+    {
       "name": "ProRail",
       "sector": "Infra",
       "source_url": "https://www.werkenbijprorail.nl/vacatures",
@@ -836,6 +846,158 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "7403870936a10c4da346ae5f4c4aacdcd43786a9b8f56cb8bb6d9ed70216179e",
+      "new_count": 0
+    },
+    {
+      "name": "BPD",
+      "sector": "Vastgoed",
+      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
+      "checked_at": "2026-07-25T10:09:26.542768Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "560d0708dea025b5cae21500cbea2d7cbec7ab1c209db56e7eb3d6bd6144a654",
+      "new_count": 0
+    },
+    {
+      "name": "AM",
+      "sector": "Vastgoed",
+      "source_url": "https://www.am.nl/over-am/werken-bij-am/",
+      "checked_at": "2026-07-25T10:09:27.069141Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b0e11d5d74b918c111683c5a6102eaefabdcb9f1475c28caffe469aa3621d671",
+      "new_count": 0
+    },
+    {
+      "name": "Blauwhoed",
+      "sector": "Vastgoed",
+      "source_url": "https://blauwhoed.nl/over-ons/werken-bij-blauwhoed",
+      "checked_at": "2026-07-25T10:09:28.036908Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "fc9a053b3b4166cf9f3b2995becf816426581256173c7fd0a9ed29d287a60ebf",
+      "new_count": 0
+    },
+    {
+      "name": "Heijmans",
+      "sector": "Bouw",
+      "source_url": "https://www.werkenbijheijmans.nl/vacatures",
+      "checked_at": "2026-07-25T10:09:29.163742Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9faedb6766a36c9cdca286b0784545651682cf8ca850523d07f91a07b3f476bb",
+      "new_count": 0
+    },
+    {
+      "name": "BAM Nederland",
+      "sector": "Bouw",
+      "source_url": "https://www.bam.com/nl/werken-bij-bam",
+      "checked_at": "2026-07-25T10:09:30.439398Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Raad van bestuur",
+          "url": "https://www.bam.com/nl/over-bam/bestuur/raad-van-bestuur",
+          "is_new": false
+        }
+      ],
+      "page_hash": "f9398814dd6f211d22684df38c2a379775ce1e94d1143b7f623cc935fd503565",
+      "new_count": 0
+    },
+    {
+      "name": "VolkerWessels",
+      "sector": "Bouw",
+      "source_url": "https://www.volkerwessels.com/nl/werken-bij",
+      "checked_at": "2026-07-25T10:09:32.168533Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "65f559ce74f4659ebc99846ce6c0f9282addd63a0aeef40e5b5ed0c824410bec",
+      "new_count": 0
+    },
+    {
+      "name": "Dura Vermeer",
+      "sector": "Bouw",
+      "source_url": "https://www.duravermeer.nl/werken-bij",
+      "checked_at": "2026-07-25T10:09:32.875479Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6385c09dad510c05a96fc997fa1d2967eb64f38a412340a44503b5621bef96b1",
+      "new_count": 0
+    },
+    {
+      "name": "Ballast Nedam",
+      "sector": "Bouw",
+      "source_url": "https://www.ballast-nedam.nl/werken-bij",
+      "checked_at": "2026-07-25T10:09:34.367366Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e1a54a2024b0972028be6c5da260e997cc8df8661e2522a690cc28ff9f5d40f8",
+      "new_count": 0
+    },
+    {
+      "name": "Arcadis",
+      "sector": "Advies",
+      "source_url": "https://www.arcadis.com/nl-nl/carriere",
+      "checked_at": "2026-07-25T10:09:37.549032Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c018497bf19e510b4d74f2813a4939294707c43f655b370b0c7f93eb588ff704",
+      "new_count": 0
+    },
+    {
+      "name": "Royal HaskoningDHV",
+      "sector": "Advies",
+      "source_url": "https://www.royalhaskoningdhv.com/careers",
+      "checked_at": "2026-07-25T10:09:38.274358Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Maritime Civil Engineer\nNewcastle upon Tyne\n\nEngineer Specialists\n\nMaritime",
+          "url": "https://www.haskoning.com/en/careers/vacancies/principal-maritime-civil-engineer-1070",
+          "is_new": false
+        }
+      ],
+      "page_hash": "e67deee0122811c99ae4e02f855345606ffa5ddd0550196556d793b8b282e0dd",
+      "new_count": 0
+    },
+    {
+      "name": "Sweco Nederland",
+      "sector": "Advies",
+      "source_url": "https://www.sweco.nl/werken-bij/",
+      "checked_at": "2026-07-25T10:09:38.800859Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d6a57853b3a8252e17c24de8929b303b3348e1e96e2a6355c63658aa2b95dcb7",
+      "new_count": 0
+    },
+    {
+      "name": "Witteveen+Bos",
+      "sector": "Advies",
+      "source_url": "https://www.witteveenbos.com/nl/werken-bij/",
+      "checked_at": "2026-07-25T10:09:41.047014Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "fcdedb342765e2d5e2001c2b230d1deb161fe5604456147191162d388a52d0b8",
+      "new_count": 0
+    },
+    {
+      "name": "Tauw",
+      "sector": "Advies",
+      "source_url": "https://www.tauw.com/nl/werken-bij-tauw/",
+      "checked_at": "2026-07-25T10:09:42.962914Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a09ed079d36f177d9ecdc835f1c7e71b856b3d368f190c870e741587b4c5a29c",
+      "new_count": 0
+    },
+    {
+      "name": "Antea Group",
+      "sector": "Advies",
+      "source_url": "https://www.anteagroup.nl/nl/werken-bij",
+      "checked_at": "2026-07-25T10:09:45.999457Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9ec731ceffe3bfde1ea9d75995bd499adcdc95f7d9637d5d73cdf3941ad2f7bc",
       "new_count": 0
     }
   ]
