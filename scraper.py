@@ -34,7 +34,7 @@ ORG_FILE = ROOT / "organizations.json"
 DATA_FILE = ROOT / "docs" / "data" / "vacatures.json"
 LOG_FILE = ROOT / "docs" / "data" / "scan-log.json"
 
-MAX_CONCURRENCY = 6          # aantal sites tegelijk
+MAX_CONCURRENCY = 4          # aantal sites tegelijk (verlaagd voor stabiliteit op CI-runners)
 NAV_TIMEOUT_MS = 20000       # max wachttijd om een pagina te laden
 NETWORKIDLE_TIMEOUT_MS = 5000
 EXTRA_WAIT_MS = 1200
@@ -118,7 +118,13 @@ def is_dutch_location(title, context, url):
 
 
 def log(msg):
-    print(msg, flush=True)
+    try:
+        print(msg, flush=True)
+    except Exception:
+        try:
+            print(str(msg).encode("ascii", "replace").decode("ascii"), flush=True)
+        except Exception:
+            pass  # loggen mag nooit de run zelf laten crashen
 
 
 async def extract_candidates(page, base_url):
@@ -169,25 +175,28 @@ async def scan_org(browser, org):
         "vacancies": [],
         "page_hash": None,
     }
-    context = await browser.new_context(
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-        ),
-        locale="nl-NL",
-        viewport={"width": 1366, "height": 900},
-        ignore_https_errors=True,
-    )
-
-    async def block_heavy(route):
-        if route.request.resource_type in ("image", "media", "font"):
-            await route.abort()
-        else:
-            await route.continue_()
-    await context.route("**/*", block_heavy)
-
-    page = await context.new_page()
+    context = None
+    page = None
     try:
+        context = await browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            ),
+            locale="nl-NL",
+            viewport={"width": 1366, "height": 900},
+            ignore_https_errors=True,
+        )
+
+        async def block_heavy(route):
+            if route.request.resource_type in ("image", "media", "font"):
+                await route.abort()
+            else:
+                await route.continue_()
+        await context.route("**/*", block_heavy)
+
+        page = await context.new_page()
+
         try:
             await page.goto(org["url"], wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
         except Exception as goto_err:
@@ -211,8 +220,10 @@ async def scan_org(browser, org):
         result["status"] = f"error: {e}"
     finally:
         try:
-            await page.close()
-            await context.close()
+            if page is not None:
+                await page.close()
+            if context is not None:
+                await context.close()
         except Exception:
             pass
     return result
@@ -284,50 +295,64 @@ async def run_scan():
     sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(args=["--disable-dev-shm-usage"])
+        browser = await p.chromium.launch(args=["--disable-dev-shm-usage", "--no-sandbox"])
 
         async def bounded_scan(org):
             async with sem:
-                return await scan_org(browser, org)
+                try:
+                    return await scan_org(browser, org)
+                except Exception as e:
+                    # Laatste redmiddel: scan_org zelf vangt al bijna alles af, maar
+                    # mocht er toch iets doorheen glippen, dan geeft de taak altijd
+                    # een geldig resultaat terug -- nooit een onbehandelde exception.
+                    return {
+                        "name": org["name"], "sector": org.get("sector", ""),
+                        "source_url": org["url"],
+                        "checked_at": datetime.datetime.utcnow().isoformat() + "Z",
+                        "status": f"error: {e}", "vacancies": [], "page_hash": None,
+                    }
 
         tasks = {asyncio.ensure_future(bounded_scan(org)): org for org in orgs}
         completed = 0
         timed_out = False
 
+        # Let op: asyncio.as_completed() geeft interne wrapper-objecten terug, NIET
+        # de originele taken uit `tasks` -- die dict mag dus hier niet gebruikt worden
+        # om van een voltooide future terug te redeneren naar de organisatie. Omdat
+        # bounded_scan() hierboven altijd al een geldig resultaat teruggeeft (met
+        # "name" erin), is dat ook niet nodig.
         for fut in asyncio.as_completed(list(tasks.keys())):
             elapsed = time.monotonic() - start
             if elapsed > MAX_RUNTIME_SECONDS:
                 timed_out = True
                 break
+
+            # Alles hieronder in één vangnet: wat er ook misgaat bij het verwerken
+            # van één organisatie (rare tekens, een corrupt resultaat, een
+            # tussentijdse commit die faalt), de run als geheel mag nooit crashen.
             try:
                 res = await fut
-            except Exception as e:
-                # zou niet moeten gebeuren (scan_org vangt eigen fouten af), maar
-                # voor de zekerheid: nooit de hele run laten crashen
-                org = tasks[fut]
-                res = {
-                    "name": org["name"], "sector": org.get("sector", ""),
-                    "source_url": org["url"],
-                    "checked_at": datetime.datetime.utcnow().isoformat() + "Z",
-                    "status": f"error: {e}", "vacancies": [], "page_hash": None,
-                }
 
-            prev = prev_by_org.get(res["name"])
-            prev_urls = {v["url"] for v in prev["vacancies"]} if prev else set()
-            for v in res["vacancies"]:
-                v["is_new"] = v["url"] not in prev_urls
-            res["new_count"] = sum(1 for v in res["vacancies"] if v["is_new"])
+                prev = prev_by_org.get(res.get("name"))
+                prev_urls = {v["url"] for v in prev["vacancies"]} if prev else set()
+                for v in res.get("vacancies") or []:
+                    v["is_new"] = v["url"] not in prev_urls
+                res["new_count"] = sum(1 for v in (res.get("vacancies") or []) if v.get("is_new"))
 
-            results_by_name[res["name"]] = res
-            completed += 1
-            log(f"[{completed}/{len(orgs)}] {res['name']}: "
-                f"{len(res['vacancies'])} treffer(s), status={res['status']}")
+                results_by_name[res["name"]] = res
+                completed += 1
+                log(f"[{completed}/{len(orgs)}] {res['name']}: "
+                    f"{len(res.get('vacancies') or [])} treffer(s), status={res['status']}")
 
-            if completed % COMMIT_EVERY == 0:
-                ordered = [results_by_name.get(o["name"]) for o in orgs if o["name"] in results_by_name]
-                save_output(ordered, partial=True)
-                write_log(ordered)
-                git_commit_push(f"Tussentijdse scan-update ({completed}/{len(orgs)})")
+                if completed % COMMIT_EVERY == 0:
+                    ordered = [results_by_name.get(o["name"]) for o in orgs if o["name"] in results_by_name]
+                    save_output(ordered, partial=True)
+                    write_log(ordered)
+                    git_commit_push(f"Tussentijdse scan-update ({completed}/{len(orgs)})")
+            except Exception as loop_err:
+                log(f"  Waarschuwing: onverwachte fout bij verwerken van een resultaat "
+                    f"({loop_err}) — doorgaan met volgende organisatie.")
+                continue
 
         if timed_out:
             for f in tasks:
