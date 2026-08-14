@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T08:44:21.803605Z",
-  "partial_run": true,
+  "generated_at": "2026-08-14T08:44:48.796734Z",
+  "partial_run": false,
   "organizations": [
     {
       "name": "Havenbedrijf Rotterdam",
@@ -1185,6 +1185,16 @@
       "new_count": 0
     },
     {
+      "name": "PwC (Energy & Utilities)",
+      "sector": "Advies",
+      "source_url": "https://www.pwc.nl/nl/carriere.html",
+      "checked_at": "2026-08-14T08:44:16.041188Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ea2c4d61f1fddbd1b0c90dfaaf27097e34d9d3c13d8727d4b1810146758870ae",
+      "new_count": 0
+    },
+    {
       "name": "VNO-NCW",
       "sector": "Overheid",
       "source_url": "https://www.vno-ncw.nl/vacatures",
@@ -1202,6 +1212,276 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "8d4d6a747d8df166ae5fe32a8191d57358e2e3f04bc5b9798e75700570369afe",
+      "new_count": 0
+    },
+    {
+      "name": "People Select",
+      "sector": "Recruitment",
+      "source_url": "https://peopleselect.nl/vacatures/",
+      "checked_at": "2026-08-14T08:44:18.498973Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "32cb4a7451398ab9272f8b1600a740be2b7ac7a533d5dc6516cb7cbf6d9258c7",
+      "new_count": 0
+    },
+    {
+      "name": "SCM Executives",
+      "sector": "Recruitment",
+      "source_url": "https://scm-executives.nl/vacatures/",
+      "checked_at": "2026-08-14T08:44:21.584460Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "95ca1b172dae98a06e5b795adeabe9d52065a209825e61da02bf6a0fac43faf5",
+      "new_count": 0
+    },
+    {
+      "name": "Logiprof",
+      "sector": "Recruitment",
+      "source_url": "https://www.logiprof.nl/vacatures/",
+      "checked_at": "2026-08-14T08:44:21.802104Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Supply Chain Director",
+          "url": "https://www.logiprof.nl/vacature-supply-chain-coordinator/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "d5b6682054e0696a43a85368a326f8128f82ba03f445b02e6eb41c5c2891e823",
+      "new_count": 0
+    },
+    {
+      "name": "Top of Minds",
+      "sector": "Recruitment",
+      "source_url": "https://topofminds.com/vacatures/",
+      "checked_at": "2026-08-14T08:44:23.609439Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Lees meer over deze vacature Senior Manager",
+          "url": "https://topofminds.com/vacature-senior-manager-kpmg/",
+          "is_new": true
+        },
+        {
+          "title": "Lees meer over deze vacature Senior Manager Compliance & Integriteit",
+          "url": "https://topofminds.com/vacature-senior-manager-compliance-integriteit-kpmg-26080710271/",
+          "is_new": true
+        },
+        {
+          "title": "Lees meer over deze vacature Business Unit Directeur Healthcare",
+          "url": "https://topofminds.com/vacature-business-unit-directeur-healthcare-esprit-ict-2026070309455654/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature Sales Director Healthcare",
+          "url": "https://topofminds.com/vacature-sales-director-esprit-ict-26080410259/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature Chief Sales Officer (CSO)",
+          "url": "https://topofminds.com/vacancy-cro-cso-2026070315494732/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature Partner Technology",
+          "url": "https://topofminds.com/vacature-partner-technology-valcon-26070310187/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature Head of Finance",
+          "url": "https://topofminds.com/vacature-head-of-finance-jobe-sports/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature Head of Pricing",
+          "url": "https://topofminds.com/vacature-head-of-pricing-mediq-26071410213/",
+          "is_new": false
+        },
+        {
+          "title": "Lees meer over deze vacature CFO",
+          "url": "https://topofminds.com/vacature-cfo-carcollect-26072010225/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "161034dbbeb2707c8606f11555f259629a85a9d08acd730cd5724d73b18d004b",
+      "new_count": 2
+    },
+    {
+      "name": "Michael Page",
+      "sector": "Recruitment",
+      "source_url": "https://www.michaelpage.nl/jobs/energy-natural-resources/netherlands",
+      "checked_at": "2026-08-14T08:44:27.352776Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "HR Business Partner",
+          "url": "https://www.michaelpage.nl/job-detail/hr-business-partner/ref/jn-062026-7050711",
+          "is_new": false
+        }
+      ],
+      "page_hash": "5f4b2ad3e661c5a179c320ad4ecbf9bac58f7c55ce240af4607018939ca3c088",
+      "new_count": 0
+    },
+    {
+      "name": "Brunel Energy",
+      "sector": "Recruitment",
+      "source_url": "https://www.brunel.net/nl-nl/vacatures/energie",
+      "checked_at": "2026-08-14T08:44:28.665039Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Sterling & Holmes",
+      "sector": "Recruitment",
+      "source_url": "https://www.sterlingholmes.com/vacatures/",
+      "checked_at": "2026-08-14T08:44:30.052495Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3c990828f543c205f25bb06134d8a9a874076ea3072a0835ddd60b8fbba9e1a3",
+      "new_count": 0
+    },
+    {
+      "name": "NewRoadz",
+      "sector": "Recruitment",
+      "source_url": "https://www.newroadz.nl/vacatures/",
+      "checked_at": "2026-08-14T08:44:36.600594Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "05bf8cb69622f4d20f1cf752f54efe2bc9aa1b8a33065c32190e0183bcbe500e",
+      "new_count": 0
+    },
+    {
+      "name": "Helder Maritiem",
+      "sector": "Recruitment",
+      "source_url": "https://www.heldermaritiem.com/vacatures/",
+      "checked_at": "2026-08-14T08:44:36.995566Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "8ff5f94f46650648d878042905ee7e9083863ce8d7d25e9bd9d960c527ae833c",
+      "new_count": 0
+    },
+    {
+      "name": "Yacht Executive",
+      "sector": "Recruitment",
+      "source_url": "https://www.yacht.nl/vacatures?vakgebied=directie-en-strategie",
+      "checked_at": "2026-08-14T08:44:39.887806Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "2d160b9d9d54a5d43e4d902f2fab9e0e78a597a54b83dd55abc7856739071187",
+      "new_count": 0
+    },
+    {
+      "name": "Korn Ferry",
+      "sector": "Executive Search",
+      "source_url": "https://jobs.candidate.kornferry.com/jobs",
+      "checked_at": "2026-08-14T08:44:39.957956Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "President & CEO",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Bethesda-Maryland/283671331",
+          "is_new": true
+        },
+        {
+          "title": "Deputy Executive Director for Patient-Centered Research Programs",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Washington-DC-District-of-Columbia/276808166",
+          "is_new": true
+        },
+        {
+          "title": "Senior Vice President & Chief Financial Officer (CFO), University of Maryland Medical Center (UMMC)",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Baltimore-Maryland/283336343",
+          "is_new": false
+        },
+        {
+          "title": "Administrative Director, Women and Children Services",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Pinehurst-North-Carolina/272109725",
+          "is_new": false
+        },
+        {
+          "title": "Regional Director of Risk, Compliance, & Patient Safety",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Mount-Vernon-Washington/276808145",
+          "is_new": false
+        },
+        {
+          "title": "Chief Nursing Officer, Children's Wisconsin",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Milwaukee-Wisconsin/275186869",
+          "is_new": false
+        },
+        {
+          "title": "Brentwood School - Executive Director of Advancement, Brentwood School",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Los-Angeles-California/268801323",
+          "is_new": false
+        },
+        {
+          "title": "Community Initiatives- Vice President, People & Culture",
+          "url": "https://jobs.candidate.kornferry.com/job/Korn-Ferry-Executive-Search-Los-Angeles-California/283086660",
+          "is_new": false
+        }
+      ],
+      "page_hash": "bbaccaf353024aa603caabc8fb88be458a79523832d7cf18a7e091d774a7f330",
+      "new_count": 2
+    },
+    {
+      "name": "Egon Zehnder",
+      "sector": "Executive Search",
+      "source_url": "https://www.egonzehnder.com/office/amsterdam",
+      "checked_at": "2026-08-14T08:44:41.683513Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CEO Successions",
+          "url": "https://www.egonzehnder.com/what-we-do/ceo-successions",
+          "is_new": false
+        },
+        {
+          "title": "CEO Search",
+          "url": "https://www.egonzehnder.com/what-we-do/ceo-search",
+          "is_new": false
+        },
+        {
+          "title": "Board Directors & Chairs",
+          "url": "https://www.egonzehnder.com/functions/board-directors-chairs",
+          "is_new": false
+        },
+        {
+          "title": "Chief Executive Officers",
+          "url": "https://www.egonzehnder.com/functions/chief-executive-officers",
+          "is_new": false
+        },
+        {
+          "title": "CFO & Audit Chair",
+          "url": "https://www.egonzehnder.com/functions/cfo-audit-chair",
+          "is_new": false
+        },
+        {
+          "title": "Chief AI, Data & Analytics Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-ai-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Information Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Information Security Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-security-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Product Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-product-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Technology Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-technology-officers",
+          "is_new": false
+        }
+      ],
+      "page_hash": "e2339d217aecda4207627f6fd2992cb75de4675afc4d67c8d4a59f87cc16fba2",
       "new_count": 0
     }
   ]
