@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:21:07.677388Z",
+  "generated_at": "2026-08-21T05:21:28.374713Z",
   "partial_run": true,
   "organizations": [
     {
@@ -646,6 +646,32 @@
       "new_count": 0
     },
     {
+      "name": "Gemeente Utrecht",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijutrecht.nl/vacatures",
+      "checked_at": "2026-08-21T05:21:04.402431Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "HR Business Partner",
+          "url": "https://www.werkenbijutrecht.nl/vacature/hr-business-partner-1329261/",
+          "is_new": true
+        }
+      ],
+      "page_hash": "37714d98e27d62fd7e9edc5bd9d0214879e4f0b521f6cf934fe9a1be87bfd9e4",
+      "new_count": 1
+    },
+    {
+      "name": "Metropoolregio Amsterdam (MRA)",
+      "sector": "Overheid",
+      "source_url": "https://metropoolregioamsterdam.nl/vacatures",
+      "checked_at": "2026-08-21T05:21:04.430452Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e4a9933afd63fa20afe8b3358b9fd64ec98a41256bca84a318889de5804ed9b6",
+      "new_count": 0
+    },
+    {
       "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
       "sector": "Overheid",
       "source_url": "https://mrdh.nl/vacatures",
@@ -663,6 +689,172 @@
       "status": "error: kon pagina niet laden (Error)",
       "vacancies": [],
       "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Delfland",
+      "sector": "Overheid",
+      "source_url": "https://www.hhdelfland.nl/over-ons/werken-bij",
+      "checked_at": "2026-08-21T05:21:05.508856Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "21f05f876439c4f0e1a1bdca8d43449f00db4e06151d1a64a89e318f94fe39cb",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Rijnland",
+      "sector": "Overheid",
+      "source_url": "https://www.rijnland.net/over-rijnland/werken-bij-rijnland/",
+      "checked_at": "2026-08-21T05:21:07.675967Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief website",
+          "url": "https://www.rijnland.net/over-rijnland/archieven-en-erfgoed/archieven-en-collecties/archief-website/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "cc67058dc3093dceeba01d090cdfbaa7d73861dd26b730ed4f7ad751a39e0f05",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap Schieland & Krimpenerwaard",
+      "sector": "Overheid",
+      "source_url": "https://www.schielandendekrimpenerwaard.nl/werken-bij",
+      "checked_at": "2026-08-21T05:21:08.815579Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://schielandkrimpenerwaard.archiefweb.eu/#archive",
+          "is_new": false
+        }
+      ],
+      "page_hash": "c53d07d0ebd45582d67568a9f7c429bcaad4dbdd04a94786b7188e3d95851d96",
+      "new_count": 0
+    },
+    {
+      "name": "TNO (Energy & Transition)",
+      "sector": "Overheid",
+      "source_url": "https://www.tno.nl/nl/over-tno/werken-bij-tno/",
+      "checked_at": "2026-08-21T05:21:11.078318Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "520a3e49c69b91a2b8e281e1a300b25c1d1abf23363bc02444076e8ac0eefc64",
+      "new_count": 0
+    },
+    {
+      "name": "CBS",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijhetcbs.nl/vacatures",
+      "checked_at": "2026-08-21T05:21:12.998041Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3bb906df856176e8057e8cb20774cbc61ecacf161f7ba2dbdaa20c128e1bb7c9",
+      "new_count": 0
+    },
+    {
+      "name": "Planbureau voor de Leefomgeving (PBL)",
+      "sector": "Overheid",
+      "source_url": "https://www.pbl.nl/over-het-pbl/werken-bij",
+      "checked_at": "2026-08-21T05:21:14.073208Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://www.pbl.nl/over-het-pbl/archief",
+          "is_new": false
+        }
+      ],
+      "page_hash": "aab5a2ecb8b191e3a953483b292ea7309550949753e4271c01cd21f2e3dc0561",
+      "new_count": 0
+    },
+    {
+      "name": "Centraal Planbureau (CPB)",
+      "sector": "Overheid",
+      "source_url": "https://www.cpb.nl/werken-bij",
+      "checked_at": "2026-08-21T05:21:15.547039Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d5a19f98ca9c7f4e867a781e48715aeaecc2bda0e7344324cb5ea189cb1e2977",
+      "new_count": 0
+    },
+    {
+      "name": "Ministerie van EZK",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-08-21T05:21:17.931460Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Senior Strategisch Adviseur CIO-Office",
+          "url": "https://www.werkenbijdeoverheid.nl/vacatures/senior-strategisch-adviseur-cio-office-ACM-2026-4493",
+          "is_new": true
+        }
+      ],
+      "page_hash": "ebec8637e3a17ab3f888be2a37805504124cea8119850dde32f0cdcef6325b95",
+      "new_count": 1
+    },
+    {
+      "name": "Ministerie van IenW",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-08-21T05:21:18.555421Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Senior Strategisch Adviseur CIO-Office",
+          "url": "https://www.werkenbijdeoverheid.nl/vacatures/senior-strategisch-adviseur-cio-office-ACM-2026-4493",
+          "is_new": true
+        }
+      ],
+      "page_hash": "38b2092bcae8477c7d90e10179ae3477ee24330448ea48e0e8995dfdea4f4fe1",
+      "new_count": 1
+    },
+    {
+      "name": "Schiphol Group",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijschiphol.nl/",
+      "checked_at": "2026-08-21T05:21:18.902241Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Platform Engineer (Database Platforms)\nIT & Data\n36 - 36 uur\n5.703 - 7.912\nBekijk de vacature",
+          "url": "https://www.schipholcareers.nl/vacatures/it-en-data/principal-platform-engineer-database-platforms",
+          "is_new": false
+        }
+      ],
+      "page_hash": "fd9eb9be38d89ec310945bb45798054d0d90a63fdfb7013b325a95d4a0278933",
+      "new_count": 0
+    },
+    {
+      "name": "ProRail",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijprorail.nl/vacatures",
+      "checked_at": "2026-08-21T05:21:21.183274Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4f4691a6140b0b2fdc96dbab11571ee3770a0a0c32543d41816f6843393eb68d",
+      "new_count": 0
+    },
+    {
+      "name": "NS Stations",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijns.nl/vacatures",
+      "checked_at": "2026-08-21T05:21:21.428482Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "cc9d88b9b48b85c60fe10d5e705dfe6003705d1e4d9ef4cf63c4d9c54c1a3591",
+      "new_count": 0
+    },
+    {
+      "name": "BPD",
+      "sector": "Vastgoed",
+      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
+      "checked_at": "2026-08-21T05:21:24.917923Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "23066af8f2cb847d013f19a319bcbcd4ba7c5cb02c0d9505277dd9f1ed176dbd",
       "new_count": 0
     }
   ]
