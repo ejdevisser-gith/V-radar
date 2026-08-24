@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:32:57.403714Z",
+  "generated_at": "2026-08-24T04:33:14.259824Z",
   "partial_run": true,
   "organizations": [
     {
@@ -150,6 +150,174 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "3d34c7d8d30abe3b749ec8f49a2b7c6d0d39ea59bcc14b6f23938ea7c10c127c",
+      "new_count": 0
+    },
+    {
+      "name": "DFDS Seaways",
+      "sector": "Maritiem",
+      "source_url": "https://www.dfds.com/en/about/jobs",
+      "checked_at": "2026-08-24T04:32:52.789114Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0f9cb00e9f39f21df071926e3af14c0f0e39c9208b6816308c32a4ebf1ba5f24",
+      "new_count": 0
+    },
+    {
+      "name": "Samskip",
+      "sector": "Maritiem",
+      "source_url": "https://www.samskip.com/careers/",
+      "checked_at": "2026-08-24T04:32:53.929367Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "b5368cc5ef063c60489b951e65d8adc5b0690d930d3ed7eb1b080cf0087ba15f",
+      "new_count": 0
+    },
+    {
+      "name": "C. Steinweg Group",
+      "sector": "Maritiem",
+      "source_url": "https://www.steinweg.com/careers/",
+      "checked_at": "2026-08-24T04:32:55.376324Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "41c699686a9237da2d2587b54d95ec5aa85c3b8099ab7326168cd6b08816d26d",
+      "new_count": 0
+    },
+    {
+      "name": "Verbrugge Terminals",
+      "sector": "Maritiem",
+      "source_url": "https://www.verbruggeinternational.com/nl/werken-bij",
+      "checked_at": "2026-08-24T04:32:57.400532Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "77c2da78d7f7da8e54f8db1bb98f14a999ddd947cca688c0f682f34051050dac",
+      "new_count": 0
+    },
+    {
+      "name": "Zeehaven IJmuiden",
+      "sector": "Maritiem",
+      "source_url": "https://www.zeehaven.nl/nl/over-ons/vacatures/",
+      "checked_at": "2026-08-24T04:32:59.423930Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Nieuwe directeur zeehaven gooit hoge ogen",
+          "url": "https://zeehaven.nl/nieuwe-directeur-zeehaven-gooit-hoge-ogen/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "ca6bd7c225961d3e5cda601bc1d0530b24833532620d49ce535eb4c45d8ef658",
+      "new_count": 0
+    },
+    {
+      "name": "Gasunie",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijgasunie.nl/vacatures",
+      "checked_at": "2026-08-24T04:32:59.493036Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9ab688ef97b384b8306987aac6e1d8089024bb3abf13b375f8e1474b7b2593af",
+      "new_count": 0
+    },
+    {
+      "name": "TenneT",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijtennet.nl/vacatures",
+      "checked_at": "2026-08-24T04:33:01.487850Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ba7618d8ff08a8f45e9283c0296dbc9e72882bc35070ed737b3787bd0b042bfb",
+      "new_count": 0
+    },
+    {
+      "name": "Alliander",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijalliander.com/vacatures",
+      "checked_at": "2026-08-24T04:33:03.060070Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Stedin",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijstedin.net/vacatures",
+      "checked_at": "2026-08-24T04:33:03.573728Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "389fc4c844d2da787de0510df7eae76e684d813ba10a820196b53da76bf9ef41",
+      "new_count": 0
+    },
+    {
+      "name": "Eneco",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijeneco.nl/vacatures",
+      "checked_at": "2026-08-24T04:33:06.210331Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CTO Office & Partner Management",
+          "url": "https://www.werkenbijeneco.nl/tech/cto-office-and-partner-management",
+          "is_new": false
+        }
+      ],
+      "page_hash": "14f9ad93f69f549f3f1a44df38fdd4987553f6d7f50b50a65f73cb970ec56a46",
+      "new_count": 0
+    },
+    {
+      "name": "Vattenfall Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijvattenfall.nl/vacatures",
+      "checked_at": "2026-08-24T04:33:07.406027Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Uniper Benelux",
+      "sector": "Energie",
+      "source_url": "https://www.uniper.energy/nederland/carriere",
+      "checked_at": "2026-08-24T04:33:07.588619Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "028942c02a28475e944cd0391f26510da49904b24f6bb94b789cd94fd77bec73",
+      "new_count": 0
+    },
+    {
+      "name": "Shell Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.shell.nl/careers.html",
+      "checked_at": "2026-08-24T04:33:08.726135Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Direct naar de hoofd inhoud",
+          "url": "https://www.shell.nl/over-ons/carrieres.html#main",
+          "is_new": false
+        }
+      ],
+      "page_hash": "d5c898fcfc89ad8c2e78acd8692e2442ce06a1a89ee9be884b3806e18c1dd6ef",
+      "new_count": 0
+    },
+    {
+      "name": "BP Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.bp.com/nl_nl/netherlands/home/werken-bij-bp.html",
+      "checked_at": "2026-08-24T04:33:10.044547Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "89b5aa47a903fd67cab21d779953c5dcc877c09bf6e2d9d29cdddb3625adb296",
+      "new_count": 0
+    },
+    {
+      "name": "ExxonMobil Rotterdam",
+      "sector": "Energie",
+      "source_url": "https://jobs.exxonmobil.com/",
+      "checked_at": "2026-08-24T04:33:10.789495Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c4b38207f10daa3ccf870d81d72f4b9ac80ba89d6e54fa29e68414ae5facbf75",
       "new_count": 0
     }
   ]
