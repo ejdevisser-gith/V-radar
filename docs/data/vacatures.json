@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T14:50:38.134481Z",
+  "generated_at": "2026-08-27T14:50:59.140615Z",
   "partial_run": true,
   "organizations": [
     {
@@ -998,6 +998,209 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "c6190241dd81b7353d120849b8a92067fe6e2e040e4f278ec4b858829cfa41e2",
+      "new_count": 0
+    },
+    {
+      "name": "CBRE Nederland",
+      "sector": "Vastgoed",
+      "source_url": "https://www.werkenbijcbre.nl/",
+      "checked_at": "2026-08-27T14:50:36.143965Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "JLL Nederland",
+      "sector": "Vastgoed",
+      "source_url": "https://www.jll.nl/nl/carriere",
+      "checked_at": "2026-08-27T14:50:37.619916Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9ada9bc797cac924bee21a83129410e8c8e1ba5b8a84c8f6a6cd2c2ab14137db",
+      "new_count": 0
+    },
+    {
+      "name": "Tata Steel Nederland",
+      "sector": "Industrie",
+      "source_url": "https://www.tatasteeljobs.nl/vacatures",
+      "checked_at": "2026-08-27T14:50:37.847724Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "90433de1467c81750694baceac5dd76fcb779e1925ff9c5729cae81c82763463",
+      "new_count": 0
+    },
+    {
+      "name": "ThyssenKrupp Veerhaven",
+      "sector": "Industrie",
+      "source_url": "https://www.thyssenkrupp-veerhaven.com/nl/carriere",
+      "checked_at": "2026-08-27T14:50:38.132756Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "DHL Supply Chain",
+      "sector": "Logistiek",
+      "source_url": "https://www.werkenbij-dhl.nl/",
+      "checked_at": "2026-08-27T14:50:39.634767Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Kuehne + Nagel",
+      "sector": "Logistiek",
+      "source_url": "https://jobs.kuehne-nagel.com/",
+      "checked_at": "2026-08-27T14:50:39.827789Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e83f76199c7d080778b5545002c0b516e06b06f96dc6666465f080ed75daaa33",
+      "new_count": 0
+    },
+    {
+      "name": "PostNL",
+      "sector": "Logistiek",
+      "source_url": "https://www.werkenbijpostnl.nl/vacatures",
+      "checked_at": "2026-08-27T14:50:42.351847Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Roland Berger",
+      "sector": "Advies",
+      "source_url": "https://www.rolandberger.com/en/Join/All-Jobs",
+      "checked_at": "2026-08-27T14:50:42.453541Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal",
+          "url": "https://rolandberger.jobs/en/REF3274Y",
+          "is_new": false
+        }
+      ],
+      "page_hash": "614b2772c8a7279fdbff0ae0e24202f21d4a3d78b05b39aad984a4d38cbc065b",
+      "new_count": 0
+    },
+    {
+      "name": "Berenschot",
+      "sector": "Advies",
+      "source_url": "https://www.werkenbijberenschot.nl/vacatures",
+      "checked_at": "2026-08-27T14:50:43.530767Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Ecorys",
+      "sector": "Advies",
+      "source_url": "https://careers.ecorys.com/en/vacancies",
+      "checked_at": "2026-08-27T14:50:43.691052Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Consultant - Green Transition",
+          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - Green TransitionResilient EconomiesRotterdam, NetherlandsPermanent",
+          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - Mobiliteit",
+          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - MobiliteitTransport and InfrastructureRotterdam, NetherlandsPermanent",
+          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
+          "is_new": false
+        }
+      ],
+      "page_hash": "488675cbfc56c65263eceb14d4b3d9fee2b01e080e848f278f1ca71d9bb036f2",
+      "new_count": 0
+    },
+    {
+      "name": "Rebel Group",
+      "sector": "Advies",
+      "source_url": "https://www.rebelgroup.com/careers",
+      "checked_at": "2026-08-27T14:50:46.344599Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "185c41f9a5e7a974388e881fbe74c3ad2aa38d38f5e4ddac35bee478daafedb7",
+      "new_count": 0
+    },
+    {
+      "name": "Boer & Croon",
+      "sector": "Advies",
+      "source_url": "https://www.boercroon.nl/carrieres/vacatures/",
+      "checked_at": "2026-08-27T14:50:46.573890Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "https://www.nonstoppartner.net",
+          "url": "https://www.nonstoppartner.net/",
+          "is_new": true
+        },
+        {
+          "title": "https://partner.idealmedia.io/pages/privacy/en/",
+          "url": "https://partner.idealmedia.io/pages/privacy/en/",
+          "is_new": true
+        },
+        {
+          "title": "CFO Services",
+          "url": "https://www.boercroon.nl/diensten/management-solutions/cfo-services/",
+          "is_new": false
+        },
+        {
+          "title": "Interim CEO/COO community",
+          "url": "https://www.boercroon.nl/interim-ceo-coo-community/",
+          "is_new": false
+        },
+        {
+          "title": "Interim CFO community",
+          "url": "https://www.boercroon.nl/interim-cfo-community/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "b5fcc1e6d1d45de7814500bada8a195cbb0541a8f8f971c837e99784a6ff53bf",
+      "new_count": 2
+    },
+    {
+      "name": "Deloitte (Public/Energy)",
+      "sector": "Advies",
+      "source_url": "https://www.werkenbijdeloitte.nl/",
+      "checked_at": "2026-08-27T14:50:47.329775Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "90add6ce2cc2872f4f1c11428083429642b9e9ed789b7b062e49973edd739307",
+      "new_count": 0
+    },
+    {
+      "name": "VNO-NCW",
+      "sector": "Overheid",
+      "source_url": "https://www.vno-ncw.nl/vacatures",
+      "checked_at": "2026-08-27T14:50:54.293573Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6715f01220575853e1ac6dff0ba97b0b99dfddf32c8585147d40d6e400c1b013",
+      "new_count": 0
+    },
+    {
+      "name": "People Select",
+      "sector": "Recruitment",
+      "source_url": "https://peopleselect.nl/vacatures/",
+      "checked_at": "2026-08-27T14:50:56.290737Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "513015613f21a00d559f8694ba332e404c464f94bd0a44b9304960c390e5e6fd",
       "new_count": 0
     }
   ]
