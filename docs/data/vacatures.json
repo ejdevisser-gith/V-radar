@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:11:17.056064Z",
+  "generated_at": "2026-09-02T08:11:40.729579Z",
   "partial_run": true,
   "organizations": [
     {
@@ -858,6 +858,174 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "4c43731ffaadde0a16d1cdbcbbefb00367d01776efe855344b4e67a83889c5f4",
+      "new_count": 0
+    },
+    {
+      "name": "SADC",
+      "sector": "Infra",
+      "source_url": "https://sadc.nl/over-ons/vacatures/",
+      "checked_at": "2026-09-02T08:11:13.450287Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Directeur Financiën & Bedrijfsvoering (CFO) bij SADC\nFull Time\nBekijk vacature",
+          "url": "https://www.sadc.nl/vacatures/directeur-financien-bedrijfsvoering-cfo-bij-sadc/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "ca3d2b6997a9a8430df4d90916be4ba9b11eff991bade4746af4bf8b65612e1d",
+      "new_count": 0
+    },
+    {
+      "name": "BPD",
+      "sector": "Vastgoed",
+      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
+      "checked_at": "2026-09-02T08:11:15.891444Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f21a63123217e837f13ce5b863f6bae0f986cbdd7c5f6c6ce089fd778929ec7a",
+      "new_count": 0
+    },
+    {
+      "name": "AM",
+      "sector": "Vastgoed",
+      "source_url": "https://www.am.nl/over-am/werken-bij-am/",
+      "checked_at": "2026-09-02T08:11:16.176583Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "06408f88e801f316954f501fad23dbac82f3d6b2842d5a5c89647edcf016a3d6",
+      "new_count": 0
+    },
+    {
+      "name": "Blauwhoed",
+      "sector": "Vastgoed",
+      "source_url": "https://blauwhoed.nl/over-ons/werken-bij-blauwhoed",
+      "checked_at": "2026-09-02T08:11:17.054628Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f385733f21ea8c5c8cdc47d15c978e867017a4f0e4556c6ccd6f2c5de815028f",
+      "new_count": 0
+    },
+    {
+      "name": "Heijmans",
+      "sector": "Bouw",
+      "source_url": "https://www.werkenbijheijmans.nl/vacatures",
+      "checked_at": "2026-09-02T08:11:20.785422Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e70c92e2d4dffcf0bd525990987ed2eaee781819c36c8dab5d9ddb4a3e6ba86b",
+      "new_count": 0
+    },
+    {
+      "name": "BAM Nederland",
+      "sector": "Bouw",
+      "source_url": "https://www.bam.com/nl/werken-bij-bam",
+      "checked_at": "2026-09-02T08:11:21.947596Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Raad van bestuur",
+          "url": "https://www.bam.com/nl/over-bam/bestuur/raad-van-bestuur",
+          "is_new": false
+        }
+      ],
+      "page_hash": "58404a5b7bea9e3c2bfe429e55eb4903f9ee23299540568ec134556029197932",
+      "new_count": 0
+    },
+    {
+      "name": "VolkerWessels",
+      "sector": "Bouw",
+      "source_url": "https://www.volkerwessels.com/nl/werken-bij",
+      "checked_at": "2026-09-02T08:11:23.521417Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f14b57b1554ccf540b1828dc1b9c57a7e9a19603cc47cf9e472183d6c41dc7a1",
+      "new_count": 0
+    },
+    {
+      "name": "Dura Vermeer",
+      "sector": "Bouw",
+      "source_url": "https://www.duravermeer.nl/werken-bij",
+      "checked_at": "2026-09-02T08:11:25.471493Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "88f67f5ee75a6b717de4b0955b602ba45d6bfa5b6b481c8136aefbee1b13c08a",
+      "new_count": 0
+    },
+    {
+      "name": "Ballast Nedam",
+      "sector": "Bouw",
+      "source_url": "https://www.ballast-nedam.nl/werken-bij",
+      "checked_at": "2026-09-02T08:11:25.622201Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3b5d3a22ec65403055f61c179c0f10fdc3cf9f830ff9c2a258ee26bc3afac296",
+      "new_count": 0
+    },
+    {
+      "name": "Arcadis",
+      "sector": "Advies",
+      "source_url": "https://www.arcadis.com/nl-nl/carriere",
+      "checked_at": "2026-09-02T08:11:26.004200Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "68314de8b53ef3a9d4cc2f188df432a0b0476f44ab02a4253a59737b308cef99",
+      "new_count": 0
+    },
+    {
+      "name": "Royal HaskoningDHV",
+      "sector": "Advies",
+      "source_url": "https://www.royalhaskoningdhv.com/careers",
+      "checked_at": "2026-09-02T08:11:30.984893Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Maritime Civil Engineer\nNewcastle upon Tyne\n\nEngineer Specialists\n\nMaritime",
+          "url": "https://www.haskoning.com/en/careers/vacancies/principal-maritime-civil-engineer-1070",
+          "is_new": false
+        }
+      ],
+      "page_hash": "565f4523c1ca224b33f11035002135a7ea7b8a93fc2f6ec771d6267f8d4d57e3",
+      "new_count": 0
+    },
+    {
+      "name": "Sweco Nederland",
+      "sector": "Advies",
+      "source_url": "https://www.sweco.nl/werken-bij/",
+      "checked_at": "2026-09-02T08:11:31.237358Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ff5096e4cc90eac58048ec3702f5475fb678e36706bf30d4a77647d1cde6cc2b",
+      "new_count": 0
+    },
+    {
+      "name": "Witteveen+Bos",
+      "sector": "Advies",
+      "source_url": "https://www.witteveenbos.com/nl/werken-bij/",
+      "checked_at": "2026-09-02T08:11:31.254691Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5d558ec5d2a3e838f50e2b08e08ee74f64337c03081d248b2a969dce34c4f7de",
+      "new_count": 0
+    },
+    {
+      "name": "Tauw",
+      "sector": "Advies",
+      "source_url": "https://www.tauw.com/nl/werken-bij-tauw/",
+      "checked_at": "2026-09-02T08:11:31.301636Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "63c75fb75c1e3317b64fb13bafbdf90f7930f5f40e4e51ca27e24d29faeb3295",
+      "new_count": 0
+    },
+    {
+      "name": "Antea Group",
+      "sector": "Advies",
+      "source_url": "https://www.anteagroup.nl/nl/werken-bij",
+      "checked_at": "2026-09-02T08:11:36.637870Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "415f72ce1d8fb682ed526e3184785bdb93a3b4250768d2086a0de6be4d110947",
       "new_count": 0
     }
   ]
