@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:23:52.853122Z",
+  "generated_at": "2026-09-08T08:24:16.972350Z",
   "partial_run": true,
   "organizations": [
     {
@@ -789,6 +789,26 @@
       "new_count": 0
     },
     {
+      "name": "Ministerie van EZK",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-09-08T08:23:37.229933Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3ef93089131cb38f0a26d7e25676adc2c2869f68f8ffa86f14e3d22132c45b88",
+      "new_count": 0
+    },
+    {
+      "name": "Ministerie van IenW",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-09-08T08:23:37.561488Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
       "name": "Schiphol Group",
       "sector": "Infra",
       "source_url": "https://www.werkenbijschiphol.nl/",
@@ -842,6 +862,148 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "d6af34072b782e3fbd7c6af9c9741b1c450b46d9c35c09597583ebe95b616e04",
+      "new_count": 0
+    },
+    {
+      "name": "AM",
+      "sector": "Vastgoed",
+      "source_url": "https://www.am.nl/over-am/werken-bij-am/",
+      "checked_at": "2026-09-08T08:23:50.885244Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9e585aa610c0440e69defd012eef7133042a9b4bfe1268cedd02226da310bb91",
+      "new_count": 0
+    },
+    {
+      "name": "Blauwhoed",
+      "sector": "Vastgoed",
+      "source_url": "https://blauwhoed.nl/over-ons/werken-bij-blauwhoed",
+      "checked_at": "2026-09-08T08:23:52.852211Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5147fcbfe919c3b09e027234f77d15a7aeacc4eb37913f939f4e64684592e668",
+      "new_count": 0
+    },
+    {
+      "name": "Heijmans",
+      "sector": "Bouw",
+      "source_url": "https://www.werkenbijheijmans.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:57.601517Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "100d4650169e9f1773b25d45f381745924609ade23d6dfd954f15db56a6b5c9a",
+      "new_count": 0
+    },
+    {
+      "name": "BAM Nederland",
+      "sector": "Bouw",
+      "source_url": "https://www.bam.com/nl/werken-bij-bam",
+      "checked_at": "2026-09-08T08:23:57.705238Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Raad van bestuur",
+          "url": "https://www.bam.com/nl/over-bam/bestuur/raad-van-bestuur",
+          "is_new": false
+        }
+      ],
+      "page_hash": "5fdfd6697cb63376b0b87ed8fbad9191f19d2632e3fcb62e2116b05f302660b1",
+      "new_count": 0
+    },
+    {
+      "name": "VolkerWessels",
+      "sector": "Bouw",
+      "source_url": "https://www.volkerwessels.com/nl/werken-bij",
+      "checked_at": "2026-09-08T08:23:58.008038Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6aaf1682a6dac0667716f11ea89674e5bf8243ad234d8b6282cd8b2a8c47c997",
+      "new_count": 0
+    },
+    {
+      "name": "Dura Vermeer",
+      "sector": "Bouw",
+      "source_url": "https://www.duravermeer.nl/werken-bij",
+      "checked_at": "2026-09-08T08:24:00.464701Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "123d78152988a620d881b40b56bad2399dbe931c0acecfaec5f2f1267302ae8d",
+      "new_count": 0
+    },
+    {
+      "name": "Ballast Nedam",
+      "sector": "Bouw",
+      "source_url": "https://www.ballast-nedam.nl/werken-bij",
+      "checked_at": "2026-09-08T08:24:01.165960Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "01e3ebdc99cb267d8d3933d1c0c0cf628d5b9b34648cc9ee885ece607b9e354d",
+      "new_count": 0
+    },
+    {
+      "name": "Arcadis",
+      "sector": "Advies",
+      "source_url": "https://www.arcadis.com/nl-nl/carriere",
+      "checked_at": "2026-09-08T08:24:01.697715Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9d8e49f579d9141fa0ef5d5d659d0913de0119974c7661df332a656511726a75",
+      "new_count": 0
+    },
+    {
+      "name": "Royal HaskoningDHV",
+      "sector": "Advies",
+      "source_url": "https://www.royalhaskoningdhv.com/careers",
+      "checked_at": "2026-09-08T08:24:03.739762Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Maritime Civil Engineer\nNewcastle upon Tyne\n\nEngineer Specialists\n\nMaritime",
+          "url": "https://www.haskoning.com/en/careers/vacancies/principal-maritime-civil-engineer-1070",
+          "is_new": false
+        }
+      ],
+      "page_hash": "6fff40751ab0ada9258ea9e0bb0cb8d0c8085140f22bff7750262ee25105486b",
+      "new_count": 0
+    },
+    {
+      "name": "Sweco Nederland",
+      "sector": "Advies",
+      "source_url": "https://www.sweco.nl/werken-bij/",
+      "checked_at": "2026-09-08T08:24:05.719569Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ce5438fe921289bdeeb33374c2b75ca16cea408e012a3a6dbcdc00d69efaad32",
+      "new_count": 0
+    },
+    {
+      "name": "Witteveen+Bos",
+      "sector": "Advies",
+      "source_url": "https://www.witteveenbos.com/nl/werken-bij/",
+      "checked_at": "2026-09-08T08:24:06.624450Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "8c09d2728cc07e6af5c67719fd737ad6999c0e3e262ffffa39304b3f38a71858",
+      "new_count": 0
+    },
+    {
+      "name": "Tauw",
+      "sector": "Advies",
+      "source_url": "https://www.tauw.com/nl/werken-bij-tauw/",
+      "checked_at": "2026-09-08T08:24:06.951255Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ea7d8d01b27d14d5c40c6868b98bc06a40f09c4ca8e8b1f9273f714e930a0bc9",
+      "new_count": 0
+    },
+    {
+      "name": "JLL Nederland",
+      "sector": "Vastgoed",
+      "source_url": "https://www.jll.nl/nl/carriere",
+      "checked_at": "2026-09-08T08:24:12.192150Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "44fbf2a1e3eebaaf5bc834f7e5bdda334addefb1a8747e0aa1029e26dbba1ca1",
       "new_count": 0
     }
   ]
