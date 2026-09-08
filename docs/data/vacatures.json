@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:23:27.811530Z",
+  "generated_at": "2026-09-08T08:23:52.853122Z",
   "partial_run": true,
   "organizations": [
     {
@@ -661,6 +661,26 @@
       "new_count": 0
     },
     {
+      "name": "Metropoolregio Amsterdam (MRA)",
+      "sector": "Overheid",
+      "source_url": "https://metropoolregioamsterdam.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:25.263361Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f86c494aee6475f4f3bae3b4a826548737c9963613eb421f770ca23d6d48139a",
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:26.366066Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5e7dd669cf5b5880aa3fdcdf4ecca9c2b2caca6cc725c9b3b99999a08cfc82d2",
+      "new_count": 0
+    },
+    {
       "name": "Waterschap Amstel, Gooi en Vecht",
       "sector": "Overheid",
       "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
@@ -668,6 +688,160 @@
       "status": "error: kon pagina niet laden (Error)",
       "vacancies": [],
       "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Delfland",
+      "sector": "Overheid",
+      "source_url": "https://www.hhdelfland.nl/over-ons/werken-bij",
+      "checked_at": "2026-09-08T08:23:27.073277Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4b95c45663dd6ebdefb0fe1db12e953bef07cec62968e288c2063c4c02b5b8d8",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Rijnland",
+      "sector": "Overheid",
+      "source_url": "https://www.rijnland.net/over-rijnland/werken-bij-rijnland/",
+      "checked_at": "2026-09-08T08:23:27.810475Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief website",
+          "url": "https://www.rijnland.net/over-rijnland/archieven-en-erfgoed/archieven-en-collecties/archief-website/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "e7cd503733191d54572d6a743c240a65291b4cd8955bb399157df07c5ffd6132",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap Schieland & Krimpenerwaard",
+      "sector": "Overheid",
+      "source_url": "https://www.schielandendekrimpenerwaard.nl/werken-bij",
+      "checked_at": "2026-09-08T08:23:30.277106Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://schielandkrimpenerwaard.archiefweb.eu/#archive",
+          "is_new": false
+        }
+      ],
+      "page_hash": "9c34ac7108da3c004a1a65572c6564b0c15e3575187f1daaab3db961aa3fcfbe",
+      "new_count": 0
+    },
+    {
+      "name": "Kansen voor West",
+      "sector": "Overheid",
+      "source_url": "https://www.kansenvoorwest2.nl/nl/",
+      "checked_at": "2026-09-08T08:23:30.290195Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c61079d91cbdd56348ada8810a0d15eb7e3cdf3e47b26af86f1f48b8d813d634",
+      "new_count": 0
+    },
+    {
+      "name": "TNO (Energy & Transition)",
+      "sector": "Overheid",
+      "source_url": "https://www.tno.nl/nl/over-tno/werken-bij-tno/",
+      "checked_at": "2026-09-08T08:23:32.766264Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f15f584f19c3c4607995ecb60ef332bd8de1064c55f96b8148f1563d86afab83",
+      "new_count": 0
+    },
+    {
+      "name": "CBS",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijhetcbs.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:33.244789Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d479754827a5906779ca3a268f837c11d965e08b88519292d020309df8f6206a",
+      "new_count": 0
+    },
+    {
+      "name": "Planbureau voor de Leefomgeving (PBL)",
+      "sector": "Overheid",
+      "source_url": "https://www.pbl.nl/over-het-pbl/werken-bij",
+      "checked_at": "2026-09-08T08:23:33.572228Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://www.pbl.nl/over-het-pbl/archief",
+          "is_new": false
+        }
+      ],
+      "page_hash": "f08b8b9766769296517e75a5fcb8a0177f30e23d2e2a83b4bd3eb5855616d055",
+      "new_count": 0
+    },
+    {
+      "name": "Centraal Planbureau (CPB)",
+      "sector": "Overheid",
+      "source_url": "https://www.cpb.nl/werken-bij",
+      "checked_at": "2026-09-08T08:23:33.739472Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "2ac6a1a10c89337b341c2ae086d39aacd712d1f2bdf46304966a2085576f90b5",
+      "new_count": 0
+    },
+    {
+      "name": "Schiphol Group",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijschiphol.nl/",
+      "checked_at": "2026-09-08T08:23:38.045798Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "fde1fc8318789309f37305a7563ac9582ec5182e47928bdb80b9fe328fb64a36",
+      "new_count": 0
+    },
+    {
+      "name": "ProRail",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijprorail.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:39.356742Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "00d01e5448a0a4e5631fce61bd930e91af0d1a842a0a62c2e3b2b5f89190531d",
+      "new_count": 0
+    },
+    {
+      "name": "NS Stations",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijns.nl/vacatures",
+      "checked_at": "2026-09-08T08:23:43.735944Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a0e571a6aa0b278c13100c2b2b3f50b607adee0917aeabe50107ca549de92397",
+      "new_count": 0
+    },
+    {
+      "name": "SADC",
+      "sector": "Infra",
+      "source_url": "https://sadc.nl/over-ons/vacatures/",
+      "checked_at": "2026-09-08T08:23:45.332669Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Directeur Financiën & Bedrijfsvoering (CFO) bij SADC\nFull Time\nBekijk vacature",
+          "url": "https://www.sadc.nl/vacatures/directeur-financien-bedrijfsvoering-cfo-bij-sadc/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "c6ce1acdde488fe3d6228bc6aceeff326be0f9d1b3035f51e7b0633947e53f45",
+      "new_count": 0
+    },
+    {
+      "name": "BPD",
+      "sector": "Vastgoed",
+      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
+      "checked_at": "2026-09-08T08:23:46.538565Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d6af34072b782e3fbd7c6af9c9741b1c450b46d9c35c09597583ebe95b616e04",
       "new_count": 0
     }
   ]
