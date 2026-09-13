@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:34:38.031436Z",
+  "generated_at": "2026-09-13T08:34:56.391633Z",
   "partial_run": true,
   "organizations": [
     {
@@ -329,6 +329,173 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "89b5aa47a903fd67cab21d779953c5dcc877c09bf6e2d9d29cdddb3625adb296",
+      "new_count": 0
+    },
+    {
+      "name": "ExxonMobil Rotterdam",
+      "sector": "Energie",
+      "source_url": "https://jobs.exxonmobil.com/",
+      "checked_at": "2026-09-13T08:34:36.932027Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "db22eff9afacdaad717afe6e9a0ea49c1245d69df538380aff52165197a3e98c",
+      "new_count": 0
+    },
+    {
+      "name": "Energie Beheer Nederland (EBN)",
+      "sector": "Energie",
+      "source_url": "https://www.ebn.nl/werken-bij-ebn/",
+      "checked_at": "2026-09-13T08:34:37.040005Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "bd6c5d3cad4856c187b1c22acbda2fb882f0a5270883c3697fd8ab223298442c",
+      "new_count": 0
+    },
+    {
+      "name": "Invest-NL",
+      "sector": "Energie",
+      "source_url": "https://www.invest-nl.nl/werken-bij",
+      "checked_at": "2026-09-13T08:34:37.185704Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c8f5f8cbb6845773837b0a415392c0795d591dcac6a956f8eab3417aa410f590",
+      "new_count": 0
+    },
+    {
+      "name": "Orsted Nederland",
+      "sector": "Energie",
+      "source_url": "https://orsted.nl/over-ons/carriere",
+      "checked_at": "2026-09-13T08:34:38.030205Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "url": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "is_new": false
+        }
+      ],
+      "page_hash": "5635ade73136afd9f131ae0ccb08147675ce1d7f55aa92ed8284f454cfbfce57",
+      "new_count": 0
+    },
+    {
+      "name": "TotalEnergies",
+      "sector": "Energie",
+      "source_url": "https://services.totalenergies.nl/over-ons/werken-bij",
+      "checked_at": "2026-09-13T08:34:42.768448Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d4863bc9facfa056618306686a1093b26fc41c748e922a564be0ff21e7963eb1",
+      "new_count": 0
+    },
+    {
+      "name": "Neptune Energy",
+      "sector": "Energie",
+      "source_url": "https://www.neptuneenergy.com/careers",
+      "checked_at": "2026-09-13T08:34:44.307846Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "GasTerra",
+      "sector": "Energie",
+      "source_url": "https://www.gasterra.nl/over-ons/werken-bij-gasterra",
+      "checked_at": "2026-09-13T08:34:44.443698Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "217e498355543bc3f5e40d1aad514850ba83e07298c1b69a16678ae2b71deb1b",
+      "new_count": 0
+    },
+    {
+      "name": "HVC",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijhvc.nl/",
+      "checked_at": "2026-09-13T08:34:44.641025Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "37045b03f7a94f74caa66c0c23ff4c939ef730d09b59509c6722d03f0454c9c1",
+      "new_count": 0
+    },
+    {
+      "name": "Nobian",
+      "sector": "Energie",
+      "source_url": "https://www.nobian.com/careers",
+      "checked_at": "2026-09-13T08:34:45.002403Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a3cce20282b596bfbe5554f86b6fb5ff98f914cedc1d1ecd86d524584513089f",
+      "new_count": 0
+    },
+    {
+      "name": "Nouryon",
+      "sector": "Energie",
+      "source_url": "https://www.nouryon.com/careers/",
+      "checked_at": "2026-09-13T08:34:47.371811Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Engage and partner",
+          "url": "https://www.nouryon.com/sustainability/engage/",
+          "is_new": false
+        },
+        {
+          "title": "Board of Directors",
+          "url": "https://www.nouryon.com/company/organization/board-of-directors/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "d009d288c686c4b6af4767289d6be39fe907f973f3eef2370b7aac2632be99a1",
+      "new_count": 0
+    },
+    {
+      "name": "Air Liquide",
+      "sector": "Energie",
+      "source_url": "https://www.airliquide.com/careers",
+      "checked_at": "2026-09-13T08:34:49.012769Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "30b644172a9c92c7abda1a303256b4e06208bb10d14847de2981bfe4bf81248d",
+      "new_count": 0
+    },
+    {
+      "name": "Air Products",
+      "sector": "Energie",
+      "source_url": "https://www.airproducts.com/careers",
+      "checked_at": "2026-09-13T08:34:49.702971Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "8f3cbbdcf6a1d95d6edd2574875930ffb4f2013cda102f07c09c50026dd22911",
+      "new_count": 0
+    },
+    {
+      "name": "LyondellBasell",
+      "sector": "Energie",
+      "source_url": "https://www.lyondellbasell.com/en/careers/",
+      "checked_at": "2026-09-13T08:34:50.315166Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1198d757f968bfb05e9312fce892065994f7f355a45cdbcb0171aee2708ab8c8",
+      "new_count": 0
+    },
+    {
+      "name": "OCI Global",
+      "sector": "Energie",
+      "source_url": "https://www.oci-global.com/careers/",
+      "checked_at": "2026-09-13T08:34:51.053844Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1ba41efa552b51b91ec0d3631661e91ae07ee70b0f1dfe72554a89bcd4ff37ad",
+      "new_count": 0
+    },
+    {
+      "name": "Gunvor",
+      "sector": "Energie",
+      "source_url": "https://gunvorgroup.com/careers/",
+      "checked_at": "2026-09-13T08:34:51.769332Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d1bb568e8185c5278a6339f9a1387719e7fb5539d849688be22fcb998d14603f",
       "new_count": 0
     }
   ]
