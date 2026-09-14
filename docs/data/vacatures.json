@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:18:51.264593Z",
+  "generated_at": "2026-09-14T09:19:17.712687Z",
   "partial_run": true,
   "organizations": [
     {
@@ -894,6 +894,180 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "192565e64658a93a88c31ceed07906adef02c89dcb7cdc5812be526487404f71",
+      "new_count": 0
+    },
+    {
+      "name": "SADC",
+      "sector": "Infra",
+      "source_url": "https://sadc.nl/over-ons/vacatures/",
+      "checked_at": "2026-09-14T09:18:46.122123Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Directeur Financiën & Bedrijfsvoering (CFO) bij SADC\nFull Time\nBekijk vacature",
+          "url": "https://www.sadc.nl/vacatures/directeur-financien-bedrijfsvoering-cfo-bij-sadc/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "73e1575f873d8c787a009b28227772e8dd499594d4dfeef34612bb14fb11cfc2",
+      "new_count": 0
+    },
+    {
+      "name": "BPD",
+      "sector": "Vastgoed",
+      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
+      "checked_at": "2026-09-14T09:18:48.708328Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0cc15b1561783faa58684f33e964aa0101eb66b0d8bc595c9a7a220d1a1ceb4b",
+      "new_count": 0
+    },
+    {
+      "name": "AM",
+      "sector": "Vastgoed",
+      "source_url": "https://www.am.nl/over-am/werken-bij-am/",
+      "checked_at": "2026-09-14T09:18:49.503553Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6cd90a9a3176f96c275245ac2413db051c2024b56cceda799c8b639db325815a",
+      "new_count": 0
+    },
+    {
+      "name": "Blauwhoed",
+      "sector": "Vastgoed",
+      "source_url": "https://blauwhoed.nl/over-ons/werken-bij-blauwhoed",
+      "checked_at": "2026-09-14T09:18:51.262703Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "cf296409f997d86b2181c94f950cb6ef35d2427ea01ebd4fc6f8bc754cbee333",
+      "new_count": 0
+    },
+    {
+      "name": "Heijmans",
+      "sector": "Bouw",
+      "source_url": "https://www.werkenbijheijmans.nl/vacatures",
+      "checked_at": "2026-09-14T09:18:54.398085Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "HR Businesspartner\nRosmalen\nStaf\nInfra\n32 - 40 uur\nBekijk vacature",
+          "url": "https://www.werkenbijheijmans.nl/vacatures/hr-businesspartner-rosmalen-v-015103",
+          "is_new": true
+        }
+      ],
+      "page_hash": "173531919e4ac9677767a45185b87236c6e4142b5ceb933d4aeac3ea598f92f3",
+      "new_count": 1
+    },
+    {
+      "name": "BAM Nederland",
+      "sector": "Bouw",
+      "source_url": "https://www.bam.com/nl/werken-bij-bam",
+      "checked_at": "2026-09-14T09:18:55.252150Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Raad van bestuur",
+          "url": "https://www.bam.com/nl/over-bam/bestuur/raad-van-bestuur",
+          "is_new": false
+        }
+      ],
+      "page_hash": "b67ff3d752f622d389e9dc9cf1d833037fc9635100c7f3f77325bc34a5d5379b",
+      "new_count": 0
+    },
+    {
+      "name": "VolkerWessels",
+      "sector": "Bouw",
+      "source_url": "https://www.volkerwessels.com/nl/werken-bij",
+      "checked_at": "2026-09-14T09:18:56.885135Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ac80f9635fe958ae7c644d166818e70e7b32e08c239b3842cffeb4576bb10a13",
+      "new_count": 0
+    },
+    {
+      "name": "Dura Vermeer",
+      "sector": "Bouw",
+      "source_url": "https://www.duravermeer.nl/werken-bij",
+      "checked_at": "2026-09-14T09:18:57.575250Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d7588d97f6cc4f89e1625e6d94cc923f2bebfe24c3bb108dc4b96bbd60e6aaef",
+      "new_count": 0
+    },
+    {
+      "name": "Ballast Nedam",
+      "sector": "Bouw",
+      "source_url": "https://www.ballast-nedam.nl/werken-bij",
+      "checked_at": "2026-09-14T09:18:57.657647Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Arcadis",
+      "sector": "Advies",
+      "source_url": "https://www.arcadis.com/nl-nl/carriere",
+      "checked_at": "2026-09-14T09:18:59.887567Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c849564c9416a9800ebbff2e4d239325b8e93145ca2f528a079b35985690f5b2",
+      "new_count": 0
+    },
+    {
+      "name": "Royal HaskoningDHV",
+      "sector": "Advies",
+      "source_url": "https://www.royalhaskoningdhv.com/careers",
+      "checked_at": "2026-09-14T09:19:02.633659Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Maritime Civil Engineer\nNewcastle upon Tyne\n\nMaritime",
+          "url": "https://www.haskoning.com/en/careers/vacancies/principal-maritime-civil-engineer-1070",
+          "is_new": false
+        }
+      ],
+      "page_hash": "eddc62b0e7535c98bc9415559add60f292bc5a970c945291fce562c00a412ec4",
+      "new_count": 0
+    },
+    {
+      "name": "Sweco Nederland",
+      "sector": "Advies",
+      "source_url": "https://www.sweco.nl/werken-bij/",
+      "checked_at": "2026-09-14T09:19:03.898043Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "50cfecf8ab8a3e60ef7cb835979500f588b0023bdc67260e1dd12494cf760887",
+      "new_count": 0
+    },
+    {
+      "name": "Witteveen+Bos",
+      "sector": "Advies",
+      "source_url": "https://www.witteveenbos.com/nl/werken-bij/",
+      "checked_at": "2026-09-14T09:19:04.548997Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7be852fb12cca385594d000533fbffcf9e1d10e7d0d5a1265216d24e97815f34",
+      "new_count": 0
+    },
+    {
+      "name": "Tauw",
+      "sector": "Advies",
+      "source_url": "https://www.tauw.com/nl/werken-bij-tauw/",
+      "checked_at": "2026-09-14T09:19:10.099482Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c1a5c52310fbd6b0b8449ea99f64ccf10edbe54d4bb919249bdf7efde5de0a92",
+      "new_count": 0
+    },
+    {
+      "name": "Antea Group",
+      "sector": "Advies",
+      "source_url": "https://www.anteagroup.nl/nl/werken-bij",
+      "checked_at": "2026-09-14T09:19:11.212063Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d89a29bad98d493447ef76d7b0c9f984394a2e0daab7742393b774daa5094518",
       "new_count": 0
     }
   ]
