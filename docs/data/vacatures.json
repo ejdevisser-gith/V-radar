@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:13:17.912118Z",
+  "generated_at": "2026-09-28T10:13:33.131064Z",
   "partial_run": true,
   "organizations": [
     {
@@ -484,6 +484,16 @@
       "new_count": 0
     },
     {
+      "name": "Neste",
+      "sector": "Energie",
+      "source_url": "https://www.neste.com/about-neste/careers",
+      "checked_at": "2026-09-28T10:13:12.743006Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "bbcea20718508d7b78357272db3cfa399013b8b16e0d03b0ee9f79c42e259589",
+      "new_count": 0
+    },
+    {
       "name": "Gunvor",
       "sector": "Energie",
       "source_url": "https://gunvorgroup.com/careers/",
@@ -491,6 +501,169 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "a669901cfd0d42e69decfe907a5a33a9b2b4753a2e30278cdd3ce1935460201c",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-09-28T10:13:15.306576Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "fa973f81e148a9532b7aeca60d59d78142554b88deb7a15929c60b97dbb36ec5",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-09-28T10:13:16.279515Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Trafigura appoints Hervé Otschudi as Executive Director, Democratic Republic of Congo",
+          "url": "https://www.trafigura.com/news-and-insights/press-releases/2026/trafigura-appoints-herve-otschudi-as-executive-director-democratic-republic-of-congo/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "625008ef00063de62c36dd2197e077e88c9331f15618e16f6f955046d472ede4",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-09-28T10:13:17.910744Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b241a56ffd3b3d183bb69f70f4e47d65649b4fe2efbef9c1935bbafce096ead4",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-09-28T10:13:19.483513Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "fd9dc368a5c455a6ea20683efc8b0052f5b70813df620c4dd40bb2485be4f7ed",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:19.510772Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ba1e0eb7aed85645ac45a9efb77f5ed09700c1b02cbfb076ba9d0dda97c71324",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:22.556662Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-09-28T10:13:22.635621Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "bc1c2be179712358fc25bd8912aa00b582903c6953d63c54a3a5e4a7ae5dcdde",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-09-28T10:13:22.703406Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7d091f8cb6678df18f27f75265f8119bce7e0825531321f190ac2245ca3565de",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-09-28T10:13:23.760378Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1af0a2a6e5d84a92ca7d9000faea22c72164fb67f0294e2a645268f709283ed3",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:24.638655Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5cc18035169e0d794975ce484f81e5e407a86a919037b5243a67fbbcb1160b82",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:27.160034Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3002b5e34724a55ed6d9198dcd2d506e61a6e840d8c8b8436a44825e093c2b6c",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:27.368742Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Utrecht",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijutrecht.nl/vacatures",
+      "checked_at": "2026-09-28T10:13:27.778460Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Senior Teamleider & Businesspartner Gegevensbescherming en Informatiebeheer",
+          "url": "https://www.werkenbijutrecht.nl/vacature/senior-teamleider-businesspartner-gegevensbescherming-en-informatiebeheer-1329132/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "75fb36d8c934ce6ddf5ba6646daebf52889f682eaff9a16b51d3adb20f6cd460",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-09-28T10:13:31.897783Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
