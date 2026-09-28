@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:12:46.339250Z",
+  "generated_at": "2026-09-28T10:13:01.737924Z",
   "partial_run": true,
   "organizations": [
     {
@@ -143,6 +143,26 @@
       "new_count": 0
     },
     {
+      "name": "Wagenborg",
+      "sector": "Maritiem",
+      "source_url": "https://www.wagenborg.com/careers",
+      "checked_at": "2026-09-28T10:12:42.492529Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1666fc2bfe37ca0dd503d949da9216010b1dcb683ceea688367e789389a95f0d",
+      "new_count": 0
+    },
+    {
+      "name": "DFDS Seaways",
+      "sector": "Maritiem",
+      "source_url": "https://www.dfds.com/en/about/jobs",
+      "checked_at": "2026-09-28T10:12:42.545741Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c9b131b171d3870299a1baaa3663a252f3fec9a87c3e2ea7af1e09890d9b1c67",
+      "new_count": 0
+    },
+    {
       "name": "Samskip",
       "sector": "Maritiem",
       "source_url": "https://www.samskip.com/careers/",
@@ -150,6 +170,160 @@
       "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
       "vacancies": [],
       "page_hash": "b5368cc5ef063c60489b951e65d8adc5b0690d930d3ed7eb1b080cf0087ba15f",
+      "new_count": 0
+    },
+    {
+      "name": "C. Steinweg Group",
+      "sector": "Maritiem",
+      "source_url": "https://www.steinweg.com/careers/",
+      "checked_at": "2026-09-28T10:12:43.984581Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a6673e7ba1eaa9384bc3aa04ccd62ac93538915f9c5aba50a1279bf23d4453c2",
+      "new_count": 0
+    },
+    {
+      "name": "Verbrugge Terminals",
+      "sector": "Maritiem",
+      "source_url": "https://www.verbruggeinternational.com/nl/werken-bij",
+      "checked_at": "2026-09-28T10:12:46.338024Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "814972815c2632403d06c1f9c1d9399b55be7977b87aae040cd07ca2414a573c",
+      "new_count": 0
+    },
+    {
+      "name": "Zeehaven IJmuiden",
+      "sector": "Maritiem",
+      "source_url": "https://www.zeehaven.nl/nl/over-ons/vacatures/",
+      "checked_at": "2026-09-28T10:12:47.992236Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Nieuwe directeur zeehaven gooit hoge ogen",
+          "url": "https://zeehaven.nl/nieuwe-directeur-zeehaven-gooit-hoge-ogen/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "8ab86875a4b8cab869db717cd35c5a2ea19a23f39576ce9297265a627ae8cbfd",
+      "new_count": 0
+    },
+    {
+      "name": "Gasunie",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijgasunie.nl/vacatures",
+      "checked_at": "2026-09-28T10:12:47.994484Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "638e1f787ff90784ebfda877c0abb6cd36cc3b7c0c46cd92046f4fa3ccb96a97",
+      "new_count": 0
+    },
+    {
+      "name": "TenneT",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijtennet.nl/vacatures",
+      "checked_at": "2026-09-28T10:12:49.897917Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "cf1bcd37d0d1fa58f13c4396fc78e286fdad09c974896599adc8d9644c2b6a25",
+      "new_count": 0
+    },
+    {
+      "name": "Alliander",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijalliander.com/vacatures",
+      "checked_at": "2026-09-28T10:12:52.159867Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "98996b0be44d8cfb34874e7903c3d2fb0b3020643e095fb445b5e72af666d24b",
+      "new_count": 0
+    },
+    {
+      "name": "Stedin",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijstedin.net/vacatures",
+      "checked_at": "2026-09-28T10:12:54.760187Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "389fc4c844d2da787de0510df7eae76e684d813ba10a820196b53da76bf9ef41",
+      "new_count": 0
+    },
+    {
+      "name": "Eneco",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijeneco.nl/vacatures",
+      "checked_at": "2026-09-28T10:12:55.224867Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CTO Office & Partner Management",
+          "url": "https://www.werkenbijeneco.nl/tech/cto-office-and-partner-management",
+          "is_new": false
+        }
+      ],
+      "page_hash": "c9bc50ced0ef6565c294f0178d89a86b81dca8d0a6b7f62fe153269c2204eaa5",
+      "new_count": 0
+    },
+    {
+      "name": "Vattenfall Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijvattenfall.nl/vacatures",
+      "checked_at": "2026-09-28T10:12:55.903365Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "RWE Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.rwe.com/en/careers-and-jobs/",
+      "checked_at": "2026-09-28T10:12:56.038670Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Contact and service\n\nFind the right contact partner\n\nAll contact partners",
+          "url": "https://www.rwe.com/en/contact-services/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "27aa6bc187bf379944195ade47c860399c5bcd91a5b8da152aa48153cc564e41",
+      "new_count": 0
+    },
+    {
+      "name": "Uniper Benelux",
+      "sector": "Energie",
+      "source_url": "https://www.uniper.energy/nederland/carriere",
+      "checked_at": "2026-09-28T10:12:57.339197Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "8f140deaecbf000cce230ad5cdd2d83bf67aa99dc49429e59c3197814ba1001d",
+      "new_count": 0
+    },
+    {
+      "name": "Shell Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.shell.nl/careers.html",
+      "checked_at": "2026-09-28T10:12:57.998102Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Direct naar de hoofd inhoud",
+          "url": "https://www.shell.nl/over-ons/carrieres.html#main",
+          "is_new": false
+        }
+      ],
+      "page_hash": "9c329768a45a9500f16ae19cb53246554eca198e96a657b9f39c4e2d69fc6bc5",
+      "new_count": 0
+    },
+    {
+      "name": "BP Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.bp.com/nl_nl/netherlands/home/werken-bij-bp.html",
+      "checked_at": "2026-09-28T10:12:59.171117Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "01788dc82b171f07ab941f3b3f1c733da0c16f93960ad1e8c427fb2900e2b0c6",
       "new_count": 0
     }
   ]
