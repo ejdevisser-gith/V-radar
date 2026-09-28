@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-27T09:35:46.621985Z",
-  "partial_run": false,
+  "generated_at": "2026-09-28T10:12:46.339250Z",
+  "partial_run": true,
   "organizations": [
     {
       "name": "Havenbedrijf Rotterdam",
       "sector": "Havens",
       "source_url": "https://werkenbij.portofrotterdam.com/",
-      "checked_at": "2026-09-27T09:33:29.791227Z",
+      "checked_at": "2026-09-28T10:12:27.827041Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "b7470af277d27910a8ca9073edf71b2a0aa06b40226348926351c432fa5916b7",
+      "page_hash": "596e738eb6484f25b865194d09321128acff43a39296eadf4a4997da3b337d9c",
       "new_count": 0
     },
     {
       "name": "Havenbedrijf Amsterdam",
       "sector": "Havens",
       "source_url": "https://www.portofamsterdam.com/nl/over-de-haven/werken-bij",
-      "checked_at": "2026-09-27T09:33:29.796233Z",
+      "checked_at": "2026-09-28T10:12:27.829007Z",
       "status": "ok",
       "vacancies": [],
       "page_hash": "6767da6bb72a5cf69fe965706dca4bfe5513c67498723523d30bd9f830c071aa",
@@ -26,17 +26,17 @@
       "name": "North Sea Port",
       "sector": "Havens",
       "source_url": "https://www.northseaport.com/vacatures",
-      "checked_at": "2026-09-27T09:33:29.803207Z",
+      "checked_at": "2026-09-28T10:12:27.834116Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "ea6d5cab32f14d55a46dd3d3899b68d72629cd41bdff60e8520e50c32b5840f4",
+      "page_hash": "9d1ddf12901e780159d8cce8508d24dae46d8a0f13779c306bd1a5ee35567962",
       "new_count": 0
     },
     {
       "name": "Havenbedrijf Moerdijk",
       "sector": "Havens",
       "source_url": "https://www.portofmoerdijk.nl/nieuws/vacatures",
-      "checked_at": "2026-09-27T09:33:29.807503Z",
+      "checked_at": "2026-09-28T10:12:27.835489Z",
       "status": "ok",
       "vacancies": [],
       "page_hash": "71090ef1b82cbb5a2390cbafa8d7ea0a67467be1da33c1efb96781a970b74d9a",
@@ -46,1361 +46,110 @@
       "name": "Vopak",
       "sector": "Havens",
       "source_url": "https://www.vopak.com/careers",
-      "checked_at": "2026-09-27T09:33:32.168398Z",
+      "checked_at": "2026-09-28T10:12:30.598896Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "53661f2b12dff7ca1e2b7fc19521667201aa07c5f6a8d28d0469c7496cb4edf6",
+      "page_hash": "7dbb6a866da4e728418b4e6f9aa9c191f110108c3c3f2ad265fa410f8c9f8d3a",
       "new_count": 0
     },
     {
       "name": "HES International",
       "sector": "Havens",
       "source_url": "https://werkenbijhes.eu/nl/home",
-      "checked_at": "2026-09-27T09:33:34.159231Z",
+      "checked_at": "2026-09-28T10:12:31.690199Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "e5115c0a3fc2f2c74e13d76d38864e8c3b7cb8e0ae7d5c56c46298e9bd387e54",
+      "page_hash": "a3c8a99651163875f8ccb03c1c2e813e5161945d57c55bfce63d0e5f56665db5",
       "new_count": 0
     },
     {
       "name": "ECT (Hutchison Ports)",
       "sector": "Havens",
       "source_url": "https://www.ect.nl/nl/vacatures",
-      "checked_at": "2026-09-27T09:33:34.263090Z",
+      "checked_at": "2026-09-28T10:12:32.054765Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "d405031f768ebdaea3c46ff520ba9f5b52034611d3c012522d9494c30b43081c",
+      "page_hash": "6f060363765a2c87305ebb42e2c3ee60885eb3a20ed700f78f9646b057a696b5",
       "new_count": 0
     },
     {
       "name": "Advario",
       "sector": "Havens",
       "source_url": "https://advario.com/careers",
-      "checked_at": "2026-09-27T09:33:34.310426Z",
+      "checked_at": "2026-09-28T10:12:32.521519Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "2a61b994d9e5371449027a568e1ed7ea0c4dad9fc1aec600718b80d4b6339812",
+      "page_hash": "42c5ba241fcf5a61491e77461451d020de2d32cb400b2f912582a4e8e64e6f11",
       "new_count": 0
     },
     {
       "name": "Port of Den Helder",
       "sector": "Havens",
       "source_url": "https://www.portofdenhelder.eu/nl/vacatures",
-      "checked_at": "2026-09-27T09:33:34.899608Z",
+      "checked_at": "2026-09-28T10:12:33.551924Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "eed6be5023703e9b0c469ead2c35403a5a2675f3d760667b188f96e3b165f73c",
+      "page_hash": "bae3d89fc6cd2e52aedaa904554d7caa07b730d2eaad87a2a7cfb385e8f2aaf0",
       "new_count": 0
     },
     {
       "name": "Boskalis",
       "sector": "Maritiem",
       "source_url": "https://careers.boskalis.com/",
-      "checked_at": "2026-09-27T09:33:37.253897Z",
+      "checked_at": "2026-09-28T10:12:35.316598Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "c4547f19d64c4e44940ba622296ee53c5f2f00169f562028e9a24b4a233f1f91",
+      "page_hash": "f28d0886af66a0fffdf158ddfe87938093d2aa4e25aebddd71c3fade789903ef",
       "new_count": 0
     },
     {
       "name": "Van Oord",
       "sector": "Maritiem",
       "source_url": "https://www.vanoord.com/careers",
-      "checked_at": "2026-09-27T09:33:38.120750Z",
+      "checked_at": "2026-09-28T10:12:35.888876Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "1d9e07896fc6689994bdb5fe1a54504b79b38b441c5219c3fa842c732683f6fa",
+      "page_hash": "2d1af6b7a997988ccf8c7bb48250ba9341af2089e7b359d5d28c9ec3925a9809",
       "new_count": 0
     },
     {
       "name": "Damen Shipyards",
       "sector": "Maritiem",
       "source_url": "https://career.damen.com/",
-      "checked_at": "2026-09-27T09:33:38.248913Z",
+      "checked_at": "2026-09-28T10:12:36.791572Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "0939038bd3ce86cd5f8631cb9917531a131c7f3afef25fbe97857c9866f663bf",
+      "page_hash": "88d0e16d9181b8fc94f31b7d5c9ae41e9d65bd95913dcb9b5344d2c731c73492",
       "new_count": 0
     },
     {
       "name": "Kotug International",
       "sector": "Maritiem",
       "source_url": "https://www.kotug.com/careers/",
-      "checked_at": "2026-09-27T09:33:39.499386Z",
+      "checked_at": "2026-09-28T10:12:38.403238Z",
       "status": "ok",
       "vacancies": [],
-      "page_hash": "314afdb5b1987bf3496d5d8fed66d3e65bd77b43598ea7fd85e8afd2fa1131ca",
+      "page_hash": "809325eb06bf3e2a455bd3c32b36248655c71980cb9fa0fa30ea20b69a999f55",
       "new_count": 0
     },
     {
       "name": "Spliethoff Group",
       "sector": "Maritiem",
       "source_url": "https://www.spliethoff.com/careers",
-      "checked_at": "2026-09-27T09:33:42.395567Z",
+      "checked_at": "2026-09-28T10:12:40.788868Z",
       "status": "ok",
       "vacancies": [],
       "page_hash": "17b05c3a185bf437c9582b22739391f74418cf68431d6396589a40c0ffe70eb4",
       "new_count": 0
     },
     {
-      "name": "Wagenborg",
-      "sector": "Maritiem",
-      "source_url": "https://www.wagenborg.com/careers",
-      "checked_at": "2026-09-27T09:33:43.682374Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "b7bb5cc2aae9594f24d82fc925f676b83a1fb006dc92893f60677a6ecdd4a6cf",
-      "new_count": 0
-    },
-    {
-      "name": "DFDS Seaways",
-      "sector": "Maritiem",
-      "source_url": "https://www.dfds.com/en/about/jobs",
-      "checked_at": "2026-09-27T09:33:44.131432Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "414614f152380616723e3625c2cf20c9c5711753ddde2e4b38a75bfeecdeca68",
-      "new_count": 0
-    },
-    {
       "name": "Samskip",
       "sector": "Maritiem",
       "source_url": "https://www.samskip.com/careers/",
-      "checked_at": "2026-09-27T09:33:45.389613Z",
+      "checked_at": "2026-09-28T10:12:42.560036Z",
       "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
       "vacancies": [],
       "page_hash": "b5368cc5ef063c60489b951e65d8adc5b0690d930d3ed7eb1b080cf0087ba15f",
-      "new_count": 0
-    },
-    {
-      "name": "C. Steinweg Group",
-      "sector": "Maritiem",
-      "source_url": "https://www.steinweg.com/careers/",
-      "checked_at": "2026-09-27T09:33:45.805467Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "dc17dd53e4f2a673044ab2be2599cdbdac17008b006f7dde22832cc6b730851c",
-      "new_count": 0
-    },
-    {
-      "name": "Verbrugge Terminals",
-      "sector": "Maritiem",
-      "source_url": "https://www.verbruggeinternational.com/nl/werken-bij",
-      "checked_at": "2026-09-27T09:33:48.238355Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "bacee0fa23cef394c5faa8e39de1a9d1f2f17f053470367a49a8047efc2f4143",
-      "new_count": 0
-    },
-    {
-      "name": "Zeehaven IJmuiden",
-      "sector": "Maritiem",
-      "source_url": "https://www.zeehaven.nl/nl/over-ons/vacatures/",
-      "checked_at": "2026-09-27T09:33:49.557839Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Nieuwe directeur zeehaven gooit hoge ogen",
-          "url": "https://zeehaven.nl/nieuwe-directeur-zeehaven-gooit-hoge-ogen/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "ebc02d53c712fc6f8a28279df47dd1a73f8c37bf40b839b96b53eb9ef7b336fa",
-      "new_count": 0
-    },
-    {
-      "name": "Gasunie",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijgasunie.nl/vacatures",
-      "checked_at": "2026-09-27T09:33:49.612597Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "337d7319fb65d99d774b055b7bb346d49e48fd1a5d530430c7a1a8e3246e091a",
-      "new_count": 0
-    },
-    {
-      "name": "TenneT",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijtennet.nl/vacatures",
-      "checked_at": "2026-09-27T09:33:50.823380Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "46c2120be0dce31663d7e23cb5f051494d5fcfbf7c4290dd59f94f7888e8ec69",
-      "new_count": 0
-    },
-    {
-      "name": "Alliander",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijalliander.com/vacatures",
-      "checked_at": "2026-09-27T09:33:53.276623Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "81cbe7eec75f0cc20b945595c6818076f19d4cba13afc6c0da60d7836f30043f",
-      "new_count": 0
-    },
-    {
-      "name": "Stedin",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijstedin.net/vacatures",
-      "checked_at": "2026-09-27T09:33:56.259891Z",
-      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
-      "vacancies": [],
-      "page_hash": "389fc4c844d2da787de0510df7eae76e684d813ba10a820196b53da76bf9ef41",
-      "new_count": 0
-    },
-    {
-      "name": "Eneco",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijeneco.nl/vacatures",
-      "checked_at": "2026-09-27T09:33:56.675131Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "CTO Office & Partner Management",
-          "url": "https://www.werkenbijeneco.nl/tech/cto-office-and-partner-management",
-          "is_new": false
-        }
-      ],
-      "page_hash": "83c14fd83a7a5e241e09b635fd1e1ace71cb4ffe4d01ac2721122bc98c871eb4",
-      "new_count": 0
-    },
-    {
-      "name": "Vattenfall Nederland",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijvattenfall.nl/vacatures",
-      "checked_at": "2026-09-27T09:33:56.813177Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "RWE Nederland",
-      "sector": "Energie",
-      "source_url": "https://www.rwe.com/en/careers-and-jobs/",
-      "checked_at": "2026-09-27T09:33:56.956995Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Contact and service\n\nFind the right contact partner\n\nAll contact partners",
-          "url": "https://www.rwe.com/en/contact-services/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "13ccbbd6aa22707aade348ad8714ef691a68e4060f6aaf411f330e1868afdae0",
-      "new_count": 0
-    },
-    {
-      "name": "Uniper Benelux",
-      "sector": "Energie",
-      "source_url": "https://www.uniper.energy/nederland/carriere",
-      "checked_at": "2026-09-27T09:33:58.368263Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "18d63a6e76bdb69e49006a4f1b0c05ddaee45ad2fa2b09f40ed79ef2aec7fc02",
-      "new_count": 0
-    },
-    {
-      "name": "Shell Nederland",
-      "sector": "Energie",
-      "source_url": "https://www.shell.nl/careers.html",
-      "checked_at": "2026-09-27T09:33:58.571668Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Direct naar de hoofd inhoud",
-          "url": "https://www.shell.nl/over-ons/carrieres.html#main",
-          "is_new": false
-        }
-      ],
-      "page_hash": "cc072e5ab3d54ca4b681baa2de8c0b53e8fcd2d48f247a58311d032f6ed71e86",
-      "new_count": 0
-    },
-    {
-      "name": "BP Nederland",
-      "sector": "Energie",
-      "source_url": "https://www.bp.com/nl_nl/netherlands/home/werken-bij-bp.html",
-      "checked_at": "2026-09-27T09:34:00.145499Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "01788dc82b171f07ab941f3b3f1c733da0c16f93960ad1e8c427fb2900e2b0c6",
-      "new_count": 0
-    },
-    {
-      "name": "ExxonMobil Rotterdam",
-      "sector": "Energie",
-      "source_url": "https://jobs.exxonmobil.com/",
-      "checked_at": "2026-09-27T09:34:01.146311Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "39edf7621350352291f98ea21d1005a14aeb29f01c7cc6c219bb539f01b095c4",
-      "new_count": 0
-    },
-    {
-      "name": "Energie Beheer Nederland (EBN)",
-      "sector": "Energie",
-      "source_url": "https://www.ebn.nl/werken-bij-ebn/",
-      "checked_at": "2026-09-27T09:34:01.297465Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "dde17d9b626a6eca695268c0d57654822168504452ec5ba5eceee9e7e7b4a832",
-      "new_count": 0
-    },
-    {
-      "name": "Invest-NL",
-      "sector": "Energie",
-      "source_url": "https://www.invest-nl.nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:01.307124Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "67842880f5f4e1d38111ea2d3779378b00ca992be805d1ed837228d8351c3d79",
-      "new_count": 0
-    },
-    {
-      "name": "Orsted Nederland",
-      "sector": "Energie",
-      "source_url": "https://orsted.nl/over-ons/carriere",
-      "checked_at": "2026-09-27T09:34:02.466758Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "https://policies.google.com/technologies/partner-sites?hl=en",
-          "url": "https://policies.google.com/technologies/partner-sites?hl=en",
-          "is_new": false
-        }
-      ],
-      "page_hash": "1c2939d69088f5ff20cb1e307aa1eafd0090e77fb439a88370348786175ce4c3",
-      "new_count": 0
-    },
-    {
-      "name": "TotalEnergies",
-      "sector": "Energie",
-      "source_url": "https://services.totalenergies.nl/over-ons/werken-bij",
-      "checked_at": "2026-09-27T09:34:03.718158Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "398d01aa5c51b3806809f111817d028a670e227e7f4fa45ee0a177b87727ef27",
-      "new_count": 0
-    },
-    {
-      "name": "Neptune Energy",
-      "sector": "Energie",
-      "source_url": "https://www.neptuneenergy.com/careers",
-      "checked_at": "2026-09-27T09:34:04.936525Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "GasTerra",
-      "sector": "Energie",
-      "source_url": "https://www.gasterra.nl/over-ons/werken-bij-gasterra",
-      "checked_at": "2026-09-27T09:34:05.178844Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "6e7ab7a0bbdbb99f914e4e979428bfc881b7c4b1c08d344800a2efdb236b1842",
-      "new_count": 0
-    },
-    {
-      "name": "HVC",
-      "sector": "Energie",
-      "source_url": "https://www.werkenbijhvc.nl/",
-      "checked_at": "2026-09-27T09:34:06.535060Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "9e63f026e1a58fae84b5ae94d4c7678102df9c3c83b211891e15f12928fda895",
-      "new_count": 0
-    },
-    {
-      "name": "Nobian",
-      "sector": "Energie",
-      "source_url": "https://www.nobian.com/careers",
-      "checked_at": "2026-09-27T09:34:06.650481Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "28c3b6ff55918215d1c498efab440b2b8ef832478181f45cc9218d0a1f6fca83",
-      "new_count": 0
-    },
-    {
-      "name": "Nouryon",
-      "sector": "Energie",
-      "source_url": "https://www.nouryon.com/careers/",
-      "checked_at": "2026-09-27T09:34:07.248868Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Engage and partner",
-          "url": "https://www.nouryon.com/sustainability/engage/",
-          "is_new": false
-        },
-        {
-          "title": "Board of Directors",
-          "url": "https://www.nouryon.com/company/organization/board-of-directors/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "0397fa250101186e0cd0a03184d642530a3cf795f78c8394cf06f6ba5866e61e",
-      "new_count": 0
-    },
-    {
-      "name": "Air Liquide",
-      "sector": "Energie",
-      "source_url": "https://www.airliquide.com/careers",
-      "checked_at": "2026-09-27T09:34:09.397516Z",
-      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
-      "vacancies": [],
-      "page_hash": "18e42d83917644aeaa5a9064d684d53638cb80035d0d8e24596350b29215f626",
-      "new_count": 0
-    },
-    {
-      "name": "Air Products",
-      "sector": "Energie",
-      "source_url": "https://www.airproducts.com/careers",
-      "checked_at": "2026-09-27T09:34:10.725990Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "0f77977b19814a9af4ee8b6be7e5d7668e00dec6bd460f1694846914b36091c5",
-      "new_count": 0
-    },
-    {
-      "name": "LyondellBasell",
-      "sector": "Energie",
-      "source_url": "https://www.lyondellbasell.com/en/careers/",
-      "checked_at": "2026-09-27T09:34:11.106737Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "fe0b2bf090626b0381913b31433879da9415faf6b036b0289bfb021cc66bd5e1",
-      "new_count": 0
-    },
-    {
-      "name": "OCI Global",
-      "sector": "Energie",
-      "source_url": "https://www.oci-global.com/careers/",
-      "checked_at": "2026-09-27T09:34:11.342385Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "dccfe5fc5ba2ff0cb8889c11764e4a47859310404fd6c4a55e1f6b63d3b515b4",
-      "new_count": 0
-    },
-    {
-      "name": "Neste",
-      "sector": "Energie",
-      "source_url": "https://www.neste.com/about-neste/careers",
-      "checked_at": "2026-09-27T09:34:11.461831Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "d211b2bdc89a80d532f1a63d71377374443e66c35c611f3d06d4758f7a3ce14e",
-      "new_count": 0
-    },
-    {
-      "name": "Gunvor",
-      "sector": "Energie",
-      "source_url": "https://gunvorgroup.com/careers/",
-      "checked_at": "2026-09-27T09:34:13.204388Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "42ad630c97987a7c909381fe3fac5c0ada95c745481bdca3d7b28afc74c0358f",
-      "new_count": 0
-    },
-    {
-      "name": "Vitol",
-      "sector": "Energie",
-      "source_url": "https://www.vitol.com/careers/",
-      "checked_at": "2026-09-27T09:34:15.276369Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "fa973f81e148a9532b7aeca60d59d78142554b88deb7a15929c60b97dbb36ec5",
-      "new_count": 0
-    },
-    {
-      "name": "Trafigura",
-      "sector": "Energie",
-      "source_url": "https://www.trafigura.com/careers/",
-      "checked_at": "2026-09-27T09:34:15.496883Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Trafigura appoints Hervé Otschudi as Executive Director, Democratic Republic of Congo",
-          "url": "https://www.trafigura.com/news-and-insights/press-releases/2026/trafigura-appoints-herve-otschudi-as-executive-director-democratic-republic-of-congo/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "625008ef00063de62c36dd2197e077e88c9331f15618e16f6f955046d472ede4",
-      "new_count": 0
-    },
-    {
-      "name": "Provincie Noord-Holland",
-      "sector": "Overheid",
-      "source_url": "https://www.noord-holland.nl/Werken_bij",
-      "checked_at": "2026-09-27T09:34:17.050842Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "b241a56ffd3b3d183bb69f70f4e47d65649b4fe2efbef9c1935bbafce096ead4",
-      "new_count": 0
-    },
-    {
-      "name": "Provincie Zuid-Holland",
-      "sector": "Overheid",
-      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
-      "checked_at": "2026-09-27T09:34:18.211508Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Provinciaal archief",
-          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
-          "is_new": false
-        },
-        {
-          "title": "Archief website\n(opent in nieuw venster)",
-          "url": "https://zuidholland.archiefweb.eu/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "1f7c42d519edbf77e493a937b83915e7462dc9763519e9fa26834a630f61ec86",
-      "new_count": 0
-    },
-    {
-      "name": "Rijkswaterstaat",
-      "sector": "Overheid",
-      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:18.324437Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "7df107d988cf4206e04da10a254f9688f7d25a1138014d3c434a6d72222a5266",
-      "new_count": 0
-    },
-    {
-      "name": "Rijksvastgoedbedrijf",
-      "sector": "Overheid",
-      "source_url": "https://www.biedt-ruimte.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:20.489265Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "InnovationQuarter (ROM)",
-      "sector": "Overheid",
-      "source_url": "https://www.innovationquarter.nl/werken-bij/",
-      "checked_at": "2026-09-27T09:34:20.584344Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "938ab4be15f3914b73f7a4653c1c4a024fd24ea1383a9cb5a2894ae824895d71",
-      "new_count": 0
-    },
-    {
-      "name": "ROM InWest",
-      "sector": "Overheid",
-      "source_url": "https://rominwest.nl/over-ons/vacatures/",
-      "checked_at": "2026-09-27T09:34:21.007623Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "2cedde71c814fcf2d184ab823c8ee6f7108d47f18fba25b1aecc9b214525b709",
-      "new_count": 0
-    },
-    {
-      "name": "ROM Utrecht Region",
-      "sector": "Overheid",
-      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
-      "checked_at": "2026-09-27T09:34:21.878185Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "4dad2e698f0286ff1faab9bb170fd1c3a650125a37a8d21adef87e28f5ae51aa",
-      "new_count": 0
-    },
-    {
-      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:22.102447Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "f58109a4efa17f2429a3c79f92577f6f99cef7a1b26446fdd731b41fe8091bc8",
-      "new_count": 0
-    },
-    {
-      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
-      "sector": "Overheid",
-      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:25.155213Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "e02781978e120cebba8d7299efa0b3377fcf213871a2cf8efb6fbc6ff29b7abd",
-      "new_count": 0
-    },
-    {
-      "name": "Gemeente Den Haag",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:25.408311Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "Gemeente Utrecht",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenbijutrecht.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:25.667545Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Senior Teamleider & Businesspartner Gegevensbescherming en Informatiebeheer",
-          "url": "https://www.werkenbijutrecht.nl/vacature/senior-teamleider-businesspartner-gegevensbescherming-en-informatiebeheer-1329132/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "8ad08b59f0db4750a0513393b88549622646baee012d9e67f2defb44a9bdf2d0",
-      "new_count": 0
-    },
-    {
-      "name": "Metropoolregio Amsterdam (MRA)",
-      "sector": "Overheid",
-      "source_url": "https://metropoolregioamsterdam.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:26.296005Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "fea33c522c47e58c73fc09edbc325661282f4a983b3948c26ea6013e50469034",
-      "new_count": 0
-    },
-    {
-      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
-      "sector": "Overheid",
-      "source_url": "https://mrdh.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:27.260903Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "273aaf4bc42e43a60dbdb02d67bbbf70b8062222bd4f88aab45c7df361bbe007",
-      "new_count": 0
-    },
-    {
-      "name": "Waterschap Amstel, Gooi en Vecht",
-      "sector": "Overheid",
-      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
-      "checked_at": "2026-09-27T09:34:29.255976Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "Hoogheemraadschap van Delfland",
-      "sector": "Overheid",
-      "source_url": "https://www.hhdelfland.nl/over-ons/werken-bij",
-      "checked_at": "2026-09-27T09:34:29.339390Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "6e79c21c9e66acdf77f58597b9e211e96e911c6a03ecf7de909575c28cf4d229",
-      "new_count": 0
-    },
-    {
-      "name": "Hoogheemraadschap van Rijnland",
-      "sector": "Overheid",
-      "source_url": "https://www.rijnland.net/over-rijnland/werken-bij-rijnland/",
-      "checked_at": "2026-09-27T09:34:29.847101Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Archief website",
-          "url": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/archieven-en-collecties/archief-website/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "020723d8973394f9d675b1676f203c5bfee781e0d1274d71476f0276cd45cf2d",
-      "new_count": 0
-    },
-    {
-      "name": "Hoogheemraadschap Schieland & Krimpenerwaard",
-      "sector": "Overheid",
-      "source_url": "https://www.schielandendekrimpenerwaard.nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:31.095212Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Archief",
-          "url": "https://schielandkrimpenerwaard.archiefweb.eu/#archive",
-          "is_new": false
-        }
-      ],
-      "page_hash": "93b4995bdbc91c329be2ac57b537adb7b01b3bd0017593ec3f24d2b9e8742bd2",
-      "new_count": 0
-    },
-    {
-      "name": "Kansen voor West",
-      "sector": "Overheid",
-      "source_url": "https://www.kansenvoorwest2.nl/nl/",
-      "checked_at": "2026-09-27T09:34:31.101458Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "9eef05e04ab0a8aa4db86593e6a9e03799a5860b1ac2a5365a3d2ea1646fb547",
-      "new_count": 0
-    },
-    {
-      "name": "TNO (Energy & Transition)",
-      "sector": "Overheid",
-      "source_url": "https://www.tno.nl/nl/over-tno/werken-bij-tno/",
-      "checked_at": "2026-09-27T09:34:33.931191Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "aed2a11f552ca28e15253a65108e191e3e699108dc2767ad3cd7bb4a770d8970",
-      "new_count": 0
-    },
-    {
-      "name": "CBS",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenbijhetcbs.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:34.120750Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "365c804f96baef95fba55c0692cf77034f7a11d9b21170cc0e27c658bf0cf5a2",
-      "new_count": 0
-    },
-    {
-      "name": "Planbureau voor de Leefomgeving (PBL)",
-      "sector": "Overheid",
-      "source_url": "https://www.pbl.nl/over-het-pbl/werken-bij",
-      "checked_at": "2026-09-27T09:34:34.650907Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Archief",
-          "url": "https://www.pbl.nl/over-het-pbl/archief",
-          "is_new": false
-        }
-      ],
-      "page_hash": "3047aa08f499c05f26f3491d6d8f4699044f365e76326019d50903c652f936c7",
-      "new_count": 0
-    },
-    {
-      "name": "Centraal Planbureau (CPB)",
-      "sector": "Overheid",
-      "source_url": "https://www.cpb.nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:35.255081Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "3e055b6f16811a6fd4991f50c6369ec50a5dc7690b89499285694a303a522849",
-      "new_count": 0
-    },
-    {
-      "name": "Ministerie van EZK",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenbijdeoverheid.nl/",
-      "checked_at": "2026-09-27T09:34:38.194279Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "5efb78d090e06d2bb74104a4758525868fd07ace72d57f699887f2604ae4ae04",
-      "new_count": 0
-    },
-    {
-      "name": "Ministerie van IenW",
-      "sector": "Overheid",
-      "source_url": "https://www.werkenbijdeoverheid.nl/",
-      "checked_at": "2026-09-27T09:34:38.374990Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "4eff07120cd2e785625639af4f3c7ad409b95cce74f9d69cc82a666633e17001",
-      "new_count": 0
-    },
-    {
-      "name": "Schiphol Group",
-      "sector": "Infra",
-      "source_url": "https://www.werkenbijschiphol.nl/",
-      "checked_at": "2026-09-27T09:34:38.751529Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "29d0e95b2f45b7595a8c80af2edadffafdbe6ec678c9f9e6115f4cd4d7694647",
-      "new_count": 0
-    },
-    {
-      "name": "ProRail",
-      "sector": "Infra",
-      "source_url": "https://www.werkenbijprorail.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:39.850389Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "fcc4a910d1fbdfa711acb046e79c5ed2fa69aeb79464d576be3ea49154a6066f",
-      "new_count": 0
-    },
-    {
-      "name": "NS Stations",
-      "sector": "Infra",
-      "source_url": "https://www.werkenbijns.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:41.225896Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "fef314e797883ea16a84a6bcbbda5c24a81627dd033b3f73e57e9b91b6981814",
-      "new_count": 0
-    },
-    {
-      "name": "SADC",
-      "sector": "Infra",
-      "source_url": "https://sadc.nl/over-ons/vacatures/",
-      "checked_at": "2026-09-27T09:34:41.282300Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Directeur Financiën & Bedrijfsvoering (CFO) bij SADC\nFull Time\nBekijk vacature",
-          "url": "https://www.sadc.nl/vacatures/directeur-financien-bedrijfsvoering-cfo-bij-sadc/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "f2a109debcf30cbf29ddb73891ecba7356bcec10f295de89cb24bb379fa8f25d",
-      "new_count": 0
-    },
-    {
-      "name": "BPD",
-      "sector": "Vastgoed",
-      "source_url": "https://www.bpd.nl/over-bpd/werken-bij-bpd",
-      "checked_at": "2026-09-27T09:34:43.796298Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "ceb659c30f85dcd91f3f4f96e0f73d328a076422d31d13f8717b65eda1aa0817",
-      "new_count": 0
-    },
-    {
-      "name": "AM",
-      "sector": "Vastgoed",
-      "source_url": "https://www.am.nl/over-am/werken-bij-am/",
-      "checked_at": "2026-09-27T09:34:44.389350Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "2a9e39eac7a70fef64d9ce43fb3fe9ef1451b869a4334eb39d2482d05035e2f6",
-      "new_count": 0
-    },
-    {
-      "name": "Blauwhoed",
-      "sector": "Vastgoed",
-      "source_url": "https://blauwhoed.nl/over-ons/werken-bij-blauwhoed",
-      "checked_at": "2026-09-27T09:34:45.244256Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "8b5bb32a694a8b001451191378dc41e8b8fe7cd5e6c7c8a7d77f97bb43686577",
-      "new_count": 0
-    },
-    {
-      "name": "Heijmans",
-      "sector": "Bouw",
-      "source_url": "https://www.werkenbijheijmans.nl/vacatures",
-      "checked_at": "2026-09-27T09:34:48.077084Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "1dc45f5897c0233542795ca491fe307846ff08535aac3c9c7317c5f575dfb957",
-      "new_count": 0
-    },
-    {
-      "name": "BAM Nederland",
-      "sector": "Bouw",
-      "source_url": "https://www.bam.com/nl/werken-bij-bam",
-      "checked_at": "2026-09-27T09:34:49.133966Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Raad van bestuur",
-          "url": "https://www.bam.com/nl/over-bam/bestuur/raad-van-bestuur",
-          "is_new": false
-        }
-      ],
-      "page_hash": "c9cc5cca12acea3cff17c37f1a223d2ae3255e3104c0e33bb5bee54a0c0f6e56",
-      "new_count": 0
-    },
-    {
-      "name": "VolkerWessels",
-      "sector": "Bouw",
-      "source_url": "https://www.volkerwessels.com/nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:49.393199Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "d826f1041368c4c9b27e3626c0c82e0c94b1d5bc4ff202b886ad056675a3149d",
-      "new_count": 0
-    },
-    {
-      "name": "Dura Vermeer",
-      "sector": "Bouw",
-      "source_url": "https://www.duravermeer.nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:50.960227Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "f10b7683efcdb22ed1376e14794e18473ae5bc3ff74789c3565eb86449dabba9",
-      "new_count": 0
-    },
-    {
-      "name": "Ballast Nedam",
-      "sector": "Bouw",
-      "source_url": "https://www.ballast-nedam.nl/werken-bij",
-      "checked_at": "2026-09-27T09:34:52.940441Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "ccedfe6d2c9d08ddd7e2462f90f536e2fe21a32174aa59fcec3537e6a7535ccf",
-      "new_count": 0
-    },
-    {
-      "name": "Arcadis",
-      "sector": "Advies",
-      "source_url": "https://www.arcadis.com/nl-nl/carriere",
-      "checked_at": "2026-09-27T09:34:53.456225Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "d9714b998484a2fb84b5d18e5eef8d7a2a002967460f930346d2687817c03010",
-      "new_count": 0
-    },
-    {
-      "name": "Royal HaskoningDHV",
-      "sector": "Advies",
-      "source_url": "https://www.royalhaskoningdhv.com/careers",
-      "checked_at": "2026-09-27T09:34:56.490558Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Principal Maritime Civil Engineer\nNewcastle upon Tyne\n\nEngineer Specialists\n\nMaritime",
-          "url": "https://www.haskoning.com/en/careers/vacancies/principal-maritime-civil-engineer-1070",
-          "is_new": false
-        }
-      ],
-      "page_hash": "78dcc46f2b34c5c2a8cae71e7a337ae2d6fe17e56413e6eab2d2a179093625f7",
-      "new_count": 0
-    },
-    {
-      "name": "Sweco Nederland",
-      "sector": "Advies",
-      "source_url": "https://www.sweco.nl/werken-bij/",
-      "checked_at": "2026-09-27T09:34:56.789082Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "a253d989439ee6bb1c311fdc60be885860eba8d61cdcb8bfc11067f00073382b",
-      "new_count": 0
-    },
-    {
-      "name": "Witteveen+Bos",
-      "sector": "Advies",
-      "source_url": "https://www.witteveenbos.com/nl/werken-bij/",
-      "checked_at": "2026-09-27T09:34:57.760505Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "4a5c73066a9f1f3f31427ac814b23beb97e63c287eadd2c091b147de17ba9757",
-      "new_count": 0
-    },
-    {
-      "name": "Tauw",
-      "sector": "Advies",
-      "source_url": "https://www.tauw.com/nl/werken-bij-tauw/",
-      "checked_at": "2026-09-27T09:34:57.943143Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "ce3e9e2fe053b49b2558209d0fc688f5397e92c5ee95f5ea7eafc99adc1244ac",
-      "new_count": 0
-    },
-    {
-      "name": "Antea Group",
-      "sector": "Advies",
-      "source_url": "https://www.anteagroup.nl/nl/werken-bij",
-      "checked_at": "2026-09-27T09:35:02.953391Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "e5ba4975af26db0e2460ecd42caa39c1c24cd481d95f46a9e05b3b72d0c7195e",
-      "new_count": 0
-    },
-    {
-      "name": "CBRE Nederland",
-      "sector": "Vastgoed",
-      "source_url": "https://www.werkenbijcbre.nl/",
-      "checked_at": "2026-09-27T09:35:03.423939Z",
-      "status": "error: kon pagina niet laden (TimeoutError)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "JLL Nederland",
-      "sector": "Vastgoed",
-      "source_url": "https://www.jll.nl/nl/carriere",
-      "checked_at": "2026-09-27T09:35:03.520861Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "b9072c4719916a72ce5af60b905d5da98ee7d52a4f26d1b535283cdcc42415fd",
-      "new_count": 0
-    },
-    {
-      "name": "Tata Steel Nederland",
-      "sector": "Industrie",
-      "source_url": "https://www.tatasteeljobs.nl/vacatures",
-      "checked_at": "2026-09-27T09:35:04.626152Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "889e7d6d0a746ff28bd288fa5f32cb08170e65715e73f401d55b0c9f8e7307ce",
-      "new_count": 0
-    },
-    {
-      "name": "ThyssenKrupp Veerhaven",
-      "sector": "Industrie",
-      "source_url": "https://www.thyssenkrupp-veerhaven.com/nl/carriere",
-      "checked_at": "2026-09-27T09:35:06.705110Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "DHL Supply Chain",
-      "sector": "Logistiek",
-      "source_url": "https://www.werkenbij-dhl.nl/",
-      "checked_at": "2026-09-27T09:35:08.031051Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "Kuehne + Nagel",
-      "sector": "Logistiek",
-      "source_url": "https://jobs.kuehne-nagel.com/",
-      "checked_at": "2026-09-27T09:35:08.090017Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "2395499fb900d1a46a54f46835b2de7a54729452cafdc3e65c635151d3e79371",
-      "new_count": 0
-    },
-    {
-      "name": "PostNL",
-      "sector": "Logistiek",
-      "source_url": "https://www.werkenbijpostnl.nl/vacatures",
-      "checked_at": "2026-09-27T09:35:08.183451Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "Roland Berger",
-      "sector": "Advies",
-      "source_url": "https://www.rolandberger.com/en/Join/All-Jobs",
-      "checked_at": "2026-09-27T09:35:08.293049Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Principal",
-          "url": "https://rolandberger.jobs/en/REF3274Y",
-          "is_new": false
-        }
-      ],
-      "page_hash": "137d8341e9ebfe47cbb7c14fca81aeba590df2bffd7ba4944d4a821c2179e041",
-      "new_count": 0
-    },
-    {
-      "name": "Berenschot",
-      "sector": "Advies",
-      "source_url": "https://www.werkenbijberenschot.nl/vacatures",
-      "checked_at": "2026-09-27T09:35:11.134166Z",
-      "status": "error: kon pagina niet laden (Error)",
-      "vacancies": [],
-      "page_hash": null,
-      "new_count": 0
-    },
-    {
-      "name": "Ecorys",
-      "sector": "Advies",
-      "source_url": "https://careers.ecorys.com/en/vacancies",
-      "checked_at": "2026-09-27T09:35:11.281437Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Principal Consultant - Green Transition",
-          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
-          "is_new": false
-        },
-        {
-          "title": "Principal Consultant - Green TransitionResilient EconomiesRotterdam, NetherlandsPermanent",
-          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
-          "is_new": false
-        },
-        {
-          "title": "Principal Consultant - Mobiliteit",
-          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
-          "is_new": false
-        },
-        {
-          "title": "Principal Consultant - MobiliteitTransport and InfrastructureRotterdam, NetherlandsPermanent",
-          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
-          "is_new": false
-        },
-        {
-          "title": "Principal Consultant / Director - Markets & Industry",
-          "url": "https://careers.ecorys.com/en/postings/97bfa57b-f8cb-4454-8318-09c48821b0f2",
-          "is_new": false
-        },
-        {
-          "title": "Principal Consultant / Director - Markets & IndustryResilient EconomiesRotterdam, NetherlandsPermanent",
-          "url": "https://careers.ecorys.com/en/postings/97bfa57b-f8cb-4454-8318-09c48821b0f2",
-          "is_new": false
-        }
-      ],
-      "page_hash": "b0c435639c0fad86ad1a261618fcdaf9f51b74919b97d2c905b807351fd2a0da",
-      "new_count": 0
-    },
-    {
-      "name": "Rebel Group",
-      "sector": "Advies",
-      "source_url": "https://www.rebelgroup.com/careers",
-      "checked_at": "2026-09-27T09:35:11.960454Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "0ce80c64146ecaa01b40c1dbccd4a1832a762e22edd0f47977fe23fff9bd7f3b",
-      "new_count": 0
-    },
-    {
-      "name": "Boer & Croon",
-      "sector": "Advies",
-      "source_url": "https://www.boercroon.nl/carrieres/vacatures/",
-      "checked_at": "2026-09-27T09:35:14.863697Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "CFO Services",
-          "url": "https://www.boercroon.nl/diensten/management-solutions/cfo-services/",
-          "is_new": false
-        },
-        {
-          "title": "Interim CEO/COO community",
-          "url": "https://www.boercroon.nl/interim-ceo-coo-community/",
-          "is_new": false
-        },
-        {
-          "title": "Interim CFO community",
-          "url": "https://www.boercroon.nl/interim-cfo-community/",
-          "is_new": false
-        },
-        {
-          "title": "Werken als Value Partner",
-          "url": "https://www.boercroon.nl/carrieres/werken-bij-boer-croon/value-partner/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "eb3fe2c75d383c3a2e30b6fcea9c62bc8483b534e47d75c17ca195a5311a443a",
-      "new_count": 0
-    },
-    {
-      "name": "Deloitte (Public/Energy)",
-      "sector": "Advies",
-      "source_url": "https://www.werkenbijdeloitte.nl/",
-      "checked_at": "2026-09-27T09:35:14.887765Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "75eef8dc161973ae7bdbf50c29d031ab817dc26cf3b111e42dae112c5e389141",
-      "new_count": 0
-    },
-    {
-      "name": "PwC (Energy & Utilities)",
-      "sector": "Advies",
-      "source_url": "https://www.pwc.nl/nl/carriere.html",
-      "checked_at": "2026-09-27T09:35:19.665027Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "08c7e3bb33ac3052138bca85ff20ab3eb951378f88dc363d2be485f03880f9bd",
-      "new_count": 0
-    },
-    {
-      "name": "VNO-NCW",
-      "sector": "Overheid",
-      "source_url": "https://www.vno-ncw.nl/vacatures",
-      "checked_at": "2026-09-27T09:35:19.719172Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "b4bf2488f596cdb8f0b29d072d4ae6f5f3f1d4ea27c48e431e4b0c4c38036213",
-      "new_count": 0
-    },
-    {
-      "name": "Objeqtive Recruitment",
-      "sector": "Recruitment",
-      "source_url": "https://www.objeqtive.nl/vacatures.html",
-      "checked_at": "2026-09-27T09:35:19.812175Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "d9f496c4c8c09f3331029fd51bd698e93a6a8bb715a9d26258f1292a0eab8b67",
-      "new_count": 0
-    },
-    {
-      "name": "People Select",
-      "sector": "Recruitment",
-      "source_url": "https://peopleselect.nl/vacatures/",
-      "checked_at": "2026-09-27T09:35:23.488445Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "584b218da644e923f60c9b37f10b3a34bc87c7ad538385a0599de8d9a04070ba",
-      "new_count": 0
-    },
-    {
-      "name": "SCM Executives",
-      "sector": "Recruitment",
-      "source_url": "https://scm-executives.nl/vacatures/",
-      "checked_at": "2026-09-27T09:35:23.521981Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "a172566c82a8c6659cccf00cd260ceba370ceb28a90a91711249c1dfa36730e1",
-      "new_count": 0
-    },
-    {
-      "name": "Logiprof",
-      "sector": "Recruitment",
-      "source_url": "https://www.logiprof.nl/vacatures/",
-      "checked_at": "2026-09-27T09:35:25.163972Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "Supply Chain Director",
-          "url": "https://www.logiprof.nl/vacature-supply-chain-coordinator/",
-          "is_new": false
-        }
-      ],
-      "page_hash": "28874b98146663b3a680ea2d8add4348d2bfad9accc19bcbeef8ec2fab84bdcd",
-      "new_count": 0
-    },
-    {
-      "name": "Top of Minds",
-      "sector": "Recruitment",
-      "source_url": "https://topofminds.com/vacatures/",
-      "checked_at": "2026-09-27T09:35:28.995998Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "26f03b41ddf6cfb4ca211fe6e5acb82479e019dc27ec039693cd5cf6dca35050",
-      "new_count": 0
-    },
-    {
-      "name": "Michael Page",
-      "sector": "Recruitment",
-      "source_url": "https://www.michaelpage.nl/jobs/energy-natural-resources/netherlands",
-      "checked_at": "2026-09-27T09:35:30.291909Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "HR Business Partner",
-          "url": "https://www.michaelpage.nl/job-detail/hr-business-partner/ref/jn-062026-7050711",
-          "is_new": false
-        }
-      ],
-      "page_hash": "5bf097f83ece11069d57a92b1c86148f72030affcc9751be27d98f9bf6397544",
-      "new_count": 0
-    },
-    {
-      "name": "Brunel Energy",
-      "sector": "Recruitment",
-      "source_url": "https://www.brunel.net/nl-nl/vacatures/energie",
-      "checked_at": "2026-09-27T09:35:31.187190Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "d560d4f7a6e070f52db40d8bfa90744e882c6e3476d2265d6bc162fa8f6b2d9a",
-      "new_count": 0
-    },
-    {
-      "name": "Sterling & Holmes",
-      "sector": "Recruitment",
-      "source_url": "https://www.sterlingholmes.com/vacatures/",
-      "checked_at": "2026-09-27T09:35:33.599458Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "e9766bf9e7947074ade0e6b56c97e1e5ed9b2d0a0f6b2159b211726d078e497f",
-      "new_count": 0
-    },
-    {
-      "name": "NewRoadz",
-      "sector": "Recruitment",
-      "source_url": "https://www.newroadz.nl/vacatures/",
-      "checked_at": "2026-09-27T09:35:33.938669Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "37d5e93692467c263c0145fd677a695624a5ee01cd25fe9233e8d0bdc2cd52ad",
-      "new_count": 0
-    },
-    {
-      "name": "Helder Maritiem",
-      "sector": "Recruitment",
-      "source_url": "https://www.heldermaritiem.com/vacatures/",
-      "checked_at": "2026-09-27T09:35:36.982763Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "24b92344ef78501af25b7340336c6e416143237b6a617edfa449242d04ddeea8",
-      "new_count": 0
-    },
-    {
-      "name": "Yacht Executive",
-      "sector": "Recruitment",
-      "source_url": "https://www.yacht.nl/vacatures?vakgebied=directie-en-strategie",
-      "checked_at": "2026-09-27T09:35:40.347732Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "ae8f1e56ad0c0a01de50f069e73ebaf4c18338dcd3ce590c1feaa76382596a32",
-      "new_count": 0
-    },
-    {
-      "name": "Korn Ferry",
-      "sector": "Executive Search",
-      "source_url": "https://jobs.candidate.kornferry.com/jobs",
-      "checked_at": "2026-09-27T09:35:40.508059Z",
-      "status": "ok",
-      "vacancies": [],
-      "page_hash": "e960ac3eae0b870de6447e84d8e451c40e7571523fe479ac4a26c7ee70138480",
-      "new_count": 0
-    },
-    {
-      "name": "Egon Zehnder",
-      "sector": "Executive Search",
-      "source_url": "https://www.egonzehnder.com/office/amsterdam",
-      "checked_at": "2026-09-27T09:35:40.562760Z",
-      "status": "ok",
-      "vacancies": [
-        {
-          "title": "CEO Successions",
-          "url": "https://www.egonzehnder.com/what-we-do/ceo-successions",
-          "is_new": false
-        },
-        {
-          "title": "CEO Search",
-          "url": "https://www.egonzehnder.com/what-we-do/ceo-search",
-          "is_new": false
-        },
-        {
-          "title": "Board Directors & Chairs",
-          "url": "https://www.egonzehnder.com/functions/board-directors-chairs",
-          "is_new": false
-        },
-        {
-          "title": "Chief Executive Officers",
-          "url": "https://www.egonzehnder.com/functions/chief-executive-officers",
-          "is_new": false
-        },
-        {
-          "title": "CFO & Audit Chair",
-          "url": "https://www.egonzehnder.com/functions/cfo-audit-chair",
-          "is_new": false
-        },
-        {
-          "title": "Chief AI, Data & Analytics Officers",
-          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-ai-officers",
-          "is_new": false
-        },
-        {
-          "title": "Chief Information Officers",
-          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-officers",
-          "is_new": false
-        },
-        {
-          "title": "Chief Information Security Officers",
-          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-security-officers",
-          "is_new": false
-        },
-        {
-          "title": "Chief Product Officers",
-          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-product-officers",
-          "is_new": false
-        },
-        {
-          "title": "Chief Technology Officers",
-          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-technology-officers",
-          "is_new": false
-        }
-      ],
-      "page_hash": "0dbb02d5b992b295b10f1d2408fe4eca4c9340f742e50d089b5e1df0d7c0ab71",
       "new_count": 0
     }
   ]
