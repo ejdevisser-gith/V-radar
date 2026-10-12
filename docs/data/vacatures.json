@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:22:43.580960Z",
+  "generated_at": "2026-10-12T11:23:00.837193Z",
   "partial_run": true,
   "organizations": [
     {
@@ -330,6 +330,174 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "01788dc82b171f07ab941f3b3f1c733da0c16f93960ad1e8c427fb2900e2b0c6",
+      "new_count": 0
+    },
+    {
+      "name": "ExxonMobil Rotterdam",
+      "sector": "Energie",
+      "source_url": "https://jobs.exxonmobil.com/",
+      "checked_at": "2026-10-12T11:22:41.340691Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "04238c3f4d5f64e8b429f87dc29538d8ce7ff27fc4801d4c3a9dbf49a29f043a",
+      "new_count": 0
+    },
+    {
+      "name": "Energie Beheer Nederland (EBN)",
+      "sector": "Energie",
+      "source_url": "https://www.ebn.nl/werken-bij-ebn/",
+      "checked_at": "2026-10-12T11:22:42.991072Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Rotterdam\nProject Director Aramis\nEBN doet. Doe jij mee?\nSolliciteer direct\nDoe mee",
+          "url": "https://www.ebn.nl/werken-bij-ebn/vacatures/project-director-aramis/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "2a526914182f4e6b6c0f5053960853342c71b99c7e8048251bde6ff260972c29",
+      "new_count": 0
+    },
+    {
+      "name": "Invest-NL",
+      "sector": "Energie",
+      "source_url": "https://www.invest-nl.nl/werken-bij",
+      "checked_at": "2026-10-12T11:22:43.176680Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f65b41909717a94f4644b35cc0e9572b217a675971ae2af6bc331007cddb1dac",
+      "new_count": 0
+    },
+    {
+      "name": "Orsted Nederland",
+      "sector": "Energie",
+      "source_url": "https://orsted.nl/over-ons/carriere",
+      "checked_at": "2026-10-12T11:22:43.579441Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "url": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "is_new": false
+        }
+      ],
+      "page_hash": "4819044501463ece7f60cfaaebc6206bc07a977e75ff325f5f2d615f0dfa0f9e",
+      "new_count": 0
+    },
+    {
+      "name": "TotalEnergies",
+      "sector": "Energie",
+      "source_url": "https://services.totalenergies.nl/over-ons/werken-bij",
+      "checked_at": "2026-10-12T11:22:45.022350Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "506d89d6c1974d833364fc84cc026a4e698494040c8e6639931b7afc1fcfc6d4",
+      "new_count": 0
+    },
+    {
+      "name": "Neptune Energy",
+      "sector": "Energie",
+      "source_url": "https://www.neptuneenergy.com/careers",
+      "checked_at": "2026-10-12T11:22:46.779508Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "GasTerra",
+      "sector": "Energie",
+      "source_url": "https://www.gasterra.nl/over-ons/werken-bij-gasterra",
+      "checked_at": "2026-10-12T11:22:46.937057Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a811464ab785e4a3b6100786bdbe13df4152ee7b2a394a85de44d90c46130f8e",
+      "new_count": 0
+    },
+    {
+      "name": "HVC",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijhvc.nl/",
+      "checked_at": "2026-10-12T11:22:48.682605Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d35abe8ba850ecf52a16660fae1c576b585aff6ec6b08730e2023aad50051388",
+      "new_count": 0
+    },
+    {
+      "name": "Nobian",
+      "sector": "Energie",
+      "source_url": "https://www.nobian.com/careers",
+      "checked_at": "2026-10-12T11:22:48.876722Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "293c612d875cb9290a44585777fed1dae4394689392c12122be1bb1de40b0e73",
+      "new_count": 0
+    },
+    {
+      "name": "Nouryon",
+      "sector": "Energie",
+      "source_url": "https://www.nouryon.com/careers/",
+      "checked_at": "2026-10-12T11:22:49.471193Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Board of directors",
+          "url": "https://www.nouryon.com/about/board-of-directors/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "9e1b9491dfe2d3bb6131169a199ef1d47afcd163113ef2658a846ef2933b652f",
+      "new_count": 0
+    },
+    {
+      "name": "Air Liquide",
+      "sector": "Energie",
+      "source_url": "https://www.airliquide.com/careers",
+      "checked_at": "2026-10-12T11:22:51.657950Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "bffcbde70991363a5efcd9f06806423caf06509965bc63cd2cd3b5aa765d3bd7",
+      "new_count": 0
+    },
+    {
+      "name": "Air Products",
+      "sector": "Energie",
+      "source_url": "https://www.airproducts.com/careers",
+      "checked_at": "2026-10-12T11:22:53.234495Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1dc7eab0c30f61dd46e6998f68a1c9971b3387dfa9dab1a57183706c9ba35072",
+      "new_count": 0
+    },
+    {
+      "name": "LyondellBasell",
+      "sector": "Energie",
+      "source_url": "https://www.lyondellbasell.com/en/careers/",
+      "checked_at": "2026-10-12T11:22:53.445285Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e361e62efe888fdde7135ec73951fbec9a8e3417b21606babb8c32bdee314c92",
+      "new_count": 0
+    },
+    {
+      "name": "OCI Global",
+      "sector": "Energie",
+      "source_url": "https://www.oci-global.com/careers/",
+      "checked_at": "2026-10-12T11:22:53.713521Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a01e49d6811b5502fdb9f8a625a5446fc5eab3177b6dcc2bb6cb5075ff0103db",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-10-12T11:22:57.467912Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7f9366c371539886dc886d01dc506e9514a9258102321704111d204fe9f2d3fc",
       "new_count": 0
     }
   ]
