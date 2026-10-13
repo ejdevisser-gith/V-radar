@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:13:46.681612Z",
+  "generated_at": "2026-10-13T11:14:03.431379Z",
   "partial_run": true,
   "organizations": [
     {
@@ -491,6 +491,16 @@
       "new_count": 0
     },
     {
+      "name": "Neste",
+      "sector": "Energie",
+      "source_url": "https://www.neste.com/about-neste/careers",
+      "checked_at": "2026-10-13T11:13:41.592558Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "3bfdc080baa5cc9b47069bbf2bf75b9962f319ec242a17611e74529ecdad8eb6",
+      "new_count": 0
+    },
+    {
       "name": "Gunvor",
       "sector": "Energie",
       "source_url": "https://gunvorgroup.com/careers/",
@@ -498,6 +508,157 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "3e07e9dc46532dfbaf65fae3b8835e9300c69dd53b485e1d3c23374a0a4582d2",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-10-13T11:13:44.916694Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0fa35ffeac05ffc88a128414e241f24b890f9b63072b4c57e66889383c44be59",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-10-13T11:13:45.751856Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "637534ea17c47ddbabe47712485b2eda489e839e972ff6522029c601b21931ca",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-10-13T11:13:46.679689Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "faba4aa85823c970d6768d13b6aaaf82cf645e604a0af87d6560fa33cc7bb279",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-10-13T11:13:48.085882Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "1cf824e70184c77df735f0db3b71e05c57139cd9e2c07ee933ccc3ec8922a88d",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-10-13T11:13:49.859555Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9c65dcdbb46d4fa3733c6eb5f465b48b94b97bddcf2893580500834471120fa5",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-10-13T11:13:51.194982Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-10-13T11:13:51.319805Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0cab7ad3be40247422f0216036426463a20f175a9c03a81441d78fb5a2cf4df4",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-13T11:13:51.624740Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "51e1dfcb75a0a67156c443b6f18264927af3e9996a5e5cac8d98844a54e2b4e1",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-13T11:13:53.871498Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d0c8df96f1c4e14d6da30d6e35ca5e6339442c9ba2a01193c57693410fff1866",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-10-13T11:13:54.471671Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c99423880c8fef345e2b4584d0a72ba4723fc5f2add6d97f1f481fee449035e8",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-10-13T11:13:56.937480Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "db1e3359a3ffbaaee73c9127ef281339682b1a9c908234860eafdd6f39a782b8",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-10-13T11:13:57.702070Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-10-13T11:14:00.347591Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e7919153d68974ee7a3e2a0f9edee18fdde58d662ff32fc1c8cace8c63cccd16",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-10-13T11:14:02.035099Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
