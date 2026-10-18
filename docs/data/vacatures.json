@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:22:25.475180Z",
+  "generated_at": "2026-10-18T08:22:41.357631Z",
   "partial_run": true,
   "organizations": [
     {
@@ -491,6 +491,16 @@
       "new_count": 0
     },
     {
+      "name": "Neste",
+      "sector": "Energie",
+      "source_url": "https://www.neste.com/about-neste/careers",
+      "checked_at": "2026-10-18T08:22:21.515292Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b75c0641bc42868212a1b519fed1371c8d78aca88a9c7265b21886469c3f3410",
+      "new_count": 0
+    },
+    {
       "name": "Gunvor",
       "sector": "Energie",
       "source_url": "https://gunvorgroup.com/careers/",
@@ -498,6 +508,163 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "14677b0c877140b7db74bb85d3553a04af92352b47f03cc62e2f2f3b64130888",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-10-18T08:22:23.615634Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "04f69e6f8f148061164d71877ee527d89440a5d56ef76abf171afe9c343e9313",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-10-18T08:22:25.157366Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Trafigura appoints Chipokota Mwanawasa as Executive Director, Zambia",
+          "url": "https://www.trafigura.com/news-and-insights/press-releases/2026/trafigura-appoints-chipokota-mwanawasa-as-executive-director-zambia/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "771edb8c394dcdc575fe4039ae0f05dcb200446aa594619d3f236089c2142d35",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-10-18T08:22:25.474140Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7590bfebb1a24975bd031b03b78efc890dbac3d8959c0315bf7e5f176d179816",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-10-18T08:22:27.252602Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "f839396be3f08db6e2688ae2b8120eac155481750012b294f46c387e34f1ba60",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:27.255069Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "77e42a639034aacdc1aa72af63e66137b5e467bd23c961e5d7615ddd09c2ab86",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:30.045279Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-10-18T08:22:30.134881Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a9d6fee011a6bd8aa9fae905bae8b60249fd8a51b52fe50de1c24f57f93279f8",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-18T08:22:30.263303Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ac4e237323a0b6e20835e18db8563fb5bea9bd0ba10e773cfe503f2b118623f2",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-18T08:22:31.092774Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4d383f51cf4b1c918d11fb428a22688df464d2b51065e7033d50a56cb7f923cd",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:31.177906Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4db66943771cd8fb3cc82ddb7fec3af0b87670462ed79b98d56f137a93ca76bb",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:34.246034Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d42735a2c2ddc225a2ff0802d50346dcabaf3e2f93af2efb4aeb9f2b60de625a",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:36.734859Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-10-18T08:22:38.635416Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "18c2dd470f2be1b3a4efbea4d141ac1bc10fc71111093a4ccc7d4b0f8ff4eff4",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-10-18T08:22:38.832099Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
