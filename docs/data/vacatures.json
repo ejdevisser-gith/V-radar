@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:21:47.672479Z",
+  "generated_at": "2026-10-19T09:22:04.503904Z",
   "partial_run": true,
   "organizations": [
     {
@@ -652,6 +652,26 @@
       "new_count": 0
     },
     {
+      "name": "Metropoolregio Amsterdam (MRA)",
+      "sector": "Overheid",
+      "source_url": "https://metropoolregioamsterdam.nl/vacatures",
+      "checked_at": "2026-10-19T09:21:44.642359Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4d90c0920e6df40717c1037f739d47dfb92d441cede9a66d1e6ecf29931cf9f9",
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-10-19T09:21:45.690237Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "ec2e991367cc0038b77166b5b6387030969f3293eb4e449a1224be810ed29126",
+      "new_count": 0
+    },
+    {
       "name": "Waterschap Amstel, Gooi en Vecht",
       "sector": "Overheid",
       "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
@@ -659,6 +679,154 @@
       "status": "error: kon pagina niet laden (Error)",
       "vacancies": [],
       "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Delfland",
+      "sector": "Overheid",
+      "source_url": "https://www.hhdelfland.nl/over-ons/werken-bij",
+      "checked_at": "2026-10-19T09:21:46.254640Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d8b7eb4c0d6a64f6fe690c7dbec432e438d62e84eddae834abe1a063fbfcb324",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap van Rijnland",
+      "sector": "Overheid",
+      "source_url": "https://www.rijnland.net/over-rijnland/werken-bij-rijnland/",
+      "checked_at": "2026-10-19T09:21:47.671234Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief website",
+          "url": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/archieven-en-collecties/archief-website/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "df2716d7587aae29dda708914282f9966027c128cca0e2c569ce434fb2da103a",
+      "new_count": 0
+    },
+    {
+      "name": "Hoogheemraadschap Schieland & Krimpenerwaard",
+      "sector": "Overheid",
+      "source_url": "https://www.schielandendekrimpenerwaard.nl/werken-bij",
+      "checked_at": "2026-10-19T09:21:48.989278Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://schielandkrimpenerwaard.archiefweb.eu/#archive",
+          "is_new": false
+        }
+      ],
+      "page_hash": "0e2d559e747cd577a55725ae9329c34a7bc5b973b324058ad98c2a09d3d09294",
+      "new_count": 0
+    },
+    {
+      "name": "Kansen voor West",
+      "sector": "Overheid",
+      "source_url": "https://www.kansenvoorwest2.nl/nl/",
+      "checked_at": "2026-10-19T09:21:50.654266Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b58e1435867efc50bf9f4ae15f812f8c59627dd1bd8e6c61088b960afc925107",
+      "new_count": 0
+    },
+    {
+      "name": "TNO (Energy & Transition)",
+      "sector": "Overheid",
+      "source_url": "https://www.tno.nl/nl/over-tno/werken-bij-tno/",
+      "checked_at": "2026-10-19T09:21:52.537291Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6e435303c069e2eab03d75ef0f79fca3ee129a5c262cd1bbb57b84eb94fe24bb",
+      "new_count": 0
+    },
+    {
+      "name": "CBS",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijhetcbs.nl/vacatures",
+      "checked_at": "2026-10-19T09:21:53.597639Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e11030ed05265b39f9367d4f49d23629fc55a6eabfbf04ee4596b6cdebbd347f",
+      "new_count": 0
+    },
+    {
+      "name": "Planbureau voor de Leefomgeving (PBL)",
+      "sector": "Overheid",
+      "source_url": "https://www.pbl.nl/over-het-pbl/werken-bij",
+      "checked_at": "2026-10-19T09:21:53.807890Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Archief",
+          "url": "https://www.pbl.nl/over-het-pbl/archief",
+          "is_new": false
+        }
+      ],
+      "page_hash": "3a5c3bd4f87a7c17c4b4010dea91b67467ab378d30f13b40c2eaf9a3a5cfb01b",
+      "new_count": 0
+    },
+    {
+      "name": "Centraal Planbureau (CPB)",
+      "sector": "Overheid",
+      "source_url": "https://www.cpb.nl/werken-bij",
+      "checked_at": "2026-10-19T09:21:53.996813Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "63694578ca215f83bada37b1635c63d31a28bd97f388b9d248581f998c51da94",
+      "new_count": 0
+    },
+    {
+      "name": "Ministerie van EZK",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-10-19T09:21:57.637833Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7befba770946c8da9e80ce7615e6632f58f5b88df7e43a23d519c04ad5256273",
+      "new_count": 0
+    },
+    {
+      "name": "Ministerie van IenW",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdeoverheid.nl/",
+      "checked_at": "2026-10-19T09:21:57.715171Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7b633b5c7637ec37ef5e0b7f8c2f8202b5f927f6bb26a8b4eafaac7580916547",
+      "new_count": 0
+    },
+    {
+      "name": "Schiphol Group",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijschiphol.nl/",
+      "checked_at": "2026-10-19T09:21:57.754622Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0a3e78ef09d22dc082bf5d37d3216d819ff1021a697ce405c7aa10b14eed9ffe",
+      "new_count": 0
+    },
+    {
+      "name": "ProRail",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijprorail.nl/vacatures",
+      "checked_at": "2026-10-19T09:22:00.237691Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9aba98d55f1ae17fd0961e80640cd4778c02e6cbc76156160937ce20e09db4b7",
+      "new_count": 0
+    },
+    {
+      "name": "NS Stations",
+      "sector": "Infra",
+      "source_url": "https://www.werkenbijns.nl/vacatures",
+      "checked_at": "2026-10-19T09:22:00.850032Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4cdb9c18a57d3bb2700764c0e05f3450bd08defb04761b1f0c9590060ecba43f",
       "new_count": 0
     }
   ]
