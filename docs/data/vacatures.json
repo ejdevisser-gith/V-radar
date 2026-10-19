@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T09:22:46.512094Z",
-  "partial_run": true,
+  "generated_at": "2026-10-19T09:23:09.493902Z",
+  "partial_run": false,
   "organizations": [
     {
       "name": "Havenbedrijf Rotterdam",
@@ -1186,6 +1186,16 @@
       "new_count": 0
     },
     {
+      "name": "PwC (Energy & Utilities)",
+      "sector": "Advies",
+      "source_url": "https://www.pwc.nl/nl/carriere.html",
+      "checked_at": "2026-10-19T09:22:40.566574Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5618fd33547f55415d0bed927755fc022e4eead8147205ac70a84e28c2e222c6",
+      "new_count": 0
+    },
+    {
       "name": "VNO-NCW",
       "sector": "Overheid",
       "source_url": "https://www.vno-ncw.nl/vacatures",
@@ -1196,6 +1206,16 @@
       "new_count": 0
     },
     {
+      "name": "Objeqtive Recruitment",
+      "sector": "Recruitment",
+      "source_url": "https://www.objeqtive.nl/vacatures.html",
+      "checked_at": "2026-10-19T09:22:43.148097Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c908cc8dcd6482043e3ad1f15ef2b855798ed42f0392f73d624caca366c60a40",
+      "new_count": 0
+    },
+    {
       "name": "People Select",
       "sector": "Recruitment",
       "source_url": "https://peopleselect.nl/vacatures/",
@@ -1203,6 +1223,173 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "c9aee1db0e461966b6554f20eab766c143e905c564258b9819eefe8c375e943b",
+      "new_count": 0
+    },
+    {
+      "name": "SCM Executives",
+      "sector": "Recruitment",
+      "source_url": "https://scm-executives.nl/vacatures/",
+      "checked_at": "2026-10-19T09:22:46.099191Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a48b574fbb397b014cb91c537def793345ca7325735349232c7148abbb88665f",
+      "new_count": 0
+    },
+    {
+      "name": "Logiprof",
+      "sector": "Recruitment",
+      "source_url": "https://www.logiprof.nl/vacatures/",
+      "checked_at": "2026-10-19T09:22:46.508942Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Supply Chain Director",
+          "url": "https://www.logiprof.nl/vacature-supply-chain-coordinator/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "31492691efbf0029b845104b1b9a1acff6d30afd289ed642c33d2fa62583c1d0",
+      "new_count": 0
+    },
+    {
+      "name": "Top of Minds",
+      "sector": "Recruitment",
+      "source_url": "https://topofminds.com/vacatures/",
+      "checked_at": "2026-10-19T09:22:50.696351Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "abb5fc7060c6fab942d973e4809e4adfa7425995d699478614bd66c2126339e2",
+      "new_count": 0
+    },
+    {
+      "name": "Michael Page",
+      "sector": "Recruitment",
+      "source_url": "https://www.michaelpage.nl/jobs/energy-natural-resources/netherlands",
+      "checked_at": "2026-10-19T09:22:50.970507Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "94f245e03b56260696e5fe66668848b6db17b20ca2bd0b3b7b4ca7b82dcd511b",
+      "new_count": 0
+    },
+    {
+      "name": "Brunel Energy",
+      "sector": "Recruitment",
+      "source_url": "https://www.brunel.net/nl-nl/vacatures/energie",
+      "checked_at": "2026-10-19T09:22:51.571006Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7b742eb806b27a9cbbbde0b8e8d6be27a114b34b115786e7ff21441374e5fe02",
+      "new_count": 0
+    },
+    {
+      "name": "Sterling & Holmes",
+      "sector": "Recruitment",
+      "source_url": "https://www.sterlingholmes.com/vacatures/",
+      "checked_at": "2026-10-19T09:22:54.523579Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "9655dfca3a54ada3c9bcf6a897d338f9d80018aa7ccd19ce28cdc61168d57ac5",
+      "new_count": 0
+    },
+    {
+      "name": "NewRoadz",
+      "sector": "Recruitment",
+      "source_url": "https://www.newroadz.nl/vacatures/",
+      "checked_at": "2026-10-19T09:22:56.205164Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f4356e74f89322476c2d7881ef964f8c6c3c91c4f6bda04566359a1bc1cfa64a",
+      "new_count": 0
+    },
+    {
+      "name": "Helder Maritiem",
+      "sector": "Recruitment",
+      "source_url": "https://www.heldermaritiem.com/vacatures/",
+      "checked_at": "2026-10-19T09:22:59.056843Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "05b5b66d1337e3d05c96caa12588703a06cfbb81cec6f7d99a16b994560cdbe6",
+      "new_count": 0
+    },
+    {
+      "name": "Yacht Executive",
+      "sector": "Recruitment",
+      "source_url": "https://www.yacht.nl/vacatures?vakgebied=directie-en-strategie",
+      "checked_at": "2026-10-19T09:22:59.777203Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1d2eacb35809fc4548676b156c46a926687e242ac65f266c55cd6ac60ad16fbb",
+      "new_count": 0
+    },
+    {
+      "name": "Korn Ferry",
+      "sector": "Executive Search",
+      "source_url": "https://jobs.candidate.kornferry.com/jobs",
+      "checked_at": "2026-10-19T09:23:01.407130Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "7243b43bb9ead8c5e1c41ba89d62c854c2c480a9e4db8352bbec3a2fa100ed98",
+      "new_count": 0
+    },
+    {
+      "name": "Egon Zehnder",
+      "sector": "Executive Search",
+      "source_url": "https://www.egonzehnder.com/office/amsterdam",
+      "checked_at": "2026-10-19T09:23:02.064363Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CEO Successions",
+          "url": "https://www.egonzehnder.com/what-we-do/ceo-successions",
+          "is_new": false
+        },
+        {
+          "title": "CEO Search",
+          "url": "https://www.egonzehnder.com/what-we-do/ceo-search",
+          "is_new": false
+        },
+        {
+          "title": "Board Directors & Chairs",
+          "url": "https://www.egonzehnder.com/functions/board-directors-chairs",
+          "is_new": false
+        },
+        {
+          "title": "Chief Executive Officers",
+          "url": "https://www.egonzehnder.com/functions/chief-executive-officers",
+          "is_new": false
+        },
+        {
+          "title": "CFO & Audit Chair",
+          "url": "https://www.egonzehnder.com/functions/cfo-audit-chair",
+          "is_new": false
+        },
+        {
+          "title": "Chief AI, Data & Analytics Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-ai-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Information Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Information Security Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-information-security-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Product Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-product-officers",
+          "is_new": false
+        },
+        {
+          "title": "Chief Technology Officers",
+          "url": "https://www.egonzehnder.com/functions/technology-officers/chief-technology-officers",
+          "is_new": false
+        }
+      ],
+      "page_hash": "fa228478da01f8a5b68fb4d5794d49644c4c5a46e3367819f37f52ddf9359bcd",
       "new_count": 0
     }
   ]
