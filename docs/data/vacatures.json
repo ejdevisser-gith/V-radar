@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:46:20.144523Z",
+  "generated_at": "2026-10-25T08:46:33.744875Z",
   "partial_run": true,
   "organizations": [
     {
@@ -492,6 +492,173 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "55add6a474d5b977ec97e6353a54c5b40c9ee7f841817f336fb12c502418737b",
+      "new_count": 0
+    },
+    {
+      "name": "Gunvor",
+      "sector": "Energie",
+      "source_url": "https://gunvorgroup.com/careers/",
+      "checked_at": "2026-10-25T08:46:16.536509Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "35a3d7baffe8c55cf93974dc0bdde803ffdb7511bf2f22ba433783fef85eae26",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-10-25T08:46:18.593354Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b039a89699f43946361d0a6c4e7ae5db7138e1874cd73b5002d86af7ad2c1a91",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-10-25T08:46:18.752738Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Trafigura appoints Chipokota Mwanawasa as Executive Director, Zambia",
+          "url": "https://www.trafigura.com/news-and-insights/press-releases/2026/trafigura-appoints-chipokota-mwanawasa-as-executive-director-zambia/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "7ff0df07cb1c59187137740239a1224f4437b479f817eaf83d9fe8e19d9aba00",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-10-25T08:46:20.142663Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "c98248043c7b34da8f81db270d2b40d25e4e59d5cee07f1e4b6a1f803c89bb27",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-10-25T08:46:21.245044Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "d85d312b9a46aa90d137ae7426582a2878ad7091aea7cbb2f476974c2f969a8a",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:21.357792Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "6ede63fbc27e4780d4bed68f3b3e1fb175551434daa22b6dec60bb55abea7ed5",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:23.789386Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-10-25T08:46:23.874834Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "56c55ef92d56a4cdf5fa458a0ce5f90ea79196fc91a351abb3a4e48c8ddb0f00",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-25T08:46:24.320245Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f4e7b6fb0ae9b6305f399291a14e9e7c107fa19157ca14a28356cdd33fe875a5",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-10-25T08:46:25.034881Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "512a30d1389ab7dbbbe861b880e1603a0a08f0ce9fa0fa7db1b39a27d1d1af6b",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:25.323331Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "557d68573dfa6cd4add93889ae2fda91c575035aefe251eb3f211722d0f617b7",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:27.816710Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1bba4f9ec77564650fe3bff956ef73042e9b2f03dfa89b357102bec6a8491e16",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:28.009466Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Utrecht",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijutrecht.nl/vacatures",
+      "checked_at": "2026-10-25T08:46:28.528878Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "93cbdf4ba1977ab1be6517cd6b4f0e09c2c026fd5269e4b4aba64fd949120911",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-10-25T08:46:33.306668Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
