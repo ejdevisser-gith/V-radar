@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:25:59.268674Z",
+  "generated_at": "2026-11-03T11:26:16.376098Z",
   "partial_run": true,
   "organizations": [
     {
@@ -150,6 +150,174 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "8ba89d9a76afc2304626033703e26a7df5ef44622af34c4d74a2ee8d105185e3",
+      "new_count": 0
+    },
+    {
+      "name": "DFDS Seaways",
+      "sector": "Maritiem",
+      "source_url": "https://www.dfds.com/en/about/jobs",
+      "checked_at": "2026-11-03T11:25:56.473546Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0228849649db90c731bb33e76958f337be809f9722bd457aefcd4f584d3419f2",
+      "new_count": 0
+    },
+    {
+      "name": "Samskip",
+      "sector": "Maritiem",
+      "source_url": "https://www.samskip.com/careers/",
+      "checked_at": "2026-11-03T11:25:57.929167Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "12b9e22dcc1a293577300fe74733ead888f1a763817178879b7a1d18285c3b21",
+      "new_count": 0
+    },
+    {
+      "name": "C. Steinweg Group",
+      "sector": "Maritiem",
+      "source_url": "https://www.steinweg.com/careers/",
+      "checked_at": "2026-11-03T11:25:58.266232Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a42f704f9b10753533590a29d620b479548e72b325e58ff25195090828d17397",
+      "new_count": 0
+    },
+    {
+      "name": "Verbrugge Terminals",
+      "sector": "Maritiem",
+      "source_url": "https://www.verbruggeinternational.com/nl/werken-bij",
+      "checked_at": "2026-11-03T11:25:59.265831Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f56c0f839545120558c6bb4f39e00c98ffc444e36d88861ac46a1d1ef5549831",
+      "new_count": 0
+    },
+    {
+      "name": "Zeehaven IJmuiden",
+      "sector": "Maritiem",
+      "source_url": "https://www.zeehaven.nl/nl/over-ons/vacatures/",
+      "checked_at": "2026-11-03T11:26:00.721816Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Algemeen Directeur Zeehaven zwaait af",
+          "url": "https://zeehaven.nl/algemeen-directeur-zeehaven-zwaait-af/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "5a45b3aafe1be5c1f9f4e7ba85e3c0d608b4387ac0fc19eea350c9381bad6424",
+      "new_count": 0
+    },
+    {
+      "name": "Gasunie",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijgasunie.nl/vacatures",
+      "checked_at": "2026-11-03T11:26:01.956599Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "338200357a591d1d10eab4f1758a6f9344eaf5819d6ada33e5254b5beb11888c",
+      "new_count": 0
+    },
+    {
+      "name": "TenneT",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijtennet.nl/vacatures",
+      "checked_at": "2026-11-03T11:26:03.233571Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "cab77fd9cd3383c14ca5cc9e9ea82acb32d3f4c2905b38741eac68801d464de9",
+      "new_count": 0
+    },
+    {
+      "name": "Alliander",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijalliander.com/vacatures",
+      "checked_at": "2026-11-03T11:26:03.952337Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "df7d4cca21d6d8509d664c662c7348e2a2d36c61dc146f77d3d792e8c79b3506",
+      "new_count": 0
+    },
+    {
+      "name": "Stedin",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijstedin.net/vacatures",
+      "checked_at": "2026-11-03T11:26:08.899423Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "389fc4c844d2da787de0510df7eae76e684d813ba10a820196b53da76bf9ef41",
+      "new_count": 0
+    },
+    {
+      "name": "Eneco",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijeneco.nl/vacatures",
+      "checked_at": "2026-11-03T11:26:09.093062Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CTO Office & Partner Management",
+          "url": "https://www.werkenbijeneco.nl/tech/cto-office-and-partner-management",
+          "is_new": false
+        }
+      ],
+      "page_hash": "9e8d4f4dfded2806fbdda9f2c4ea6f64369eb6302260fba1a8eae815071391ff",
+      "new_count": 0
+    },
+    {
+      "name": "Vattenfall Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijvattenfall.nl/vacatures",
+      "checked_at": "2026-11-03T11:26:09.651092Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "RWE Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.rwe.com/en/careers-and-jobs/",
+      "checked_at": "2026-11-03T11:26:09.751115Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Contact and service\n\nFind the right contact partner\n\nAll contact partners",
+          "url": "https://www.rwe.com/en/contact-services/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "719468cd02a4a07f81ff2e926b1a63cc8de30d4abcdf77e0c8e03de33074cac2",
+      "new_count": 0
+    },
+    {
+      "name": "Uniper Benelux",
+      "sector": "Energie",
+      "source_url": "https://www.uniper.energy/nederland/carriere",
+      "checked_at": "2026-11-03T11:26:11.270645Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d1b50d3d7b71a66768ed292cca85e1b71d9121d16976398cc610479abe7d3728",
+      "new_count": 0
+    },
+    {
+      "name": "BP Nederland",
+      "sector": "Energie",
+      "source_url": "https://www.bp.com/nl_nl/netherlands/home/werken-bij-bp.html",
+      "checked_at": "2026-11-03T11:26:12.928895Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b184ff753d848916858f0ee51733c2654f959af54cfe103c618d21a2a68f9f13",
+      "new_count": 0
+    },
+    {
+      "name": "ExxonMobil Rotterdam",
+      "sector": "Energie",
+      "source_url": "https://jobs.exxonmobil.com/",
+      "checked_at": "2026-11-03T11:26:14.040438Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "dc3c669cf0f9a63fc030dc611a0fbbcbebe43d8c92b1fca5aef858cf362527d1",
       "new_count": 0
     }
   ]
