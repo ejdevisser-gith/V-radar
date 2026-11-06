@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:38:48.843849Z",
+  "generated_at": "2026-11-06T11:39:07.145462Z",
   "partial_run": true,
   "organizations": [
     {
@@ -474,6 +474,26 @@
       "new_count": 0
     },
     {
+      "name": "OCI Global",
+      "sector": "Energie",
+      "source_url": "https://www.oci-global.com/careers/",
+      "checked_at": "2026-11-06T11:38:43.211697Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Neste",
+      "sector": "Energie",
+      "source_url": "https://www.neste.com/about-neste/careers",
+      "checked_at": "2026-11-06T11:38:43.282030Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1f93563b1d018e6919dc64b6937e0d5845e83c1bcf551847861fb10b3978ac98",
+      "new_count": 0
+    },
+    {
       "name": "Gunvor",
       "sector": "Energie",
       "source_url": "https://gunvorgroup.com/careers/",
@@ -491,6 +511,147 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "33c64b40b053600978453a61f657d7a1563324bc0486329bb28b13c51181614f",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-11-06T11:38:48.105556Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "66db64c0e4980acde3a7a06b9eb7bbea0d386d6f4c770f63624305d11f6b254e",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-11-06T11:38:48.843120Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "343db84ee79e65f2f1bffc45067bda4e926590f0659d589c4160aa69679eb860",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-11-06T11:38:50.167341Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "f1c54a3db205f08e03b5f2f549a8a65bdac8c0035ce3f95b87f4b58e7e63e9fc",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-11-06T11:38:53.033617Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "75733d4cea9ebe5364771fbafbcd3891d6a488307fbfebce14d7324ce54fe333",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-11-06T11:38:53.337872Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-11-06T11:38:53.493928Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "8640f709726cb5786931ae9fc10f1ce77229eebeb96c4460a72d01a304bf5140",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-11-06T11:38:55.782469Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "89b89586f1717446e1da4385490f58922a795e2331d20ce1a39d7e65e5e8dd5f",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-11-06T11:38:57.159628Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "01db08792b3a6bf1c78959f70ed458e159658dd259d648e88d3379dc9b036b42",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-11-06T11:38:58.296697Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "eee75c9668904c5de7435ee723cc3bf244136547cf673b7ee711f16608007f89",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-11-06T11:39:00.106437Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f33e52bf1481932bb19f00b7261a4335bd090f64ad7a2ffc5ece87358802e401",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-11-06T11:39:03.308170Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-11-06T11:39:04.884586Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "ec2e991367cc0038b77166b5b6387030969f3293eb4e449a1224be810ed29126",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-11-06T11:39:04.956407Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
