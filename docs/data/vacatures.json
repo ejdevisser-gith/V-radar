@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:38:32.836347Z",
+  "generated_at": "2026-11-06T11:38:48.843849Z",
   "partial_run": true,
   "organizations": [
     {
@@ -193,6 +193,16 @@
       "new_count": 0
     },
     {
+      "name": "Zeehaven IJmuiden",
+      "sector": "Maritiem",
+      "source_url": "https://www.zeehaven.nl/nl/over-ons/vacatures/",
+      "checked_at": "2026-11-06T11:38:16.610172Z",
+      "status": "error: kon pagina niet laden (TimeoutError)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
       "name": "Gasunie",
       "sector": "Energie",
       "source_url": "https://www.werkenbijgasunie.nl/vacatures",
@@ -323,6 +333,164 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "ed36b05563c3ad2f244d4e3f4e169748bb1e587224cb3ae4fd809b2ee5070bee",
+      "new_count": 0
+    },
+    {
+      "name": "Energie Beheer Nederland (EBN)",
+      "sector": "Energie",
+      "source_url": "https://www.ebn.nl/werken-bij-ebn/",
+      "checked_at": "2026-11-06T11:38:30.598667Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Rotterdam\nProject Director Aramis\nEBN doet. Doe jij mee?\nSolliciteer direct\nDoe mee",
+          "url": "https://www.ebn.nl/werken-bij-ebn/vacatures/project-director-aramis/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "c197d9088dfda7ea6f47f388a35184ae9ebb1dcf3d651b0a3c445e5b44ffd282",
+      "new_count": 0
+    },
+    {
+      "name": "Invest-NL",
+      "sector": "Energie",
+      "source_url": "https://www.invest-nl.nl/werken-bij",
+      "checked_at": "2026-11-06T11:38:32.198670Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e4bb0fc8866d3232ecd2a1d3160e237863d1815edff25374e9809bf3652d1ca9",
+      "new_count": 0
+    },
+    {
+      "name": "Orsted Nederland",
+      "sector": "Energie",
+      "source_url": "https://orsted.nl/over-ons/carriere",
+      "checked_at": "2026-11-06T11:38:32.835350Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "url": "https://policies.google.com/technologies/partner-sites?hl=en",
+          "is_new": false
+        }
+      ],
+      "page_hash": "69bea18c7182e556ac740e022a841539771950dcdbfd86ba19310410ed3eff04",
+      "new_count": 0
+    },
+    {
+      "name": "TotalEnergies",
+      "sector": "Energie",
+      "source_url": "https://services.totalenergies.nl/over-ons/werken-bij",
+      "checked_at": "2026-11-06T11:38:34.103629Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "66284c5134f44d5025e44051a3577e0d4171f1bc71b676ced80fdb6ea4b84216",
+      "new_count": 0
+    },
+    {
+      "name": "Neptune Energy",
+      "sector": "Energie",
+      "source_url": "https://www.neptuneenergy.com/careers",
+      "checked_at": "2026-11-06T11:38:36.683535Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "GasTerra",
+      "sector": "Energie",
+      "source_url": "https://www.gasterra.nl/over-ons/werken-bij-gasterra",
+      "checked_at": "2026-11-06T11:38:36.825610Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "89f667247dcefa48f13d5afce400a14dc3f729cf4585d822b220de67260e7420",
+      "new_count": 0
+    },
+    {
+      "name": "HVC",
+      "sector": "Energie",
+      "source_url": "https://www.werkenbijhvc.nl/",
+      "checked_at": "2026-11-06T11:38:37.451762Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "777a5e4091f2a67fb49534f7a271aa65758c4e9064d33a113afbfba224cf3665",
+      "new_count": 0
+    },
+    {
+      "name": "Nobian",
+      "sector": "Energie",
+      "source_url": "https://www.nobian.com/careers",
+      "checked_at": "2026-11-06T11:38:38.784406Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "612e6b68ecb8b2c41589996eac4ec3777f20b1c6553b972c57f773eaeaf4b6cf",
+      "new_count": 0
+    },
+    {
+      "name": "Nouryon",
+      "sector": "Energie",
+      "source_url": "https://www.nouryon.com/careers/",
+      "checked_at": "2026-11-06T11:38:38.907262Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Board of directors",
+          "url": "https://www.nouryon.com/about/board-of-directors/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "86a13570150a3155e2af5736de71bc3b2fd998c4135fd569e4a5ac5d160c7fb5",
+      "new_count": 0
+    },
+    {
+      "name": "Air Liquide",
+      "sector": "Energie",
+      "source_url": "https://www.airliquide.com/careers",
+      "checked_at": "2026-11-06T11:38:41.045981Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "66a71d0410b3979f350ee17eb3230bc4563e49988ef306e3e51a3a9ecef7601d",
+      "new_count": 0
+    },
+    {
+      "name": "Air Products",
+      "sector": "Energie",
+      "source_url": "https://www.airproducts.com/careers",
+      "checked_at": "2026-11-06T11:38:42.584481Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b0bfb0b218dfe02e5773b617ed4927294e592a8ab4814e865e2a01531b168727",
+      "new_count": 0
+    },
+    {
+      "name": "LyondellBasell",
+      "sector": "Energie",
+      "source_url": "https://www.lyondellbasell.com/en/careers/",
+      "checked_at": "2026-11-06T11:38:42.779928Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "560d9426ac42e890784a052d0b0f28986cda66f0a42fc6f5e9e4a50f2871aedb",
+      "new_count": 0
+    },
+    {
+      "name": "Gunvor",
+      "sector": "Energie",
+      "source_url": "https://gunvorgroup.com/careers/",
+      "checked_at": "2026-11-06T11:38:44.545041Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0af6b6136aee89219f77a6830c03e9b92201561424069a1ac7c62f65e5a17152",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-11-06T11:38:46.416890Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "33c64b40b053600978453a61f657d7a1563324bc0486329bb28b13c51181614f",
       "new_count": 0
     }
   ]
