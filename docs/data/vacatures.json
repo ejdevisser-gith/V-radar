@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:45:10.950007Z",
+  "generated_at": "2026-11-23T13:45:26.918578Z",
   "partial_run": true,
   "organizations": [
     {
@@ -419,6 +419,16 @@
       "new_count": 0
     },
     {
+      "name": "Nobian",
+      "sector": "Energie",
+      "source_url": "https://www.nobian.com/careers",
+      "checked_at": "2026-11-23T13:44:58.970623Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "4f9a01725bec67cb703bd9e20bf282692004b8499042fdd0ffc85a4da91c81a0",
+      "new_count": 0
+    },
+    {
       "name": "Nouryon",
       "sector": "Energie",
       "source_url": "https://www.nouryon.com/careers/",
@@ -492,6 +502,188 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "bdef1da4d2f53a3e81a9d9012e78503e49c4274c4eef0ce67fc79cf5e2010b12",
+      "new_count": 0
+    },
+    {
+      "name": "Vitol",
+      "sector": "Energie",
+      "source_url": "https://www.vitol.com/careers/",
+      "checked_at": "2026-11-23T13:45:08.510585Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ccaf72449a901bb745014ae3e2cb28f160d651b256ae5b62eb061bead04a3462",
+      "new_count": 0
+    },
+    {
+      "name": "Trafigura",
+      "sector": "Energie",
+      "source_url": "https://www.trafigura.com/careers/",
+      "checked_at": "2026-11-23T13:45:10.367110Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "0f53a4134a11d4c053b69fb1bec268a50a4afc128d38fce88f8acfad53208799",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Noord-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.noord-holland.nl/Werken_bij",
+      "checked_at": "2026-11-23T13:45:10.949101Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "78cb6dcfe2cc47061eaad6b7280dc9b2a95f01e187cad6dc020cd5da77031c39",
+      "new_count": 0
+    },
+    {
+      "name": "Provincie Zuid-Holland",
+      "sector": "Overheid",
+      "source_url": "https://www.zuid-holland.nl/over-ons/werken-bij",
+      "checked_at": "2026-11-23T13:45:14.319262Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Provinciaal archief",
+          "url": "https://www.zuid-holland.nl/actueel/provinciaal-archief/",
+          "is_new": false
+        },
+        {
+          "title": "Archief website\n(opent in nieuw venster)",
+          "url": "https://zuidholland.archiefweb.eu/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "fcdcab3a3788c91916a752560ef0a11e2e152de8be9990096eeefa9e5c8f8055",
+      "new_count": 0
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.rijkswaterstaat.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:15.252072Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "55726c02228f59f84d5d55d0e8e5ff3185ed8efd64f102ddfc99fba6a9f1492e",
+      "new_count": 0
+    },
+    {
+      "name": "Rijksvastgoedbedrijf",
+      "sector": "Overheid",
+      "source_url": "https://www.biedt-ruimte.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:15.325635Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "InnovationQuarter (ROM)",
+      "sector": "Overheid",
+      "source_url": "https://www.innovationquarter.nl/werken-bij/",
+      "checked_at": "2026-11-23T13:45:15.406181Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "95cede58b60c00f950037ada1cf1c14b6b60f6b7c13e3bc9e526a2a5c41938ad",
+      "new_count": 0
+    },
+    {
+      "name": "ROM InWest",
+      "sector": "Overheid",
+      "source_url": "https://rominwest.nl/over-ons/vacatures/",
+      "checked_at": "2026-11-23T13:45:16.401458Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "b1ea3a269a155e449460bf4213beab57597e956e7c4917d84318812e30c834f8",
+      "new_count": 0
+    },
+    {
+      "name": "ROM Utrecht Region",
+      "sector": "Overheid",
+      "source_url": "https://www.romutrechtregion.nl/over-ons/vacatures/",
+      "checked_at": "2026-11-23T13:45:18.767851Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "5ce6dbb6e9c4dcde19d63a3ae2baff8d228fdf354906cf26107730a836540905",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Rotterdam (Stadsontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenvoorrotterdam.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:18.793403Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "a69600857266fcc1f960d70eef986af0fc4124c04e4df145bbdfcfc4bdf2746e",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Amsterdam (Grond & Ontwikkeling)",
+      "sector": "Overheid",
+      "source_url": "https://werkenbij.amsterdam.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:19.094798Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Label voor [Vacature - meer informatie] niet gevonden. Stedelijk Directeur Openbare Ruimte",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-openbare-ruimte--d9f94e83-d40c-4f94-908b-3cb610d81836",
+          "is_new": false
+        },
+        {
+          "title": "Stedelijk Directeur Openbare Ruimte",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-openbare-ruimte--d9f94e83-d40c-4f94-908b-3cb610d81836",
+          "is_new": false
+        },
+        {
+          "title": "Meer informatie\nover de vacature Stedelijk Directeur Openbare Ruimte",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-openbare-ruimte--d9f94e83-d40c-4f94-908b-3cb610d81836",
+          "is_new": false
+        },
+        {
+          "title": "Label voor [Vacature - meer informatie] niet gevonden. Stedelijk Directeur Stadsbeheer en Dienstverlening",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-stadsbeheer-en-dienstverlening-345c862c-7cdf-43e5-843b-79e28d5cd467",
+          "is_new": false
+        },
+        {
+          "title": "Stedelijk Directeur Stadsbeheer en Dienstverlening",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-stadsbeheer-en-dienstverlening-345c862c-7cdf-43e5-843b-79e28d5cd467",
+          "is_new": false
+        },
+        {
+          "title": "Meer informatie\nover de vacature Stedelijk Directeur Stadsbeheer en Dienstverlening",
+          "url": "https://werkenbij.amsterdam.nl/vacatures/stedelijk-directeur-stadsbeheer-en-dienstverlening-345c862c-7cdf-43e5-843b-79e28d5cd467",
+          "is_new": false
+        }
+      ],
+      "page_hash": "b42877995edae9d7992244409dac061a0e7545bafe3fe78f895b05d5c6420433",
+      "new_count": 0
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "sector": "Overheid",
+      "source_url": "https://www.werkenbijdenhaag.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:22.926652Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Metropoolregio Rotterdam Den Haag (MRDH)",
+      "sector": "Overheid",
+      "source_url": "https://mrdh.nl/vacatures",
+      "checked_at": "2026-11-23T13:45:24.774520Z",
+      "status": "warning: pagina leeg of geblokkeerd (mogelijk bot-detectie)",
+      "vacancies": [],
+      "page_hash": "ec2e991367cc0038b77166b5b6387030969f3293eb4e449a1224be810ed29126",
+      "new_count": 0
+    },
+    {
+      "name": "Waterschap Amstel, Gooi en Vecht",
+      "sector": "Overheid",
+      "source_url": "https://www.waterschap-agv.nl/over-ons/werken-bij-ons/",
+      "checked_at": "2026-11-23T13:45:25.049606Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
       "new_count": 0
     }
   ]
