@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:15:00.013274Z",
+  "generated_at": "2026-11-27T13:15:17.251335Z",
   "partial_run": true,
   "organizations": [
     {
@@ -989,6 +989,239 @@
       "status": "ok",
       "vacancies": [],
       "page_hash": "22fe8c8436bbfac9c6f60472bedd8f2ac4f4f0dc5848ee5b1f5b1acfe4473ce4",
+      "new_count": 0
+    },
+    {
+      "name": "CBRE Nederland",
+      "sector": "Vastgoed",
+      "source_url": "https://www.werkenbijcbre.nl/",
+      "checked_at": "2026-11-27T13:14:56.324018Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "d0fc2ba60cf536d663d306c62c192ad5388695905307770a8b5b0d79b26e89fb",
+      "new_count": 0
+    },
+    {
+      "name": "JLL Nederland",
+      "sector": "Vastgoed",
+      "source_url": "https://www.jll.nl/nl/carriere",
+      "checked_at": "2026-11-27T13:14:56.466901Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "ba109b470446b5d4aa943064a03a2b5b0889c48476db4e4cf057d0627377f7ef",
+      "new_count": 0
+    },
+    {
+      "name": "Tata Steel Nederland",
+      "sector": "Industrie",
+      "source_url": "https://www.tatasteeljobs.nl/vacatures",
+      "checked_at": "2026-11-27T13:14:57.885275Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f8b318d3e0440aa6b6b2fcd8fc8ed828b663fb6ae3b199a7a266211caae07dd8",
+      "new_count": 0
+    },
+    {
+      "name": "ThyssenKrupp Veerhaven",
+      "sector": "Industrie",
+      "source_url": "https://www.thyssenkrupp-veerhaven.com/nl/carriere",
+      "checked_at": "2026-11-27T13:15:00.012368Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "DHL Supply Chain",
+      "sector": "Logistiek",
+      "source_url": "https://www.werkenbij-dhl.nl/",
+      "checked_at": "2026-11-27T13:15:01.262757Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Kuehne + Nagel",
+      "sector": "Logistiek",
+      "source_url": "https://jobs.kuehne-nagel.com/",
+      "checked_at": "2026-11-27T13:15:01.322335Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "f3b5b4038c88734ae3dfa0a7b8bf5c259001f38e2fe82356e8888bd55d0df91a",
+      "new_count": 0
+    },
+    {
+      "name": "PostNL",
+      "sector": "Logistiek",
+      "source_url": "https://www.werkenbijpostnl.nl/vacatures",
+      "checked_at": "2026-11-27T13:15:01.363440Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Roland Berger",
+      "sector": "Advies",
+      "source_url": "https://www.rolandberger.com/en/Join/All-Jobs",
+      "checked_at": "2026-11-27T13:15:01.541661Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Chief of Staff / Project Management Officer (all genders)",
+          "url": "https://rolandberger.jobs/REF4644E",
+          "is_new": false
+        },
+        {
+          "title": "Principal- People & Organization",
+          "url": "https://rolandberger.jobs/REF4642C",
+          "is_new": false
+        },
+        {
+          "title": "Partner - Oil & Gas",
+          "url": "https://rolandberger.jobs/REF4614W",
+          "is_new": false
+        },
+        {
+          "title": "Partner - RPT",
+          "url": "https://rolandberger.jobs/REF4606K",
+          "is_new": false
+        },
+        {
+          "title": "Partner – Financial Services",
+          "url": "https://rolandberger.jobs/REF4603C",
+          "is_new": false
+        },
+        {
+          "title": "Principal",
+          "url": "https://rolandberger.jobs/REF3274Y",
+          "is_new": false
+        }
+      ],
+      "page_hash": "05c9eeef6b24791c4aa3989aca4d8ae548800546b7e27f99ef37fabea96598f1",
+      "new_count": 0
+    },
+    {
+      "name": "Berenschot",
+      "sector": "Advies",
+      "source_url": "https://www.werkenbijberenschot.nl/vacatures",
+      "checked_at": "2026-11-27T13:15:02.470508Z",
+      "status": "error: kon pagina niet laden (Error)",
+      "vacancies": [],
+      "page_hash": null,
+      "new_count": 0
+    },
+    {
+      "name": "Ecorys",
+      "sector": "Advies",
+      "source_url": "https://careers.ecorys.com/en/vacancies",
+      "checked_at": "2026-11-27T13:15:02.583739Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "Principal Consultant - Green Transition",
+          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - Green TransitionResilient EconomiesRotterdam, NetherlandsPermanent",
+          "url": "https://careers.ecorys.com/en/postings/55793cde-dce1-45c0-9eeb-50b8640c3dd3",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - Mobiliteit",
+          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant - MobiliteitTransport and InfrastructureRotterdam, NetherlandsPermanent",
+          "url": "https://careers.ecorys.com/en/postings/4deb3569-12e8-42b5-b938-55665234892e",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant / Director - Markets & Industry",
+          "url": "https://careers.ecorys.com/en/postings/97bfa57b-f8cb-4454-8318-09c48821b0f2",
+          "is_new": false
+        },
+        {
+          "title": "Principal Consultant / Director - Markets & IndustryResilient EconomiesRotterdam, NetherlandsPermanent",
+          "url": "https://careers.ecorys.com/en/postings/97bfa57b-f8cb-4454-8318-09c48821b0f2",
+          "is_new": false
+        }
+      ],
+      "page_hash": "30464a01342f2838a3a17d1d7ca7390f5fea01428b348fc20329d1042d1a39fc",
+      "new_count": 0
+    },
+    {
+      "name": "Rebel Group",
+      "sector": "Advies",
+      "source_url": "https://www.rebelgroup.com/careers",
+      "checked_at": "2026-11-27T13:15:04.153143Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e24d160774fb77e1956e77073c81f9d4b947f9d929d3a87a3b334247e9af94e8",
+      "new_count": 0
+    },
+    {
+      "name": "Boer & Croon",
+      "sector": "Advies",
+      "source_url": "https://www.boercroon.nl/carrieres/vacatures/",
+      "checked_at": "2026-11-27T13:15:06.182763Z",
+      "status": "ok",
+      "vacancies": [
+        {
+          "title": "CFO Services",
+          "url": "https://www.boercroon.nl/diensten/management-solutions/cfo-services/",
+          "is_new": false
+        },
+        {
+          "title": "Interim CEO/COO community",
+          "url": "https://www.boercroon.nl/interim-ceo-coo-community/",
+          "is_new": false
+        },
+        {
+          "title": "Interim CFO community",
+          "url": "https://www.boercroon.nl/interim-cfo-community/",
+          "is_new": false
+        },
+        {
+          "title": "Werken als Value Partner",
+          "url": "https://www.boercroon.nl/carrieres/werken-bij-boer-croon/value-partner/",
+          "is_new": false
+        }
+      ],
+      "page_hash": "2a38354cc4ada214bd790c35963ff1214fdfd79af04931b073fe23f770693869",
+      "new_count": 0
+    },
+    {
+      "name": "Deloitte (Public/Energy)",
+      "sector": "Advies",
+      "source_url": "https://www.werkenbijdeloitte.nl/",
+      "checked_at": "2026-11-27T13:15:06.276127Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "bc082d292b3be42ea366a896c7bb30bf1bc450c5a30e9acb45aa436d627fd1e6",
+      "new_count": 0
+    },
+    {
+      "name": "VNO-NCW",
+      "sector": "Overheid",
+      "source_url": "https://www.vno-ncw.nl/vacatures",
+      "checked_at": "2026-11-27T13:15:09.866668Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "1a613696c9642f4aa69df24f5b698c4e086859e2d0011122b4d9f5079cc62112",
+      "new_count": 0
+    },
+    {
+      "name": "Objeqtive Recruitment",
+      "sector": "Recruitment",
+      "source_url": "https://www.objeqtive.nl/vacatures.html",
+      "checked_at": "2026-11-27T13:15:10.874542Z",
+      "status": "ok",
+      "vacancies": [],
+      "page_hash": "e3b81a0b71914e27af3e91ede8a7bbdedd8c63f29744b6b479d72f6939466496",
       "new_count": 0
     }
   ]
